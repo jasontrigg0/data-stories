@@ -10,9 +10,9 @@ from googlenewsdecoder import gnewsdecoder
 import math
 
 def run_prompt_gemini(prompt):
-    # url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-exp-03-25:generateContent?key={os.environ['GEMINI_API_KEY']}"
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={os.environ['GEMINI_API_KEY']}"
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-thinking-exp:generateContent?key={os.environ['GEMINI_API_KEY']}"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-exp-03-25:generateContent?key={os.environ['GEMINI_API_KEY']}"
     headers = {
         "Content-Type": "application/json"
     }
@@ -185,5 +185,5 @@ if __name__ == "__main__":
 
     output.sort(key = lambda x: x["volume"], reverse=True)
         
-    with open("vite-app/src/newsitems.json","w") as f_out:
+    with open("../web-app/src/newsitems.json","w") as f_out:
         f_out.write(json.dumps(output, indent=4))

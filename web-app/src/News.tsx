@@ -19,7 +19,7 @@ const NewsCard = ({story}) => {
   const polymarketUrl = "https://embed.polymarket.com/market.html?market="+story.polymarketTicker+"&amp;features=volume";
 
   return (
-    <div className="flex w-full" style={{ width: '1200px' }}>
+    <div className="flex w-full" style={{ width: '1300px' }}>
       <div className="flex bg-white rounded-lg shadow-sm overflow-hidden mb-4 h-40 w-full" style={{ height: '166px', margin: '10px' }}>
         <div className="w-2/4 bg-gray-200">
           <img src={story.imageUrl} alt={""} className="h-full w-full object-cover" />

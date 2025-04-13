@@ -150,7 +150,7 @@ const Sidebar = ({open, activeSection, setActiveSection, toggleSidebar}) => {
     <div className={`${open ? 'w-64' : 'w-20'} transition-all duration-300 bg-white shadow-lg`}>
       <div className="flex items-center justify-between h-16 px-4 border-b">
         {open ? (
-          <h1 className="text-base font-semibold text-gray-800">Data Site</h1>
+          <h1 className="text-base font-semibold text-gray-800">Data News</h1>
         ) : (
           <div className="w-full flex justify-center">
             <h1 className="text-xl font-semibold text-gray-800"></h1>
