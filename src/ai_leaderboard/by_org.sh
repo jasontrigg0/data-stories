@@ -1,0 +1,1 @@
+less alltime.csv  | pagg -g Organization,date -c rating -a max | pagg -g date -c rating_max -a max --append | psort -c date,rating_max | pcsv -p 'r["diff"] = float(r["rating_max"]) - float(r["rating_max_max"])' | psort -c Organization,date -s > alltime_by_org.csv

@@ -314,5 +314,5 @@ if __name__ == "__main__":
     print(net_calc.rv_offset)
     print(net_calc.lv_offset)
     
-    with open("../web-app/src/approval.json","w") as f_out:
+    with open("../../web-app/src/approval.json","w") as f_out:
         f_out.write(json.dumps(output, indent=4))
