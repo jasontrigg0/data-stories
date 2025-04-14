@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import NewsFeed from './News.tsx'
+import ApprovalRatings from './Approval.tsx'
 import { Menu, X, ChevronRight, Home, User, Settings, Mail, HelpCircle } from 'lucide-react';
 
 // Content components for each section
@@ -10,43 +11,8 @@ const contentComponents = {
   News: () => (
     <NewsFeed/>
   ),
-  Profile: () => (
-    <div>
-      <h1 className="mb-6 text-2xl font-bold text-gray-800">User Profile</h1>
-      <div className="p-6 bg-white rounded-lg shadow">
-        <div className="flex items-center space-x-6 mb-6">
-          <div className="w-24 h-24 overflow-hidden rounded-full bg-gray-200">
-            <div className="flex items-center justify-center h-full text-gray-700 text-3xl font-medium">JD</div>
-          </div>
-          <div>
-            <h2 className="text-xl font-medium text-gray-800">John Doe</h2>
-            <p className="text-gray-600">john.doe@example.com</p>
-            <p className="text-gray-500">Member since: January 2025</p>
-          </div>
-        </div>
-        <div className="border-t pt-4">
-          <h3 className="text-lg font-medium text-gray-800 mb-4">Profile Information</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div>
-              <p className="text-sm text-gray-500">Full Name</p>
-              <p className="text-gray-700">John Doe</p>
-            </div>
-            <div>
-              <p className="text-sm text-gray-500">Email</p>
-              <p className="text-gray-700">john.doe@example.com</p>
-            </div>
-            <div>
-              <p className="text-sm text-gray-500">Location</p>
-              <p className="text-gray-700">San Francisco, CA</p>
-            </div>
-            <div>
-              <p className="text-sm text-gray-500">Role</p>
-              <p className="text-gray-700">Administrator</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  Approval: () => (
+    <ApprovalRatings/>
   ),
   Messages: () => (
     <div>
@@ -147,7 +113,7 @@ const SidebarItem = ({ icon: Icon, label, expanded, active, onClick }) => {
 
 const Sidebar = ({open, activeSection, setActiveSection, toggleSidebar}) => {
   return (
-    <div className={`${open ? 'w-64' : 'w-20'} transition-all duration-300 bg-white shadow-lg`}>
+    <div className={`${open ? 'w-80' : 'w-20'} transition-all duration-300 bg-white shadow-lg`}>
       <div className="flex items-center justify-between h-16 px-4 border-b">
         {open ? (
           <h1 className="text-base font-semibold text-gray-800">Data News</h1>
@@ -164,17 +130,17 @@ const Sidebar = ({open, activeSection, setActiveSection, toggleSidebar}) => {
       <nav className="mt-6">
         <SidebarItem 
           icon={Home} 
-          label="News" 
+          label="News + Prediction Markets" 
           expanded={open} 
           active={activeSection === 'News'} 
           onClick={() => setActiveSection('News')}
         />
         <SidebarItem 
           icon={User} 
-          label="Profile" 
+          label="Trump Approval Ratings" 
           expanded={open} 
-          active={activeSection === 'Profile'} 
-          onClick={() => setActiveSection('Profile')}
+          active={activeSection === 'Approval'} 
+          onClick={() => setActiveSection('Approval')}
         />
         <SidebarItem 
           icon={Mail} 

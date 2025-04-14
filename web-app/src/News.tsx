@@ -30,7 +30,7 @@ const NewsCard = ({story}) => {
               <Tag size={14} className="text-blue-600 mr-1" />
               <span className="text-blue-600 text-xs font-semibold">{story.category}</span>
             </div>
-            <a href={story.url}><h3 className="font-bold text-gray-800 text-lg mb-1 line-clamp-2">{story.title}</h3></a>
+            <a href={story.url}><h3 className="font-bold text-gray-800 text-base mb-1 line-clamp-2">{story.title}</h3></a>
           </div>
           <div className="flex items-center justify-between text-xs text-gray-500 mt-2">
             <div className="flex items-center">

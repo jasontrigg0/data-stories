@@ -183,7 +183,7 @@ if __name__ == "__main__":
             "volume": betting_markets[market]["volume"]
         })
 
-    output.sort(key = lambda x: x["volume"], reverse=True)
+    output.sort(key = lambda x: x["volume"] * (x["imageUrl"] != ""), reverse=True)
         
     with open("../web-app/src/newsitems.json","w") as f_out:
         f_out.write(json.dumps(output, indent=4))
