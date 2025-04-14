@@ -51,4 +51,4 @@ const NewsCard = ({story}) => {
       </div>
     </div>
   );      
-}     
+} 
