@@ -71,9 +71,10 @@ def get_polymarkets():
                 print(e)
                 raise
             if e["ticker"] not in [e["ticker"] for e in all_events]:
-                #when there are multiple submarkets link to the one with the highest volume
-                #markets = sorted([m for m in e["markets"]], key = lambda x: x["outcomePrices"][0], reverse = True)
-                markets = sorted([m for m in e["markets"]], key = lambda x: interest_fn(x), reverse = True)
+                #generally want to sort to the highest probability with some exceptions eg a UFC night could
+                #include unconnected fights and will want the main event
+                markets = sorted([m for m in e["markets"]], key = lambda x: x["outcomePrices"][0], reverse = True)
+
                 ticker = markets[0]["slug"] 
                 all_events.append({
                     "title": e["title"],
