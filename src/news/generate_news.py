@@ -79,7 +79,7 @@ def get_polymarkets():
                 all_events.append({
                     "title": e["title"],
                     "ticker": ticker,
-                    "volume": e["volume24hr"]
+                    "volume": e.get("volume24hr",0)
                 })
 
     markets = {e["title"]:e for e in all_events}
