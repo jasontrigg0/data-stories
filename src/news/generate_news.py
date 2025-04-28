@@ -149,6 +149,8 @@ if __name__ == "__main__":
         if not story: continue
 
         valid_markets = [x for x in item["betting_markets"] if x in betting_markets]
+        if len(valid_markets) == 0: continue
+        
         market = sorted(valid_markets, key = lambda x: betting_markets[x].get("volume",0), reverse=True)[0]
 
         print(story["link"])
