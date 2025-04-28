@@ -5,7 +5,7 @@ import data from './approval.json';
 // Format date to be more readable
 const formatDate = (dateStr) => {
   const date = new Date(dateStr);
-  return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+  return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' });
 };
 
 const ApprovalRatingChart = () => {
