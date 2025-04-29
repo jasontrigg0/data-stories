@@ -2,10 +2,11 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { Menu, X, ChevronRight, Home, User, Settings, Mail, HelpCircle, Newspaper, ChartArea, Sparkles } from 'lucide-react';
+import { Menu, X, ChevronRight, Home, User, Settings, Mail, HelpCircle, Newspaper, ChartArea, Sparkles, Shirt } from 'lucide-react';
 import NewsFeed from './News.tsx'
 import ApprovalRatings from './Approval.tsx'
 import AILeaderboard from './AILeaderboard.tsx'
+import SportsElos from './SportsElos.tsx'
 
 // Content components for each section
 const contentComponents = {
@@ -18,6 +19,9 @@ const contentComponents = {
   AI: () => (
     <AILeaderboard/>
   ),
+  Sports: () => (
+    <SportsElos/>
+  )
 };
 
 const SidebarItem = ({ icon: Icon, label, expanded, active, onClick }) => {
@@ -73,6 +77,13 @@ const Sidebar = ({open, activeSection, setActiveSection, toggleSidebar}) => {
           expanded={open} 
           active={activeSection === 'AI'} 
           onClick={() => setActiveSection('AI')}
+        />
+        <SidebarItem
+          icon={Shirt} 
+          label="Sports Elos" 
+          expanded={open} 
+          active={activeSection === 'Sports'} 
+          onClick={() => setActiveSection('Sports')}
         />
       </nav>
     </div>
