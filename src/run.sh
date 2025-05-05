@@ -11,3 +11,8 @@ cd approval_ratings
 curl https://static.dwcdn.net/data/vknzT.csv?v=0 > polls.csv
 python approval_polling.py
 cd ..
+
+#sports elos
+cd sports_elos
+python populate_data.py
+cd ..
