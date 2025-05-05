@@ -25,14 +25,18 @@ for sport in ["cbb","cfb","f1","golf","mlb", "nba", "nfl", "nhl", "ufc"]:
     data[sport]["current"] = add_rank(data[sport]["current"])
 
     curr_adj = f'../../../sports-elos-2/scores/{sport}_curr_adj.csv'
-    best_curr += read_csv(curr_adj)
+    for x in read_csv(curr_adj):
+        x["sport"] = sport
+        best_curr.append(x)
         
     best_raw = f'../../../sports-elos-2/scores/{sport}_best_raw.csv'
     data[sport]["alltime"] = read_csv(best_raw)[:500]
     data[sport]["alltime"] = add_rank(data[sport]["alltime"])
 
     alltime_adj = f'../../../sports-elos-2/scores/{sport}_best_adj.csv'
-    best_alltime += read_csv(alltime_adj)
+    for x in read_csv(alltime_adj):
+        x["sport"] = sport
+        best_alltime.append(x)
 
 data["all"] = {}
 data["all"]["current"] = sorted(best_curr,key = lambda x: float(x["score"]), reverse=True)[:100]

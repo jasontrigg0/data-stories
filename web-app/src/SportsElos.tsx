@@ -18,7 +18,55 @@ const sportsNames = {
 const getScoreName = (sport) => {
   if (sport === "all") return "Pctile"
   if (sport === "golf") return "Strokes"
+  if (sport === "f1") return "Total"
   return "ELO"
+}
+
+const getColumns = (sport) => {
+  let headers = [
+    {
+      key: "rank",
+      label: "Rank",
+    },
+    {
+      key: "name",
+      label: "Team",
+    },
+    {
+      key: "displayDate",
+      label: "Date",
+    },
+    {
+      key: "score",
+      label: getScoreName(sport),
+    },
+  ];
+
+  if (sport === "all") {
+    headers.splice(1,0,{
+        key: "sport",
+        label: "Sport",
+    });
+  }
+
+  if (sport === "f1") {
+    headers = headers.concat([
+      {
+        key: "player",
+        label: "Driver",
+      },
+      {
+        key: "chassis",
+        label: "Chassis",
+      },
+      {
+        key: "engine",
+        label: "Engine",
+      }
+    ]);
+  }
+
+ return headers;
 }
 
 export default function SportsELOLeaderboard() {
@@ -28,6 +76,9 @@ export default function SportsELOLeaderboard() {
 
   // Get current data based on selections
   const currentData = sportsData[selectedSport][activeTab];
+  for (let row of currentData) {
+    row["displayDate"] = moment(row["date"], 'YYYYMMDD').format('MMM D, YYYY');
+  }
 
   return (
     <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden p-6">
@@ -86,19 +137,17 @@ export default function SportsELOLeaderboard() {
         <table className="min-w-full divide-y divide-gray-200">
           <thead className="bg-gray-50">
             <tr>
-              <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-16">Rank</th>
-              <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Team</th>
-              <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-24">Date</th>
-              <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-24">{getScoreName(selectedSport)}</th>
+              {getColumns(selectedSport).map((column, j) => (
+                <th key={j} scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-24">{column.label}</th>
+              ))}
             </tr>
           </thead>
           <tbody className="bg-white divide-y divide-gray-200">
-            {currentData.map((player, index) => (
-              <tr key={index} className={index % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
-                <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">{player.rank}</td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{player.name}</td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{moment(player.date, 'YYYYMMDD').format('MMMM D, YYYY')}</td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500 font-mono">{player.score}</td>
+            {currentData.map((row, i) => (
+              <tr key={i} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+                {getColumns(selectedSport).map((column, j) => (
+                   <td key={j} className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-500">{row[column.key]}</td>
+                ))}
               </tr>
             ))}
           </tbody>
