@@ -18,7 +18,7 @@ data = {}
 
 best_curr = []
 best_alltime = []
-for sport in ["cbb","cfb","f1","golf","mlb", "nba", "nfl", "nhl", "ufc"]:
+for sport in ["cbb","cfb","f1","golf","mlb", "nba", "nfl", "nhl", "ufc", "cs"]:
     data[sport] = {}
     curr_raw = f'../../../sports-elos-2/scores/{sport}_curr_raw.csv'
     data[sport]["current"] = read_csv(curr_raw)[:500]
