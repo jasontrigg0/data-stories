@@ -40,7 +40,7 @@ def model():
     df = pd.read_csv("alltime.csv")
     pt = df[["Model","date","rating"]].pivot_table(index=['Model'], columns='date')
     pt = process_pivot(pt)
-    pt.to_csv("models.csv", index=False)
+    pt.to_csv("chatbot_arena_models.csv", index=False)
 
 def org():
     df = pd.read_csv("alltime_by_org.csv")
@@ -58,14 +58,14 @@ def org():
     pt = pt[pt["Organization"].isin(org_to_icon.keys())]
     
     pt.insert(1,"Icon", pt.apply(lambda x: org_to_icon[x["Organization"]], axis=1))
-    pt.to_csv("orgs.csv", index=False)
+    pt.to_csv("chatbot_arena_orgs.csv", index=False)
 
 def org_gaps():
     df = pd.read_csv("alltime_by_org.csv")
     pt = df[["Organization","date","diff"]].pivot_table(index=['Organization'], columns='date')
     pt = process_pivot(pt)
     pt = pt[pt["Organization"].isin(["xAI","Anthropic","Google","OpenAI","Meta"])]
-    pt.to_csv("org_gaps.csv", index=False)
+    pt.to_csv("chatbot_arena_org_gaps.csv", index=False)
     
 if __name__ == "__main__":
     model()

@@ -1,0 +1,362 @@
+[
+    {
+        "model": "gemini 2.5 0605",
+        "company": "Google",
+        "release_date": "20250605",
+        "rating": 71.2
+    },
+    {
+        "model": "o3-pro",
+        "company": "OpenAI",
+        "release_date": "20250610",
+        "rating": 71.1
+    },
+    {
+        "model": "o3 (high)",
+        "company": "OpenAI",
+        "release_date": "20250416",
+        "rating": 70.6
+    },
+    {
+        "model": "o3 (medium)",
+        "company": "OpenAI",
+        "release_date": "20250416",
+        "rating": 69.7
+    },
+    {
+        "model": "gemini 2.5 0325",
+        "company": "Google",
+        "release_date": "20250325",
+        "rating": 68.2
+    },
+    {
+        "model": "o4-mini (high)",
+        "company": "OpenAI",
+        "release_date": "20250416",
+        "rating": 67.2
+    },
+    {
+        "model": "gemini 2.5 0506",
+        "company": "Google",
+        "release_date": "20250506",
+        "rating": 67.1
+    },
+    {
+        "model": "opus 4 thinking",
+        "company": "Anthropic",
+        "release_date": "20250514",
+        "rating": 66.1
+    },
+    {
+        "model": "o4-mini (medium)",
+        "company": "OpenAI",
+        "release_date": "20250416",
+        "rating": 64.8
+    },
+    {
+        "model": "deepseek r1 0528",
+        "company": "DeepSeek AI",
+        "release_date": "20250528",
+        "rating": 64.0
+    },
+    {
+        "model": "sonnet 4 thinking",
+        "company": "Anthropic",
+        "release_date": "20250514",
+        "rating": 63.9
+    },
+    {
+        "model": "o1 pro",
+        "company": "OpenAI",
+        "release_date": "20250319",
+        "rating": 63.0
+    },
+    {
+        "model": "gemini 2.5 flash 0520",
+        "company": "Google",
+        "release_date": "20250520",
+        "rating": 62.5
+    },
+    {
+        "model": "sonnet 3.7 thinking",
+        "company": "Anthropic",
+        "release_date": "20250219",
+        "rating": 61.7
+    },
+    {
+        "model": "o1 (medium)",
+        "company": "OpenAI",
+        "release_date": "20241217",
+        "rating": 61.1
+    },
+    {
+        "model": "grok 3 mini (high)",
+        "company": "xAI",
+        "release_date": "20250521",
+        "rating": 60.4
+    },
+    {
+        "model": "o1 (high)",
+        "company": "OpenAI",
+        "release_date": "20241217",
+        "rating": 60.3
+    },
+    {
+        "model": "opus 4 no thinking",
+        "company": "Anthropic",
+        "release_date": "20250514",
+        "rating": 59.8
+    },
+    {
+        "model": "grok 3 beta",
+        "company": "xAI",
+        "release_date": "20250224",
+        "rating": 59.2
+    },
+    {
+        "model": "o3-mini (high)",
+        "company": "OpenAI",
+        "release_date": "20250131",
+        "rating": 59.2
+    },
+    {
+        "model": "gemini 2.5 flash 0417",
+        "company": "Google",
+        "release_date": "20250417",
+        "rating": 59.1
+    },
+    {
+        "model": "grok 3 mini (medium)",
+        "company": "xAI",
+        "release_date": "20250217",
+        "rating": 58.6
+    },
+    {
+        "model": "qwen 3 235B A22B",
+        "company": "Alibaba",
+        "release_date": "20250429",
+        "rating": 58.4
+    },
+    {
+        "model": "sonnet 4 no thinking",
+        "company": "Anthropic",
+        "release_date": "20250514",
+        "rating": 57.8
+    },
+    {
+        "model": "o1 preview",
+        "company": "OpenAI",
+        "release_date": "20240912",
+        "rating": 57.3
+    },
+    {
+        "model": "o3-mini (medium)",
+        "company": "OpenAI",
+        "release_date": "20250131",
+        "rating": 57.2
+    },
+    {
+        "model": "deepseek r1 0120",
+        "company": "DeepSeek AI",
+        "release_date": "20250120",
+        "rating": 57.2
+    },
+    {
+        "model": "sonnet 3.7 no thinking",
+        "company": "Anthropic",
+        "release_date": "20250219",
+        "rating": 57.0
+    },
+    {
+        "model": "gpt 4.5 preview",
+        "company": "OpenAI",
+        "release_date": "20250227",
+        "rating": 55.9
+    },
+    {
+        "model": "gpt 4.1",
+        "company": "OpenAI",
+        "release_date": "20250414",
+        "rating": 55.5
+    },
+    {
+        "model": "deepseek v3 0324 (v3.1)",
+        "company": "DeepSeek AI",
+        "release_date": "20250324",
+        "rating": 54.0
+    },
+    {
+        "model": "gemini 2.0 flash 0121",
+        "company": "Google",
+        "release_date": "20250121",
+        "rating": 54.0
+    },
+    {
+        "model": "chatgpt 4o 20250326",
+        "company": "OpenAI",
+        "release_date": "20250326",
+        "rating": 52.2
+    },
+    {
+        "model": "sonnet 3.5 20241022",
+        "company": "Anthropic",
+        "release_date": "20241022",
+        "rating": 52.2
+    },
+    {
+        "model": "gpt 4.1 mini",
+        "company": "OpenAI",
+        "release_date": "20250414",
+        "rating": 49.6
+    },
+    {
+        "model": "sonnet 3.5 20240620",
+        "company": "Anthropic",
+        "release_date": "20240620",
+        "rating": 49.6
+    },
+    {
+        "model": "gemini 2.0 0205",
+        "company": "Google",
+        "release_date": "20250205",
+        "rating": 49.4
+    },
+    {
+        "model": "o1-mini (medium)",
+        "company": "OpenAI",
+        "release_date": "20240912",
+        "rating": 49.3
+    },
+    {
+        "model": "llama 4 maverick",
+        "company": "Meta",
+        "release_date": "20250405",
+        "rating": 48.9
+    },
+    {
+        "model": "mistral medium 3",
+        "company": "Mistral",
+        "release_date": "20250416",
+        "rating": 48.8
+    },
+    {
+        "model": "gpt 4o 20240513",
+        "company": "OpenAI",
+        "release_date": "20240513",
+        "rating": 47.8
+    },
+    {
+        "model": "llama 3.1 405b",
+        "company": "Meta",
+        "release_date": "20240723",
+        "rating": 47.5
+    },
+    {
+        "model": "deepseek v3",
+        "company": "DeepSeek AI",
+        "release_date": "20241225",
+        "rating": 47.2
+    },
+    {
+        "model": "gpt 4o 20240806",
+        "company": "OpenAI",
+        "release_date": "20240806",
+        "rating": 46.1
+    },
+    {
+        "model": "opus 3",
+        "company": "Anthropic",
+        "release_date": "20240304",
+        "rating": 45.9
+    },
+    {
+        "model": "gpt 4o 20241120",
+        "company": "OpenAI",
+        "release_date": "20241120",
+        "rating": 45.8
+    },
+    {
+        "model": "gpt 4 turbo 0409",
+        "company": "OpenAI",
+        "release_date": "20240409",
+        "rating": 45.7
+    },
+    {
+        "model": "gpt 4 1106",
+        "company": "OpenAI",
+        "release_date": "20231106",
+        "rating": 38.9
+    },
+    {
+        "model": "gpt 4 0125",
+        "company": "OpenAI",
+        "release_date": "20240125",
+        "rating": 37.5
+    },
+    {
+        "model": "gpt 4o mini 20240718",
+        "company": "OpenAI",
+        "release_date": "20240718",
+        "rating": 37.4
+    },
+    {
+        "model": "gpt 4.1 nano",
+        "company": "OpenAI",
+        "release_date": "20250414",
+        "rating": 36.0
+    },
+    {
+        "model": "llama 4 scout",
+        "company": "Meta",
+        "release_date": "20250405",
+        "rating": 32.3
+    },
+    {
+        "model": "gpt 4 0314",
+        "company": "OpenAI",
+        "release_date": "20230314",
+        "rating": 26.9
+    },
+    {
+        "model": "claude 2",
+        "company": "Anthropic",
+        "release_date": "20230711",
+        "rating": 21.0
+    },
+    {
+        "model": "claude 1.3",
+        "company": "Anthropic",
+        "release_date": "20230418",
+        "rating": 21.0
+    },
+    {
+        "model": "gpt 3.5",
+        "company": "OpenAI",
+        "release_date": "20221130",
+        "rating": 0.0
+    },
+    {
+        "model": "llama-2-70b-chat-hf",
+        "company": "Meta",
+        "release_date": "20230718",
+        "rating": -0.2
+    },
+    {
+        "model": "llama-65b",
+        "company": "Meta",
+        "release_date": "20230227",
+        "rating": -5.4
+    },
+    {
+        "model": "gpt 2",
+        "company": "OpenAI",
+        "release_date": "20191105",
+        "rating": -25.9
+    },
+    {
+        "model": "gpt 3",
+        "company": "OpenAI",
+        "release_date": "20200611",
+        "rating": -37.4
+    }
+]

@@ -18,7 +18,8 @@ if __name__ == "__main__":
     for elo_result_file in elo_result_files:
         date = elo_result_file[-12:-4]
         print(date)
-        
+
+        print(elo_result_file)
         with open(elo_result_file, "rb") as fin:
             elo_results = pickle.load(fin)
         if "text" in elo_results:

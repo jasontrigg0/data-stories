@@ -1,0 +1,130 @@
+[
+    {
+        "eval": "EnigmaEval",
+        "difficulty": 95.94218341363303
+    },
+    {
+        "eval": "FrontierMath (private)",
+        "difficulty": 90.36013988025756
+    },
+    {
+        "eval": "HLE",
+        "difficulty": 88.50670883122962
+    },
+    {
+        "eval": "SimpleQA",
+        "difficulty": 74.56744154210448
+    },
+    {
+        "eval": "ARC-AGI-1",
+        "difficulty": 69.21669458314916
+    },
+    {
+        "eval": "Simplebench",
+        "difficulty": 68.18010784261114
+    },
+    {
+        "eval": "Multichallenge",
+        "difficulty": 65.66182676253479
+    },
+    {
+        "eval": "SWE Verified",
+        "difficulty": 58.751342659284525
+    },
+    {
+        "eval": "WeirdML",
+        "difficulty": 57.76207620290854
+    },
+    {
+        "eval": "AIME 2025 (matharena)",
+        "difficulty": 55.65126461612113
+    },
+    {
+        "eval": "aider polyglot",
+        "difficulty": 55.377867851913734
+    },
+    {
+        "eval": "AIME 2024",
+        "difficulty": 54.4741924274936
+    },
+    {
+        "eval": "fiction livebench 120k",
+        "difficulty": 53.69932440813966
+    },
+    {
+        "eval": "livebench 0530",
+        "difficulty": 47.98077082556758
+    },
+    {
+        "eval": "GPQA diamond",
+        "difficulty": 43.240186244191925
+    },
+    {
+        "eval": "MMMU",
+        "difficulty": 32.57869637579123
+    },
+    {
+        "eval": "MATH",
+        "difficulty": 22.81207973804292
+    },
+    {
+        "eval": "Truthful QA (MC1, 0-shot)",
+        "difficulty": 6.942443544289266
+    },
+    {
+        "eval": "FACTS",
+        "difficulty": 2.7407493883584735
+    },
+    {
+        "eval": "HumanEval",
+        "difficulty": 0.5587345266554818
+    },
+    {
+        "eval": "ARC challenge (25-shot) AI2",
+        "difficulty": -27.82482757760975
+    },
+    {
+        "eval": "TriviaQA (few shot)",
+        "difficulty": -29.933216090681235
+    },
+    {
+        "eval": "MMLU (5 shot)",
+        "difficulty": -31.112230051666593
+    },
+    {
+        "eval": "DROP (f1 3-shot)",
+        "difficulty": -34.1374454493222
+    },
+    {
+        "eval": "MGSM",
+        "difficulty": -38.391056306191935
+    },
+    {
+        "eval": "Hellaswag (10-shot)",
+        "difficulty": -41.93926009459975
+    },
+    {
+        "eval": "webdev arena",
+        "difficulty": "N/A"
+    },
+    {
+        "eval": "lmarena",
+        "difficulty": "N/A"
+    },
+    {
+        "eval": "Lambada",
+        "difficulty": "N/A"
+    },
+    {
+        "eval": "WinoGrande (5-shot)",
+        "difficulty": "N/A"
+    },
+    {
+        "eval": "Codeforces",
+        "difficulty": "N/A"
+    },
+    {
+        "eval": "Winograd Schema Challenge",
+        "difficulty": "N/A"
+    }
+]

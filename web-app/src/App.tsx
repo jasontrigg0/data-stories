@@ -58,11 +58,11 @@ const Sidebar = ({open, activeSection, setActiveSection, toggleSidebar}) => {
 
       <nav className="mt-6">
         <SidebarItem 
-          icon={Newspaper} 
-          label="News + Prediction Markets" 
+          icon={Sparkles} 
+          label="AI Leaderboard" 
           expanded={open} 
-          active={activeSection === 'News'} 
-          onClick={() => setActiveSection('News')}
+          active={activeSection === 'AI'} 
+          onClick={() => setActiveSection('AI')}
         />
         <SidebarItem 
           icon={ChartArea} 
@@ -71,19 +71,19 @@ const Sidebar = ({open, activeSection, setActiveSection, toggleSidebar}) => {
           active={activeSection === 'Approval'} 
           onClick={() => setActiveSection('Approval')}
         />
-        <SidebarItem 
-          icon={Sparkles} 
-          label="AI Leaderboard" 
-          expanded={open} 
-          active={activeSection === 'AI'} 
-          onClick={() => setActiveSection('AI')}
-        />
         <SidebarItem
           icon={Shirt} 
           label="Sports Elos" 
           expanded={open} 
           active={activeSection === 'Sports'} 
           onClick={() => setActiveSection('Sports')}
+        />
+        <SidebarItem 
+          icon={Newspaper} 
+          label="News + Prediction Markets" 
+          expanded={open} 
+          active={activeSection === 'News'} 
+          onClick={() => setActiveSection('News')}
         />
       </nav>
     </div>
@@ -105,7 +105,7 @@ const NavBar = ({open, toggleSidebar, activeSection}) => {
 
 function App() {
   const [sidebarOpen, setSidebarOpen] = useState(true);
-  const [activeSection, setActiveSection] = useState('News');
+  const [activeSection, setActiveSection] = useState('AI');
 
   const toggleSidebar = () => {
     setSidebarOpen(!sidebarOpen);
