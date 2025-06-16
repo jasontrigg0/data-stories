@@ -13,6 +13,8 @@ const sportsNames = {
   "nfl": "NFL",
   "nhl": "NHL",
   "ufc": "UFC",
+  "cs": "Counter-Strike",
+  "lol": "League of Legends",
 }
 
 const getScoreName = (sport) => {
