@@ -4,7 +4,7 @@ import json
 import datetime
 import calendar
 
-NON_EVAL_COLUMNS = ["model","company","date","reasoning","notes"]
+NON_EVAL_COLUMNS = ["model","company","date","reasoning","notes","input price","output price"]
 
 def is_field_percent(field, all_rows):
     for row in all_rows:
@@ -122,11 +122,17 @@ def write_models(model_to_rating, model_to_info, ratio):
         model_info = model_to_info[model]
         num_evals = [col for col in model_info if col not in NON_EVAL_COLUMNS and model_info[col] != ""]
         if len(num_evals) < 3: continue
+        price = ""
+        if model_to_info[model]["input price"] and model_to_info[model]["output price"]:
+            input_price = float(model_to_info[model]["input price"])
+            output_price = float(model_to_info[model]["output price"])
+            price = 0.75 * input_price + 0.25 * output_price
         output_rows.append({
             "model": model,
             "company": model_to_info[model]["company"],
             "release_date": model_to_info[model]["date"],
-            "rating": round(ratio * model_to_rating[model],1)
+            "rating": round(ratio * model_to_rating[model],1),
+            "price": price
         })
     output_rows.sort(key=lambda x: x["rating"], reverse=True)
     leaders_over_time(output_rows)

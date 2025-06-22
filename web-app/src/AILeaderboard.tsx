@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import modelData from './assets/data/models.json';
 import evalData from './assets/data/evals.json';
+import { Cell, Label, ScatterChart, Scatter, LabelList, XAxis, YAxis, ResponsiveContainer, Tooltip } from 'recharts';
 
 const AILeaderboard = () => {
   const [activeTab, setActiveTab] = useState(0);
@@ -38,6 +39,146 @@ const AILeaderboard = () => {
         ))}
       </div>
     </div>
+    </>
+  );
+}
+
+const ToggleGroup = ({title, options, defaultOption, callback}) => {
+  const [selected, setSelected] = useState(defaultOption);
+  
+  return (
+    <div className="p-2 max-w-md mx-auto">
+      <h2 className="text-xl font-semibold mb-4">{title}</h2>
+      
+      <div className="inline-flex bg-gray-100 rounded-lg p-1">
+        {options.map((option) => (
+          <button
+            key={option.id}
+            onClick={() => { setSelected(option.id); callback(option.id) }}
+            className={`px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 ${
+              selected === option.id
+                ? "bg-white text-gray-900 shadow-sm"
+                : "text-gray-600 hover:text-gray-900 hover:bg-white/50"
+            }`}
+          >
+            {option.label}
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+
+const PricePerformanceChart = () => {
+  const [cutoffTime, setCutoffTime] = useState(null);
+
+  let data = modelData;
+  if (cutoffTime) {
+    data = modelData.filter(x => x.release_date < cutoffTime);
+  }
+  
+  const best = [data[0]["model"]];
+
+  let currPrice = data[0]["price"];
+  let currRating = data[0]["rating"];
+  for (let m of data) {
+    if (m["price"] && m["price"] < currPrice) {
+      best.push(m["model"]);
+      currPrice = m["price"];
+      currRating = m["rating"];
+    } 
+  }
+
+
+  const CustomTooltip = (props) => {
+    const { active, payload, value } = props;
+    if (!active || !payload || payload.length === 0) return null;
+
+    return (
+      <div className="custom-tooltip" style={{ background: '#fff', padding: 8, border: '1px solid #ccc' }}>
+	<p>{`Model: ${payload[0]["payload"]["model"]}`}</p>
+	  <p>
+	    Score: {payload[1].value}
+	  </p>
+	  <p>
+	    Price: ${payload[0].value.toFixed(2)}/1M tokens
+	  </p>
+      </div>
+    );
+  };
+
+  const CustomLabel = ({ x, y, value }) => {
+    if (!best.includes(value)) return null;
+
+    return (
+      <text
+	x={x + 3}
+	y={y - 10}
+	fontSize={11}
+	fill="#333"
+	textAnchor="middle"
+	dominantBaseline="central"
+      >
+	{value}
+      </text>
+    );
+  };
+
+  const dateOptions = [
+    {id: "20240101", label: "Jan 1, 2024"},
+    {id: "20240701", label: "Jul 1, 2024"},
+    {id: "20250101", label: "Jan 1, 2025"},
+    {id: null, label: "Now"},
+  ];
+
+  return (
+  <>
+   <ToggleGroup title={"Price vs Performance (select a date)"} options={dateOptions} defaultOption={null} callback={setCutoffTime}/>
+   <ResponsiveContainer width="100%" height="85%" minWidth="450px" minHeight="600px">
+    <ScatterChart
+      data={data}
+      margin={{
+	top: 5,
+	right: 30,
+	left: 20,
+	bottom: 30
+      }}
+    >
+      <XAxis
+        type="number"
+	dataKey="price"
+	domain={[0.05, 100]}
+	tick={{ fontSize: 12 }}
+	scale="log"
+	reversed={true}
+	allowDataOverflow={true}
+	ticks={[100,30,10,3,1,0.3,0.1,0.05]}
+      >
+        <Label value="Price in $/1M Tokens" offset={-15} position="insideBottom" />	
+      </XAxis>
+      <YAxis
+        type="number"
+        dataKey="rating"
+	domain={[0, 80]}
+	tick={{ fontSize: 12 }}
+	allowDataOverflow={true}
+	ticks={[0,20,40,60,80]}
+      >
+        <Label value="Score" offset={-15} position="insideLeft" />
+      </YAxis>
+      <Tooltip
+        key={JSON.stringify(data)}
+	content={<CustomTooltip/>}
+      />
+      <Scatter data={data}>
+        <LabelList dataKey="model" content={<CustomLabel/>} />
+        {data.map((entry, index) => (
+          <Cell key={`cell-${index}`} fill={best.includes(entry.model) ? "#77DD77" : "#FF6961"} />
+        ))}
+      </Scatter>
+    </ScatterChart>
+    </ResponsiveContainer>
     </>
   );
 }
@@ -88,7 +229,11 @@ const tabs = [
   },
   {
     title: "Best Models",
-    content: <BestModelList/>
+    content: (<BestModelList/>)
+  },
+  {
+    title: "Price vs Performance",
+    content: (<PricePerformanceChart/>)
   },
   {
     title: "Chatbot Arena History",
