@@ -2,6 +2,7 @@ import { useState } from 'react';
 import modelData from './assets/data/models.json';
 import evalData from './assets/data/evals.json';
 import { Cell, Label, ScatterChart, Scatter, LabelList, XAxis, YAxis, ResponsiveContainer, Tooltip } from 'recharts';
+import { ToggleGroup } from './ToggleGroup';
 
 const AILeaderboard = () => {
   const [activeTab, setActiveTab] = useState(0);
@@ -42,33 +43,6 @@ const AILeaderboard = () => {
     </>
   );
 }
-
-const ToggleGroup = ({title, options, defaultOption, callback}) => {
-  const [selected, setSelected] = useState(defaultOption);
-  
-  return (
-    <div className="p-2 max-w-md mx-auto">
-      <h2 className="text-xl font-semibold mb-4">{title}</h2>
-      
-      <div className="inline-flex bg-gray-100 rounded-lg p-1">
-        {options.map((option) => (
-          <button
-            key={option.id}
-            onClick={() => { setSelected(option.id); callback(option.id) }}
-            className={`px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 ${
-              selected === option.id
-                ? "bg-white text-gray-900 shadow-sm"
-                : "text-gray-600 hover:text-gray-900 hover:bg-white/50"
-            }`}
-          >
-            {option.label}
-          </button>
-        ))}
-      </div>
-    </div>
-  );
-}
-
 
 const PricePerformanceChart = () => {
   const [cutoffTime, setCutoffTime] = useState(null);
@@ -134,7 +108,7 @@ const PricePerformanceChart = () => {
 
   return (
   <>
-   <ToggleGroup title={"Price vs Performance (select a date)"} options={dateOptions} defaultOption={null} callback={setCutoffTime}/>
+   <ToggleGroup title={"Price vs Performance (select a date)"} options={dateOptions} defaultOption={null} callback={setCutoffTime} center={true}/>
    <ResponsiveContainer width="100%" height="85%" minWidth="450px" minHeight="600px">
     <ScatterChart
       data={data}
@@ -199,7 +173,6 @@ const BestModelList = () => {
     }
   ];
 
-  const currentData = 0;
   return (<div>
     <table className="min-w-full divide-y divide-gray-200">
       <thead className="bg-gray-50">

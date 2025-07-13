@@ -2,11 +2,13 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { Menu, X, ChevronRight, Home, User, Settings, Mail, HelpCircle, Newspaper, ChartArea, Sparkles, Shirt } from 'lucide-react';
+import { Menu, X, ChevronRight, Home, User, Settings, Mail, HelpCircle, Newspaper, ChartArea, Sparkles, Shirt, Icon } from 'lucide-react';
+import { football } from '@lucide/lab';
 import NewsFeed from './News.tsx'
 import ApprovalRatings from './Approval.tsx'
 import AILeaderboard from './AILeaderboard.tsx'
 import SportsElos from './SportsElos.tsx'
+import FantasyFootball from './FantasyFootball.tsx'
 
 // Content components for each section
 const contentComponents = {
@@ -21,8 +23,15 @@ const contentComponents = {
   ),
   Sports: () => (
     <SportsElos/>
+  ),
+  "Fantasy Football": () => (
+    <FantasyFootball/>
   )
 };
+
+const Football = () => {
+      return <Icon iconNode={football} size={20}/>
+}
 
 const SidebarItem = ({ icon: Icon, label, expanded, active, onClick }) => {
   return (
@@ -77,6 +86,13 @@ const Sidebar = ({open, activeSection, setActiveSection, toggleSidebar}) => {
           expanded={open} 
           active={activeSection === 'Sports'} 
           onClick={() => setActiveSection('Sports')}
+        />
+        <SidebarItem
+          icon={Football} 
+          label="Fantasy Football" 
+          expanded={open} 
+          active={activeSection === 'Fantasy Football'} 
+          onClick={() => setActiveSection('Fantasy Football')}
         />
         <SidebarItem 
           icon={Newspaper} 

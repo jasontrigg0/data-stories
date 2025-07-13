@@ -63,7 +63,7 @@ def simple_fit(all_models, all_evals, scores):
     
     #simple gradient descent, maybe try scipy.optimize?
     ITERATIONS = 100000
-    step_size = 0.005
+    step_size = 0.0025
 
     for i in range(ITERATIONS):
         # print("---")
@@ -71,22 +71,22 @@ def simple_fit(all_models, all_evals, scores):
         # print("---")
         # print("iteration")
         model_to_delta_rating = {model:0 for model in all_models}
+        eval_to_delta_offset = {eval_:0 for eval_ in all_evals}
         eval_to_delta_scale = {eval_:0 for eval_ in all_evals}
-        eval_to_delta_diff = {eval_:0 for eval_ in all_evals}
         total_err = 0
         for res in scores:
             rating = model_to_rating[res["model"]]
             scale = eval_to_scale[res["eval"]]
-            diff = eval_to_offset[res["eval"]]
-            err = rating * scale + diff - res["score"]
+            offset = eval_to_offset[res["eval"]]
+            err = rating * scale + offset - res["score"]
             if i>(ITERATIONS/2) and abs(err) > 1.5 and (res["model"], res["eval"]) not in big_misses:
-                print(res, rating * scale + diff, err)
+                print(res, rating * scale + offset, err)
                 big_misses[(res["model"], res["eval"])] = True
             # print(res)
-            # print(rating, scale, diff, err)
+            # print(rating, scale, offset, err)
             model_to_delta_rating[res["model"]] += 2 * err * scale
+            eval_to_delta_offset[res["eval"]] += 2 * err
             eval_to_delta_scale[res["eval"]] += 2 * err * rating
-            eval_to_delta_diff[res["eval"]] += 2 * err
             total_err += err**2
 
         if i%1000 == 0:
@@ -94,12 +94,14 @@ def simple_fit(all_models, all_evals, scores):
         
         for model in model_to_delta_rating:
             model_to_rating[model] -= model_to_delta_rating[model] * step_size
+        #there are two extra degrees of freedom that are
+        #fixed by leaving lmarena scale = 1 and offset = 0
         for eval_ in eval_to_delta_scale:
             if eval_ == "lmarena": continue
             eval_to_scale[eval_] -= eval_to_delta_scale[eval_] * step_size
-        for eval_ in eval_to_delta_diff:
+        for eval_ in eval_to_delta_offset:
             if eval_ == "lmarena": continue
-            eval_to_offset[eval_] -= eval_to_delta_diff[eval_] * step_size
+            eval_to_offset[eval_] -= eval_to_delta_offset[eval_] * step_size
 
         # print(model_to_rating)
         # print(eval_to_scale)
