@@ -129,7 +129,7 @@ const PricePerformanceChart = () => {
 	allowDataOverflow={true}
 	ticks={[100,30,10,3,1,0.3,0.1,0.05]}
       >
-        <Label value="Price in $/1M Tokens" offset={-15} position="insideBottom" />	
+        <Label value="Price in $/1M Tokens (3:1 input to output ratio)" offset={-15} position="insideBottom" />	
       </XAxis>
       <YAxis
         type="number"

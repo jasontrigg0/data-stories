@@ -14,7 +14,7 @@ const FantasyFootball = () => {
   return (
     <>
     <div style={{"padding-left": "25px"}}>
-      <div className="p-5">Optimized Fantasy Football draft recommendations. Find the optimal strategy from running through every pick in each round. Underlying player scoring projections from <a href="https://www.fantasypros.com/nfl/projections/qb.php?week=draft" style={{"text-decoration": "underline"}}>Fantasy Pros</a>.</div>
+      <div className="p-5">Optimized Fantasy Football draft recommendations determined by testing all pick orders. Underlying player scoring projections from <a href="https://www.fantasypros.com/nfl/projections/qb.php?week=draft" style={{"text-decoration": "underline"}}>Fantasy Pros</a>.</div>
       <ToggleGroup title={"League"} options={[{id: "espn", label: "ESPN"}, {id: "yahoo", label: "Yahoo"}]} defaultOption={"espn"} small={true} callback={setLeague}/>
       <ToggleGroup title={"Scoring"} options={[{id: "1", label: "PPR"}, {id:"0.5", label: "Half PPR"}, {id: "0", label: "Standard"}]} defaultOption={"1"} small={true} callback={setScoring}/>
       <ToggleGroup title={"Teams"} options={[{id: "8", label: "8"}, {id: "10", label: "10"}, {id: "12", label: "12"}]} defaultOption={"10"} small={true} callback={setTeamCnt}/>
@@ -56,7 +56,9 @@ const Dropdown = ({options, callback, defaultOption}) => {
   const handleChange = (e) => {
     console.log(e.target.value);
     setSelectedNumber(e.target.value);
-    callback(e.target.value);
+    if (e.target.value != "") {
+	callback(e.target.value);
+    }
   };
 
   return (
@@ -67,7 +69,7 @@ const Dropdown = ({options, callback, defaultOption}) => {
         onChange={handleChange}
         className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
       >
-        <option value="">Choose a Pick Order...</option>
+        <option value="">Choose a Draft Position...</option>
         {options.map((num) => (
           <option key={num} value={num}>
             {num}
@@ -111,32 +113,40 @@ const DraftOrderTable = ({data}) => {
 
   return (
   <>
-    <div className="p-5">Calculating the value of each player</div>
+    <div className="p-5">Calculating the "true value" of each player in this format. The +/- column shows which players are bargains compared to standard draft lists. For instance Davante Adams and Lamar Jackson are often undervalued.</div>
     <StandardTable headers={headers} data={data}/>
   </>
   )
 }
 
 const StrategyList = ({data}) => {
-  const [pickOrder, setPickOrder] = useState("1");
+  const [draftPosition, setDraftPosition] = useState("1");
 
   const headers = [
+    { key: "round", label: "Round" },
     { key: "name", label: "Player" },
     { key: "position", label: "Position" },
     { key: "value", label: "Value" },
   ];
 
-  console.log(pickOrder);
+  if (parseInt(draftPosition) > Object.keys(data).length && Object.keys(data).length > 1) {
+    setDraftPosition("1");
+    return <></>;
+  }
+
+  let picks = data[draftPosition]["sample_picks"];
+  picks.forEach((x,i) => x["round"] = i+1);
 
   return (
     <>
-      <Dropdown options={Object.keys(data)} callback={(option) => { setPickOrder(option); }}/>
+      <p>Sample draft for each draft position, assuming a 1 QB, 2 RB, 2 WR, 1 TE, 1 Flex roster.</p>
+      <Dropdown options={Object.keys(data)} callback={(option) => { setDraftPosition(option); }}/>
       <div className="px-6 max-w-md mx-auto">
 	<div className="mb-4 p-3 bg-blue-50 border border-blue-200 rounded-md">
-	  <p className="text-blue-800">Total value: {data[pickOrder]["total_value"]}</p>
+	  <p className="text-blue-800">Total points drafted: {data[draftPosition]["total_value"]}</p>
 	</div>
       </div>
-      <StandardTable headers={headers} data={data[pickOrder]["sample_picks"]}/>
+      <StandardTable headers={headers} data={picks}/>
     </>
   );
 }

@@ -11,7 +11,7 @@ First git lfs clone https://huggingface.co/spaces/lmarena-ai/chatbot-arena-leade
 NOTE: need lfs above or else won't pull all the pickle files
 
 Then
-- run generate_ai_alltime.py to create alltime.csv
+- run chatbot_arena_history.py to create alltime.csv
 - run by_org.sh to generate alltime_by_org.csv
-- run pivot_data.py to generate chatbot_arena_models.csv, chatbot_arena_orgs.csv
+- run pivot_chatbot_arena_data.py to generate chatbot_arena_models.csv, chatbot_arena_orgs.csv
 - upload chatbot_arena_models.csv, chatbot_arena_orgs.csv to flourish.studio and republish

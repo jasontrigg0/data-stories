@@ -187,7 +187,7 @@ const ApprovalRatingChart = () => {
         </LineChart>
       </ResponsiveContainer>
       <div style={{ paddingTop: '20px' }}>
-        Note that values are somewhat less favorable to Trump vs the Silver Bulletin tracker. One possible factor is that this tries to estimate the all adults approval rating, which seems to be about 1.5% less favorable on average compared to registered voters or likely voters. Another possibility is that this is more forward-looking: the Silver Bulletin weights older polls from high-quality pollsters heavily versus I believe this average is more weighted to the latest polling results.
+        Note that values are somewhat less favorable to Trump vs the Silver Bulletin tracker. One possible factor is that this tries to estimate the all adults approval rating, which seems to be about 1.5% less favorable on average compared to registered voters or likely voters.
       </div>
     </div>
   );

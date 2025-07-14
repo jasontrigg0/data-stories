@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import { Menu, X, ChevronRight, Home, User, Settings, Mail, HelpCircle, Newspaper, ChartArea, Sparkles, Shirt, Icon } from 'lucide-react';
 import { football } from '@lucide/lab';

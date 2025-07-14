@@ -73,7 +73,7 @@ const getColumns = (sport) => {
 
 export default function SportsELOLeaderboard() {
   // State for selected sport and active tab
-  const [selectedSport, setSelectedSport] = useState('cbb');
+  const [selectedSport, setSelectedSport] = useState('mlb');
   const [activeTab, setActiveTab] = useState('current');
 
   // Get current data based on selections
@@ -81,6 +81,9 @@ export default function SportsELOLeaderboard() {
   for (let row of currentData) {
     row["displayDate"] = moment(row["date"], 'YYYYMMDD').format('MMM D, YYYY');
   }
+
+  //move "all" to the front of the list
+  let allSports = [].concat(["all"],Object.keys(sportsData).filter(x => x !== "all"));
 
   return (
     <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden p-6">
@@ -99,7 +102,7 @@ export default function SportsELOLeaderboard() {
             value={selectedSport}
             onChange={(e) => setSelectedSport(e.target.value)}
           >
-            {Object.keys(sportsData).map((sport) => (
+            {allSports.map((sport) => (
               <option key={sport} value={sport}>{sportsNames[sport]}</option>
             ))}
           </select>
