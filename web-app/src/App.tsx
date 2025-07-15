@@ -7,6 +7,7 @@ import ApprovalRatings from './Approval.tsx'
 import AILeaderboard from './AILeaderboard.tsx'
 import SportsElos from './SportsElos.tsx'
 import FantasyFootball from './FantasyFootball.tsx'
+import { useSearchParams } from "react-router-dom";
 
 // Content components for each section
 const contentComponents = {
@@ -119,7 +120,12 @@ const NavBar = ({open, toggleSidebar, activeSection}) => {
 
 function App() {
   const [sidebarOpen, setSidebarOpen] = useState(true);
-  const [activeSection, setActiveSection] = useState('AI');
+  const [searchParams, setSearchParams] = useSearchParams();
+  const activeSection = searchParams.get("tab") || "AI";
+
+  const setActiveSection = (tabId) => {
+    setSearchParams({ tab: tabId });
+  };
 
   const toggleSidebar = () => {
     setSidebarOpen(!sidebarOpen);
