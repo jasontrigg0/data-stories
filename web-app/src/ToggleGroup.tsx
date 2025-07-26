@@ -4,7 +4,7 @@ export const ToggleGroup = ({title, options, defaultOption, callback, small, cen
   const [selected, setSelected] = useState(defaultOption);
   
   return (
-    <div className={`p-2 ${center ? 'max-w-md' : ''} mx-auto`}>
+    <div className={`p-2 ${center ? 'max-w-lg' : ''} mx-auto`}>
       {small? <span className="p-2">{title}:</span> : <h2 className="text-xl font-semibold mb-4">{title}</h2> }
       
       <div className="inline-flex bg-gray-100 rounded-lg p-1">

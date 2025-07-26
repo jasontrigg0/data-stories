@@ -8,6 +8,8 @@ import datetime
 from dateutil import tz
 from googlenewsdecoder import gnewsdecoder
 import math
+import base64
+import zlib
 
 def run_prompt_gemini(prompt):
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={os.environ['GEMINI_API_KEY']}"
@@ -44,8 +46,18 @@ def get_polymarkets():
     data = json.loads(soup.select("script")[-1].text)
     #print(data.keys())
 
+    data = data["props"]["pageProps"]["dehydratedState"]["data"]
+    data = data.replace('-', '+').replace('_', '/')
 
-    queries = data["props"]["pageProps"]["dehydratedState"]["queries"]
+    missing_padding = len(data) % 4
+    if missing_padding:
+        data += '=' * (4 - missing_padding)
+    
+    compressed_data = base64.b64decode(data)
+    decompressed_data = zlib.decompress(compressed_data)
+    #print(decompressed_data.decode('utf-8'))
+
+    queries = json.loads(decompressed_data)["queries"]
 
     all_events = []
 

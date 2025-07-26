@@ -97,10 +97,10 @@ def simple_fit(all_models, all_evals, scores):
         #there are two extra degrees of freedom that are
         #fixed by leaving lmarena scale = 1 and offset = 0
         for eval_ in eval_to_delta_scale:
-            if eval_ == "lmarena": continue
+            if eval_ == "lmarena-old": continue
             eval_to_scale[eval_] -= eval_to_delta_scale[eval_] * step_size
         for eval_ in eval_to_delta_offset:
-            if eval_ == "lmarena": continue
+            if eval_ == "lmarena-old": continue
             eval_to_offset[eval_] -= eval_to_delta_offset[eval_] * step_size
 
         # print(model_to_rating)

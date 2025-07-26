@@ -103,6 +103,7 @@ const PricePerformanceChart = () => {
     {id: "20240101", label: "Jan 1, 2024"},
     {id: "20240701", label: "Jul 1, 2024"},
     {id: "20250101", label: "Jan 1, 2025"},
+    {id: "20250701", label: "Jul 1, 2025"},
     {id: null, label: "Now"},
   ];
 
