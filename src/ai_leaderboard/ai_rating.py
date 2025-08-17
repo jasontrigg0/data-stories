@@ -8,7 +8,7 @@ NON_EVAL_COLUMNS = ["model","company","date","reasoning","notes","input price","
 
 def is_field_percent(field, all_rows):
     for row in all_rows:
-        if row[field] != "" and float(row[field]) > 100:
+        if row[field] != "" and (float(row[field]) > 100 or float(row[field]) < 0):
             return False
     return True
 

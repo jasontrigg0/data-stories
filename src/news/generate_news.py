@@ -46,18 +46,23 @@ def get_polymarkets():
     data = json.loads(soup.select("script")[-1].text)
     #print(data.keys())
 
-    data = data["props"]["pageProps"]["dehydratedState"]["data"]
-    data = data.replace('-', '+').replace('_', '/')
+    IS_COMPRESSED=False
 
-    missing_padding = len(data) % 4
-    if missing_padding:
-        data += '=' * (4 - missing_padding)
+    if IS_COMPRESSED:
+        data = data["props"]["pageProps"]["dehydratedState"]["data"]
+        data = data.replace('-', '+').replace('_', '/')
+
+        missing_padding = len(data) % 4
+        if missing_padding:
+            data += '=' * (4 - missing_padding)
     
-    compressed_data = base64.b64decode(data)
-    decompressed_data = zlib.decompress(compressed_data)
-    #print(decompressed_data.decode('utf-8'))
+        compressed_data = base64.b64decode(data)
+        decompressed_data = zlib.decompress(compressed_data)
+        #print(decompressed_data.decode('utf-8'))
 
-    queries = json.loads(decompressed_data)["queries"]
+        queries = json.loads(decompressed_data)["queries"]
+    else:
+        queries = data["props"]["pageProps"]["dehydratedState"]["queries"]
 
     all_events = []
 
@@ -85,7 +90,8 @@ def get_polymarkets():
             if e["ticker"] not in [e["ticker"] for e in all_events]:
                 #generally want to sort to the highest probability with some exceptions eg a UFC night could
                 #include unconnected fights and will want the main event
-                markets = sorted([m for m in e["markets"]], key = lambda x: x["outcomePrices"][0], reverse = True)
+                default_prices = [0,1]
+                markets = sorted([m for m in e["markets"]], key = lambda x: x.get("outcomePrices",default_prices)[0], reverse = True)
 
                 ticker = markets[0]["slug"] 
                 all_events.append({
