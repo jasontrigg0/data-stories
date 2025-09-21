@@ -197,6 +197,10 @@ class PollingCalculator:
         field_name = output[self.field]
         
         val = output[self.field]
+
+        if len(date_range) == 0:
+            print(output)
+        
         pred = self.generate_pred(date_range, type_, pollster)
 
         delta = val - pred
