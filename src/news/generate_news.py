@@ -92,7 +92,7 @@ def get_polymarkets():
                 #include unconnected fights and will want the main event
                 default_prices = [0,1]
                 markets = sorted([m for m in e["markets"]], key = lambda x: x.get("outcomePrices",default_prices)[0], reverse = True)
-
+                if len(markets) == 0: continue
                 ticker = markets[0]["slug"] 
                 all_events.append({
                     "title": e["title"],

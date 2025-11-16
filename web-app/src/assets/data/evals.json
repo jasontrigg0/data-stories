@@ -1,119 +1,131 @@
 [
     {
+        "eval": "SWE Bench Pro (commercial)",
+        "difficulty": 108.54563239458317
+    },
+    {
+        "eval": "ARC-AGI-2",
+        "difficulty": 106.42789281350888
+    },
+    {
         "eval": "EnigmaEval",
-        "difficulty": 100.98040019542533
+        "difficulty": 99.29987483696506
     },
     {
         "eval": "FrontierMath (private)",
-        "difficulty": 93.38492514493674
+        "difficulty": 91.8855573161852
     },
     {
         "eval": "HLE",
-        "difficulty": 91.61018156904537
+        "difficulty": 90.73252998426766
     },
     {
         "eval": "Terminal-Bench (Terminus 1)",
-        "difficulty": 83.91397737877135
+        "difficulty": 82.57409183279653
     },
     {
         "eval": "SimpleQA",
-        "difficulty": 81.37477671279902
+        "difficulty": 80.58297574614772
     },
     {
         "eval": "WeirdML v2",
-        "difficulty": 72.59148250797465
+        "difficulty": 73.93556165180239
     },
     {
         "eval": "ARC-AGI-1",
-        "difficulty": 71.99930658752442
+        "difficulty": 71.45390656256656
     },
     {
         "eval": "Simplebench",
-        "difficulty": 70.12578533521129
+        "difficulty": 69.7492012004997
     },
     {
         "eval": "Multichallenge",
-        "difficulty": 67.43848775330325
+        "difficulty": 66.99517504972627
+    },
+    {
+        "eval": "HMMT 2025",
+        "difficulty": 65.07305195347222
     },
     {
         "eval": "SWE Verified",
-        "difficulty": 61.70258609551628
+        "difficulty": 60.719730416157084
     },
     {
         "eval": "WeirdML",
-        "difficulty": 60.256527164083465
+        "difficulty": 60.05414260336002
     },
     {
         "eval": "aider polyglot",
-        "difficulty": 59.38907706108936
+        "difficulty": 59.20108546167921
     },
     {
         "eval": "livecodebench 010125-050125",
-        "difficulty": 59.313248200845734
+        "difficulty": 58.856122041671696
     },
     {
         "eval": "fiction livebench 120k",
-        "difficulty": 57.74615842128689
+        "difficulty": 57.8067571083012
     },
     {
         "eval": "AIME 2025 (matharena)",
-        "difficulty": 56.02011456670585
+        "difficulty": 56.014573540154295
     },
     {
         "eval": "AIME 2024",
-        "difficulty": 55.932629165210635
+        "difficulty": 55.78405698791623
     },
     {
         "eval": "livebench 0530",
-        "difficulty": 50.53282869863269
+        "difficulty": 50.72237805740639
     },
     {
         "eval": "GPQA diamond",
-        "difficulty": 40.087803186207076
+        "difficulty": 40.28050317719827
     },
     {
         "eval": "MATH",
-        "difficulty": 22.049159676122958
+        "difficulty": 22.275615839928626
     },
     {
         "eval": "MMMU",
-        "difficulty": 15.644455501667963
+        "difficulty": 15.881184049053884
     },
     {
         "eval": "MMLU-Pro",
-        "difficulty": 14.44528650215071
+        "difficulty": 13.663265600619383
     },
     {
         "eval": "Truthful QA (MC1, 0-shot)",
-        "difficulty": 8.220053937508187
+        "difficulty": 8.152818600543998
     },
     {
         "eval": "HumanEval",
-        "difficulty": -0.36665991501709555
+        "difficulty": 0.46555211748159747
     },
     {
         "eval": "ARC challenge (25-shot) AI2",
-        "difficulty": -30.514139349982834
-    },
-    {
-        "eval": "MMLU (5 shot)",
-        "difficulty": -35.320248465409286
+        "difficulty": -30.18724232205646
     },
     {
         "eval": "MGSM",
-        "difficulty": -35.65611028818564
+        "difficulty": -34.402169393516026
+    },
+    {
+        "eval": "MMLU (5 shot)",
+        "difficulty": -35.04413573284992
     },
     {
         "eval": "TriviaQA (few shot)",
-        "difficulty": -35.83933511193139
+        "difficulty": -35.88441589773621
     },
     {
         "eval": "DROP (f1 3-shot)",
-        "difficulty": -47.48010399103071
+        "difficulty": -46.0065656741024
     },
     {
         "eval": "Hellaswag (10-shot)",
-        "difficulty": -75.62337068074025
+        "difficulty": -76.98069381468738
     },
     {
         "eval": "METR 50% (log)",

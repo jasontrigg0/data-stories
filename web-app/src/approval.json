@@ -1,13 +1,13 @@
 [
     {
         "date": "2025-01-20",
-        "approve": 50.4,
-        "disapprove": 44.0
+        "approve": 50.5,
+        "disapprove": 44.2
     },
     {
         "date": "2025-01-21",
-        "approve": 50.8,
-        "disapprove": 44.1
+        "approve": 50.7,
+        "disapprove": 44.3
     },
     {
         "date": "2025-01-22",
@@ -22,7 +22,7 @@
     {
         "date": "2025-01-24",
         "approve": 49.0,
-        "disapprove": 45.2
+        "disapprove": 45.3
     },
     {
         "date": "2025-01-27",
@@ -36,28 +36,28 @@
     },
     {
         "date": "2025-01-29",
-        "approve": 47.5,
+        "approve": 47.6,
         "disapprove": 46.9
     },
     {
         "date": "2025-01-30",
-        "approve": 47.4,
-        "disapprove": 47.3
+        "approve": 47.5,
+        "disapprove": 47.2
     },
     {
         "date": "2025-01-31",
-        "approve": 47.1,
+        "approve": 47.2,
         "disapprove": 47.5
     },
     {
         "date": "2025-02-03",
         "approve": 46.8,
-        "disapprove": 47.6
+        "disapprove": 47.7
     },
     {
         "date": "2025-02-04",
         "approve": 47.0,
-        "disapprove": 47.7
+        "disapprove": 47.8
     },
     {
         "date": "2025-02-05",
@@ -67,82 +67,82 @@
     {
         "date": "2025-02-06",
         "approve": 47.3,
-        "disapprove": 47.3
+        "disapprove": 47.4
     },
     {
         "date": "2025-02-07",
         "approve": 47.4,
-        "disapprove": 47.2
+        "disapprove": 47.0
     },
     {
         "date": "2025-02-10",
-        "approve": 47.9,
-        "disapprove": 47.4
+        "approve": 47.8,
+        "disapprove": 47.3
     },
     {
         "date": "2025-02-11",
-        "approve": 48.1,
+        "approve": 48.0,
         "disapprove": 47.2
     },
     {
         "date": "2025-02-12",
-        "approve": 48.1,
+        "approve": 48.0,
         "disapprove": 47.2
     },
     {
         "date": "2025-02-13",
-        "approve": 48.0,
+        "approve": 47.8,
         "disapprove": 48.8
     },
     {
         "date": "2025-02-14",
-        "approve": 48.0,
-        "disapprove": 48.8
+        "approve": 47.8,
+        "disapprove": 48.7
     },
     {
         "date": "2025-02-17",
         "approve": 47.1,
-        "disapprove": 49.3
+        "disapprove": 49.1
     },
     {
         "date": "2025-02-18",
-        "approve": 47.0,
+        "approve": 46.9,
         "disapprove": 49.1
     },
     {
         "date": "2025-02-19",
-        "approve": 47.3,
-        "disapprove": 48.4
+        "approve": 47.2,
+        "disapprove": 48.3
     },
     {
         "date": "2025-02-20",
-        "approve": 47.2,
-        "disapprove": 48.5
+        "approve": 47.1,
+        "disapprove": 48.4
     },
     {
         "date": "2025-02-21",
-        "approve": 47.3,
-        "disapprove": 48.5
+        "approve": 47.2,
+        "disapprove": 48.4
     },
     {
         "date": "2025-02-24",
-        "approve": 47.0,
-        "disapprove": 48.6
+        "approve": 47.1,
+        "disapprove": 48.5
     },
     {
         "date": "2025-02-25",
-        "approve": 47.2,
-        "disapprove": 48.7
+        "approve": 47.1,
+        "disapprove": 48.8
     },
     {
         "date": "2025-02-26",
-        "approve": 47.5,
-        "disapprove": 48.9
+        "approve": 47.3,
+        "disapprove": 49.0
     },
     {
         "date": "2025-02-27",
-        "approve": 47.9,
-        "disapprove": 48.2
+        "approve": 47.7,
+        "disapprove": 48.4
     },
     {
         "date": "2025-02-28",
@@ -151,8 +151,8 @@
     },
     {
         "date": "2025-03-03",
-        "approve": 46.6,
-        "disapprove": 49.8
+        "approve": 46.7,
+        "disapprove": 49.6
     },
     {
         "date": "2025-03-04",
@@ -161,23 +161,23 @@
     },
     {
         "date": "2025-03-05",
-        "approve": 46.0,
-        "disapprove": 50.5
+        "approve": 45.9,
+        "disapprove": 50.6
     },
     {
         "date": "2025-03-06",
-        "approve": 46.1,
+        "approve": 46.0,
         "disapprove": 50.5
     },
     {
         "date": "2025-03-07",
-        "approve": 46.0,
+        "approve": 45.9,
         "disapprove": 50.8
     },
     {
         "date": "2025-03-10",
-        "approve": 46.3,
-        "disapprove": 50.3
+        "approve": 46.2,
+        "disapprove": 50.4
     },
     {
         "date": "2025-03-11",
@@ -186,7 +186,7 @@
     },
     {
         "date": "2025-03-12",
-        "approve": 46.6,
+        "approve": 46.5,
         "disapprove": 50.1
     },
     {
@@ -197,7 +197,7 @@
     {
         "date": "2025-03-14",
         "approve": 46.1,
-        "disapprove": 50.8
+        "disapprove": 50.7
     },
     {
         "date": "2025-03-17",
@@ -231,73 +231,73 @@
     },
     {
         "date": "2025-03-25",
-        "approve": 45.9,
-        "disapprove": 51.1
+        "approve": 45.8,
+        "disapprove": 51.2
     },
     {
         "date": "2025-03-26",
-        "approve": 46.0,
+        "approve": 45.9,
         "disapprove": 50.7
     },
     {
         "date": "2025-03-27",
-        "approve": 46.4,
-        "disapprove": 50.6
-    },
-    {
-        "date": "2025-03-28",
         "approve": 46.3,
         "disapprove": 50.7
     },
     {
+        "date": "2025-03-28",
+        "approve": 46.2,
+        "disapprove": 50.8
+    },
+    {
         "date": "2025-03-31",
-        "approve": 46.1,
+        "approve": 46.0,
         "disapprove": 50.9
     },
     {
         "date": "2025-04-01",
-        "approve": 47.0,
+        "approve": 47.1,
         "disapprove": 49.5
     },
     {
         "date": "2025-04-02",
-        "approve": 46.9,
-        "disapprove": 49.6
+        "approve": 47.0,
+        "disapprove": 49.5
     },
     {
         "date": "2025-04-03",
-        "approve": 46.3,
-        "disapprove": 50.2
+        "approve": 46.4,
+        "disapprove": 50.0
     },
     {
         "date": "2025-04-04",
-        "approve": 45.6,
-        "disapprove": 50.8
+        "approve": 45.7,
+        "disapprove": 50.7
     },
     {
         "date": "2025-04-07",
-        "approve": 44.0,
-        "disapprove": 52.6
+        "approve": 44.1,
+        "disapprove": 52.5
     },
     {
         "date": "2025-04-08",
         "approve": 43.5,
-        "disapprove": 53.3
+        "disapprove": 53.2
     },
     {
         "date": "2025-04-09",
-        "approve": 44.1,
-        "disapprove": 52.8
+        "approve": 43.8,
+        "disapprove": 53.0
     },
     {
         "date": "2025-04-10",
-        "approve": 44.1,
-        "disapprove": 50.6
+        "approve": 43.9,
+        "disapprove": 50.7
     },
     {
         "date": "2025-04-11",
-        "approve": 44.0,
-        "disapprove": 51.1
+        "approve": 43.9,
+        "disapprove": 51.3
     },
     {
         "date": "2025-04-14",
@@ -311,28 +311,28 @@
     },
     {
         "date": "2025-04-16",
-        "approve": 43.8,
-        "disapprove": 51.6
+        "approve": 43.7,
+        "disapprove": 51.7
     },
     {
         "date": "2025-04-17",
         "approve": 43.2,
-        "disapprove": 52.5
+        "disapprove": 52.4
     },
     {
         "date": "2025-04-18",
-        "approve": 43.1,
-        "disapprove": 52.7
+        "approve": 43.0,
+        "disapprove": 52.8
     },
     {
         "date": "2025-04-21",
         "approve": 42.4,
-        "disapprove": 53.4
+        "disapprove": 53.3
     },
     {
         "date": "2025-04-22",
-        "approve": 42.9,
-        "disapprove": 53.0
+        "approve": 43.0,
+        "disapprove": 52.9
     },
     {
         "date": "2025-04-23",
@@ -341,13 +341,13 @@
     },
     {
         "date": "2025-04-24",
-        "approve": 42.9,
-        "disapprove": 53.6
+        "approve": 43.0,
+        "disapprove": 53.5
     },
     {
         "date": "2025-04-25",
         "approve": 43.2,
-        "disapprove": 52.7
+        "disapprove": 52.8
     },
     {
         "date": "2025-04-28",
@@ -356,92 +356,92 @@
     },
     {
         "date": "2025-04-29",
-        "approve": 42.9,
-        "disapprove": 52.6
+        "approve": 42.8,
+        "disapprove": 52.5
     },
     {
         "date": "2025-04-30",
         "approve": 43.2,
-        "disapprove": 51.5
+        "disapprove": 51.4
     },
     {
         "date": "2025-05-01",
-        "approve": 42.7,
+        "approve": 42.6,
         "disapprove": 52.2
     },
     {
         "date": "2025-05-02",
-        "approve": 43.1,
+        "approve": 43.0,
         "disapprove": 51.7
     },
     {
         "date": "2025-05-05",
-        "approve": 43.4,
+        "approve": 43.2,
         "disapprove": 51.6
     },
     {
         "date": "2025-05-06",
-        "approve": 43.5,
+        "approve": 43.4,
         "disapprove": 51.3
     },
     {
         "date": "2025-05-07",
-        "approve": 44.2,
+        "approve": 44.1,
         "disapprove": 50.9
     },
     {
         "date": "2025-05-08",
-        "approve": 44.3,
-        "disapprove": 50.9
+        "approve": 44.2,
+        "disapprove": 51.0
     },
     {
         "date": "2025-05-09",
-        "approve": 44.2,
-        "disapprove": 51.2
+        "approve": 44.1,
+        "disapprove": 51.3
     },
     {
         "date": "2025-05-12",
-        "approve": 44.5,
+        "approve": 44.4,
         "disapprove": 51.1
     },
     {
         "date": "2025-05-13",
         "approve": 44.6,
-        "disapprove": 51.0
+        "disapprove": 51.1
     },
     {
         "date": "2025-05-14",
-        "approve": 44.2,
-        "disapprove": 51.2
+        "approve": 44.3,
+        "disapprove": 51.1
     },
     {
         "date": "2025-05-15",
         "approve": 44.1,
-        "disapprove": 51.2
+        "disapprove": 51.3
     },
     {
         "date": "2025-05-16",
         "approve": 44.0,
-        "disapprove": 51.3
+        "disapprove": 51.4
     },
     {
         "date": "2025-05-19",
-        "approve": 44.3,
-        "disapprove": 51.5
-    },
-    {
-        "date": "2025-05-20",
         "approve": 44.2,
         "disapprove": 51.6
     },
     {
+        "date": "2025-05-20",
+        "approve": 44.1,
+        "disapprove": 51.8
+    },
+    {
         "date": "2025-05-21",
-        "approve": 44.0,
+        "approve": 43.9,
         "disapprove": 51.8
     },
     {
         "date": "2025-05-22",
-        "approve": 43.6,
+        "approve": 43.5,
         "disapprove": 52.2
     },
     {
@@ -451,22 +451,22 @@
     },
     {
         "date": "2025-05-26",
-        "approve": 43.8,
+        "approve": 43.9,
         "disapprove": 52.1
     },
     {
         "date": "2025-05-27",
-        "approve": 44.0,
+        "approve": 44.1,
         "disapprove": 51.8
     },
     {
         "date": "2025-05-28",
-        "approve": 44.3,
+        "approve": 44.4,
         "disapprove": 51.2
     },
     {
         "date": "2025-05-29",
-        "approve": 44.3,
+        "approve": 44.4,
         "disapprove": 51.2
     },
     {
@@ -487,22 +487,22 @@
     {
         "date": "2025-06-04",
         "approve": 45.6,
-        "disapprove": 50.6
+        "disapprove": 50.5
     },
     {
         "date": "2025-06-05",
-        "approve": 44.8,
-        "disapprove": 51.5
+        "approve": 44.7,
+        "disapprove": 51.6
     },
     {
         "date": "2025-06-06",
-        "approve": 44.4,
-        "disapprove": 52.3
+        "approve": 44.3,
+        "disapprove": 52.4
     },
     {
         "date": "2025-06-09",
-        "approve": 44.4,
-        "disapprove": 52.5
+        "approve": 44.3,
+        "disapprove": 52.6
     },
     {
         "date": "2025-06-10",
@@ -511,7 +511,7 @@
     },
     {
         "date": "2025-06-11",
-        "approve": 44.8,
+        "approve": 44.7,
         "disapprove": 52.1
     },
     {
@@ -526,23 +526,23 @@
     },
     {
         "date": "2025-06-16",
-        "approve": 44.6,
+        "approve": 44.5,
         "disapprove": 53.1
     },
     {
         "date": "2025-06-17",
         "approve": 43.5,
-        "disapprove": 54.2
+        "disapprove": 54.1
     },
     {
         "date": "2025-06-18",
-        "approve": 44.1,
-        "disapprove": 53.4
+        "approve": 44.0,
+        "disapprove": 53.5
     },
     {
         "date": "2025-06-19",
-        "approve": 44.1,
-        "disapprove": 53.4
+        "approve": 44.0,
+        "disapprove": 53.5
     },
     {
         "date": "2025-06-20",
@@ -551,63 +551,63 @@
     },
     {
         "date": "2025-06-23",
-        "approve": 44.6,
-        "disapprove": 52.8
+        "approve": 44.4,
+        "disapprove": 52.9
     },
     {
         "date": "2025-06-24",
-        "approve": 44.3,
-        "disapprove": 53.0
+        "approve": 44.2,
+        "disapprove": 53.1
     },
     {
         "date": "2025-06-25",
-        "approve": 44.5,
-        "disapprove": 52.8
+        "approve": 44.4,
+        "disapprove": 52.9
     },
     {
         "date": "2025-06-26",
-        "approve": 44.6,
-        "disapprove": 52.5
+        "approve": 44.4,
+        "disapprove": 52.7
     },
     {
         "date": "2025-06-27",
-        "approve": 44.5,
-        "disapprove": 52.5
+        "approve": 44.3,
+        "disapprove": 52.7
     },
     {
         "date": "2025-06-30",
-        "approve": 44.5,
-        "disapprove": 52.4
+        "approve": 44.3,
+        "disapprove": 52.6
     },
     {
         "date": "2025-07-01",
-        "approve": 44.5,
-        "disapprove": 52.4
+        "approve": 44.3,
+        "disapprove": 52.6
     },
     {
         "date": "2025-07-02",
-        "approve": 44.5,
-        "disapprove": 52.4
+        "approve": 44.3,
+        "disapprove": 52.6
     },
     {
         "date": "2025-07-03",
-        "approve": 44.2,
-        "disapprove": 52.7
+        "approve": 44.0,
+        "disapprove": 52.8
     },
     {
         "date": "2025-07-04",
-        "approve": 44.2,
-        "disapprove": 52.4
+        "approve": 44.0,
+        "disapprove": 52.5
     },
     {
         "date": "2025-07-07",
-        "approve": 43.7,
-        "disapprove": 52.7
+        "approve": 43.6,
+        "disapprove": 52.8
     },
     {
         "date": "2025-07-08",
-        "approve": 43.7,
-        "disapprove": 52.7
+        "approve": 43.6,
+        "disapprove": 52.8
     },
     {
         "date": "2025-07-09",
@@ -616,63 +616,63 @@
     },
     {
         "date": "2025-07-10",
-        "approve": 43.4,
-        "disapprove": 53.3
+        "approve": 43.3,
+        "disapprove": 53.4
     },
     {
         "date": "2025-07-11",
-        "approve": 43.5,
-        "disapprove": 53.2
+        "approve": 43.4,
+        "disapprove": 53.4
     },
     {
         "date": "2025-07-14",
         "approve": 43.4,
-        "disapprove": 53.5
+        "disapprove": 53.6
     },
     {
         "date": "2025-07-15",
-        "approve": 43.3,
-        "disapprove": 53.6
+        "approve": 43.4,
+        "disapprove": 53.5
     },
     {
         "date": "2025-07-16",
         "approve": 43.7,
-        "disapprove": 53.5
+        "disapprove": 53.4
     },
     {
         "date": "2025-07-17",
-        "approve": 43.2,
-        "disapprove": 54.0
-    },
-    {
-        "date": "2025-07-18",
-        "approve": 42.5,
-        "disapprove": 54.3
-    },
-    {
-        "date": "2025-07-21",
-        "approve": 43.0,
+        "approve": 43.4,
         "disapprove": 53.8
     },
     {
-        "date": "2025-07-22",
-        "approve": 43.4,
+        "date": "2025-07-18",
+        "approve": 42.7,
+        "disapprove": 54.1
+    },
+    {
+        "date": "2025-07-21",
+        "approve": 43.2,
         "disapprove": 53.7
     },
     {
-        "date": "2025-07-23",
+        "date": "2025-07-22",
         "approve": 43.5,
         "disapprove": 53.6
     },
     {
+        "date": "2025-07-23",
+        "approve": 43.6,
+        "disapprove": 53.5
+    },
+    {
         "date": "2025-07-24",
-        "approve": 43.5,
+        "approve": 43.6,
         "disapprove": 53.6
     },
     {
         "date": "2025-07-25",
-        "approve": 42.4,
-        "disapprove": 54.1
+        "approve": 42.5,
+        "disapprove": 54.0
     },
     {
         "date": "2025-07-28",
@@ -681,38 +681,38 @@
     },
     {
         "date": "2025-07-29",
-        "approve": 42.5,
+        "approve": 42.6,
         "disapprove": 54.1
     },
     {
         "date": "2025-07-30",
         "approve": 43.2,
-        "disapprove": 53.4
+        "disapprove": 53.6
     },
     {
         "date": "2025-07-31",
         "approve": 43.2,
-        "disapprove": 53.4
+        "disapprove": 53.6
     },
     {
         "date": "2025-08-01",
         "approve": 43.3,
-        "disapprove": 53.4
+        "disapprove": 53.5
     },
     {
         "date": "2025-08-04",
         "approve": 43.2,
-        "disapprove": 53.1
+        "disapprove": 53.3
     },
     {
         "date": "2025-08-05",
         "approve": 43.2,
-        "disapprove": 53.1
+        "disapprove": 53.3
     },
     {
         "date": "2025-08-06",
         "approve": 42.8,
-        "disapprove": 53.6
+        "disapprove": 53.7
     },
     {
         "date": "2025-08-07",
@@ -742,11 +742,11 @@
     {
         "date": "2025-08-14",
         "approve": 42.8,
-        "disapprove": 53.6
+        "disapprove": 53.5
     },
     {
         "date": "2025-08-15",
-        "approve": 43.2,
+        "approve": 43.4,
         "disapprove": 53.4
     },
     {
@@ -761,112 +761,312 @@
     },
     {
         "date": "2025-08-20",
-        "approve": 43.2,
+        "approve": 43.3,
         "disapprove": 53.5
     },
     {
         "date": "2025-08-21",
-        "approve": 43.8,
+        "approve": 43.9,
         "disapprove": 52.2
     },
     {
         "date": "2025-08-22",
-        "approve": 43.8,
+        "approve": 43.9,
         "disapprove": 52.4
     },
     {
         "date": "2025-08-25",
-        "approve": 43.8,
-        "disapprove": 52.5
+        "approve": 43.7,
+        "disapprove": 52.6
     },
     {
         "date": "2025-08-26",
-        "approve": 43.8,
-        "disapprove": 52.5
+        "approve": 43.7,
+        "disapprove": 52.6
     },
     {
         "date": "2025-08-27",
         "approve": 43.7,
-        "disapprove": 52.5
+        "disapprove": 52.7
     },
     {
         "date": "2025-08-28",
         "approve": 43.7,
-        "disapprove": 52.5
+        "disapprove": 52.7
     },
     {
         "date": "2025-08-29",
-        "approve": 44.0,
-        "disapprove": 52.2
-    },
-    {
-        "date": "2025-09-01",
-        "approve": 44.0,
-        "disapprove": 52.2
-    },
-    {
-        "date": "2025-09-02",
-        "approve": 43.9,
-        "disapprove": 52.0
-    },
-    {
-        "date": "2025-09-03",
         "approve": 44.2,
         "disapprove": 52.1
     },
     {
+        "date": "2025-09-01",
+        "approve": 44.2,
+        "disapprove": 52.1
+    },
+    {
+        "date": "2025-09-02",
+        "approve": 44.1,
+        "disapprove": 52.0
+    },
+    {
+        "date": "2025-09-03",
+        "approve": 44.3,
+        "disapprove": 52.1
+    },
+    {
         "date": "2025-09-04",
-        "approve": 43.9,
+        "approve": 44.1,
         "disapprove": 52.4
     },
     {
         "date": "2025-09-05",
-        "approve": 43.9,
+        "approve": 44.1,
         "disapprove": 52.6
     },
     {
         "date": "2025-09-08",
         "approve": 43.9,
-        "disapprove": 52.9
+        "disapprove": 52.7
     },
     {
         "date": "2025-09-09",
         "approve": 43.9,
-        "disapprove": 52.9
+        "disapprove": 52.7
     },
     {
         "date": "2025-09-10",
-        "approve": 44.1,
-        "disapprove": 52.6
+        "approve": 44.2,
+        "disapprove": 52.4
     },
     {
         "date": "2025-09-11",
-        "approve": 44.0,
-        "disapprove": 53.1
+        "approve": 43.8,
+        "disapprove": 53.3
     },
     {
         "date": "2025-09-12",
-        "approve": 44.2,
-        "disapprove": 52.8
+        "approve": 43.9,
+        "disapprove": 53.1
     },
     {
         "date": "2025-09-15",
-        "approve": 44.2,
-        "disapprove": 52.8
+        "approve": 43.6,
+        "disapprove": 53.5
     },
     {
         "date": "2025-09-16",
-        "approve": 44.2,
-        "disapprove": 52.8
+        "approve": 43.7,
+        "disapprove": 53.4
     },
     {
         "date": "2025-09-17",
-        "approve": 44.2,
-        "disapprove": 52.8
+        "approve": 43.4,
+        "disapprove": 53.6
     },
     {
         "date": "2025-09-18",
-        "approve": 44.2,
+        "approve": 43.2,
+        "disapprove": 53.6
+    },
+    {
+        "date": "2025-09-19",
+        "approve": 43.0,
+        "disapprove": 53.9
+    },
+    {
+        "date": "2025-09-22",
+        "approve": 43.1,
+        "disapprove": 53.7
+    },
+    {
+        "date": "2025-09-23",
+        "approve": 43.3,
+        "disapprove": 53.5
+    },
+    {
+        "date": "2025-09-24",
+        "approve": 43.3,
+        "disapprove": 53.5
+    },
+    {
+        "date": "2025-09-25",
+        "approve": 43.4,
+        "disapprove": 53.4
+    },
+    {
+        "date": "2025-09-26",
+        "approve": 43.5,
+        "disapprove": 53.0
+    },
+    {
+        "date": "2025-09-29",
+        "approve": 43.4,
+        "disapprove": 53.2
+    },
+    {
+        "date": "2025-09-30",
+        "approve": 43.4,
+        "disapprove": 53.0
+    },
+    {
+        "date": "2025-10-01",
+        "approve": 43.6,
+        "disapprove": 52.9
+    },
+    {
+        "date": "2025-10-02",
+        "approve": 44.3,
+        "disapprove": 52.2
+    },
+    {
+        "date": "2025-10-03",
+        "approve": 44.1,
+        "disapprove": 52.7
+    },
+    {
+        "date": "2025-10-06",
+        "approve": 43.8,
         "disapprove": 52.8
+    },
+    {
+        "date": "2025-10-07",
+        "approve": 43.8,
+        "disapprove": 52.8
+    },
+    {
+        "date": "2025-10-08",
+        "approve": 44.0,
+        "disapprove": 52.6
+    },
+    {
+        "date": "2025-10-09",
+        "approve": 43.7,
+        "disapprove": 52.9
+    },
+    {
+        "date": "2025-10-10",
+        "approve": 43.4,
+        "disapprove": 52.9
+    },
+    {
+        "date": "2025-10-13",
+        "approve": 43.5,
+        "disapprove": 53.0
+    },
+    {
+        "date": "2025-10-14",
+        "approve": 43.8,
+        "disapprove": 52.6
+    },
+    {
+        "date": "2025-10-15",
+        "approve": 44.0,
+        "disapprove": 52.5
+    },
+    {
+        "date": "2025-10-16",
+        "approve": 44.0,
+        "disapprove": 53.0
+    },
+    {
+        "date": "2025-10-17",
+        "approve": 43.3,
+        "disapprove": 54.0
+    },
+    {
+        "date": "2025-10-20",
+        "approve": 43.3,
+        "disapprove": 54.0
+    },
+    {
+        "date": "2025-10-21",
+        "approve": 43.3,
+        "disapprove": 54.0
+    },
+    {
+        "date": "2025-10-22",
+        "approve": 43.2,
+        "disapprove": 54.0
+    },
+    {
+        "date": "2025-10-23",
+        "approve": 42.9,
+        "disapprove": 54.2
+    },
+    {
+        "date": "2025-10-24",
+        "approve": 42.5,
+        "disapprove": 54.7
+    },
+    {
+        "date": "2025-10-27",
+        "approve": 41.8,
+        "disapprove": 55.4
+    },
+    {
+        "date": "2025-10-28",
+        "approve": 42.1,
+        "disapprove": 54.8
+    },
+    {
+        "date": "2025-10-29",
+        "approve": 41.9,
+        "disapprove": 55.1
+    },
+    {
+        "date": "2025-10-30",
+        "approve": 41.9,
+        "disapprove": 55.1
+    },
+    {
+        "date": "2025-10-31",
+        "approve": 42.0,
+        "disapprove": 55.0
+    },
+    {
+        "date": "2025-11-03",
+        "approve": 41.6,
+        "disapprove": 55.1
+    },
+    {
+        "date": "2025-11-04",
+        "approve": 41.5,
+        "disapprove": 55.1
+    },
+    {
+        "date": "2025-11-05",
+        "approve": 41.7,
+        "disapprove": 55.0
+    },
+    {
+        "date": "2025-11-06",
+        "approve": 41.3,
+        "disapprove": 55.1
+    },
+    {
+        "date": "2025-11-07",
+        "approve": 41.5,
+        "disapprove": 55.0
+    },
+    {
+        "date": "2025-11-10",
+        "approve": 41.5,
+        "disapprove": 55.0
+    },
+    {
+        "date": "2025-11-11",
+        "approve": 41.5,
+        "disapprove": 55.0
+    },
+    {
+        "date": "2025-11-12",
+        "approve": 41.5,
+        "disapprove": 55.0
+    },
+    {
+        "date": "2025-11-13",
+        "approve": 41.5,
+        "disapprove": 55.0
     }
 ]

@@ -1,10 +1,12 @@
 For ratings history:
-Download benchmarks csv https://docs.google.com/spreadsheets/d/1HqUzsuFN6Jb91zNMAz7bmqmt2wB8KCsR3gkBlHEzDro/edit?gid=0#gid=0 and move to benchmark.csv in this directory.
+Download benchmarks csv https://docs.google.com/spreadsheets/d/1HqUzsuFN6Jb91zNMAz7bmqmt2wB8KCsR3gkBlHEzDro/edit?gid=0#gid=0 and move to benchmarks.csv in this directory.
 Then run python3 ai_rating.py.
 This generates models.csv and evals.csv in ../../web-app/src/assets/data for the best models tab
 It also creates rating_history.csv in this directory to upload to flourish.studio and republish
 
 --
+
+NOTE(20251102): chatbot arena history hasn't been updated for 2 months, check if it's still being pushed
 
 For chatbot arena history:
 First git lfs clone https://huggingface.co/spaces/lmarena-ai/chatbot-arena-leaderboard to pull down the history
