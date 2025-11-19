@@ -135,7 +135,7 @@ const PricePerformanceChart = () => {
       <YAxis
         type="number"
         dataKey="rating"
-	domain={[0, 82.5]}
+	domain={[0, 85]}
 	tick={{ fontSize: 12 }}
 	allowDataOverflow={true}
 	ticks={[0,20,40,60,80]}
