@@ -3,134 +3,148 @@
         "model": "gemini 3 pro",
         "company": "Google",
         "release_date": "20251118",
-        "rating": 83.4,
+        "rating": 83.3,
         "price": 4.5
     },
     {
         "model": "gpt 5 pro",
         "company": "OpenAI",
         "release_date": "20251006",
-        "rating": 78.9,
+        "rating": 79.5,
         "price": 41.25
     },
     {
         "model": "gpt 5.1 (high)",
         "company": "OpenAI",
         "release_date": "20251112",
-        "rating": 77.0,
+        "rating": 77.8,
         "price": 3.4375
     },
     {
         "model": "gpt 5 (high)",
         "company": "OpenAI",
         "release_date": "20250807",
-        "rating": 76.1,
+        "rating": 76.4,
         "price": 3.4375
     },
     {
         "model": "o3-pro (high)",
         "company": "OpenAI",
         "release_date": "20250610",
-        "rating": 74.7,
+        "rating": 75.0,
         "price": 35.0
     },
     {
         "model": "kimi k2 thinking",
         "company": "Moonshot AI",
         "release_date": "20251106",
-        "rating": 74.0,
+        "rating": 74.2,
         "price": 1.075
     },
     {
         "model": "grok 4",
         "company": "xAI",
         "release_date": "20250709",
-        "rating": 73.1,
+        "rating": 73.4,
         "price": 6.0
     },
     {
         "model": "opus 4.1",
         "company": "Anthropic",
         "release_date": "20250805",
-        "rating": 72.9,
+        "rating": 73.3,
         "price": 30.0
     },
     {
         "model": "sonnet 4.5",
         "company": "Anthropic",
         "release_date": "20250930",
-        "rating": 72.8,
+        "rating": 73.0,
         "price": 6.0
     },
     {
         "model": "o3 (medium)",
         "company": "OpenAI",
         "release_date": "20250416",
-        "rating": 72.3,
+        "rating": 72.8,
         "price": 3.5
     },
     {
         "model": "glm 4.6",
         "company": "ZAI",
         "release_date": "20250930",
-        "rating": 71.8,
+        "rating": 72.0,
         "price": 1.0
     },
     {
         "model": "o3 (high)",
         "company": "OpenAI",
         "release_date": "20250416",
-        "rating": 71.1,
+        "rating": 71.6,
         "price": 3.5
     },
     {
         "model": "qwen 3 max instruct",
         "company": "Alibaba",
         "release_date": "20250924",
-        "rating": 70.8,
+        "rating": 71.0,
         "price": 2.4
     },
     {
         "model": "deepseek-v3.2-exp",
         "company": "DeepSeek AI",
         "release_date": "20250929",
-        "rating": 70.3,
+        "rating": 70.6,
         "price": 0.315
-    },
-    {
-        "model": "qwen3-235B-A22B-thinking-2507",
-        "company": "Alibaba",
-        "release_date": "20250725",
-        "rating": 70.3,
-        "price": 0.2475
     },
     {
         "model": "gemini 2.5 0605",
         "company": "Google",
         "release_date": "20250605",
-        "rating": 70.2,
+        "rating": 70.5,
         "price": 3.4375
+    },
+    {
+        "model": "qwen3-235B-A22B-thinking-2507",
+        "company": "Alibaba",
+        "release_date": "20250725",
+        "rating": 70.4,
+        "price": 0.2475
     },
     {
         "model": "deepseek v3.1 thinking",
         "company": "DeepSeek AI",
         "release_date": "20250821",
-        "rating": 69.4,
+        "rating": 69.6,
         "price": 0.8400000000000001
     },
     {
         "model": "qwen 3 coder",
         "company": "Alibaba",
         "release_date": "20250813",
-        "rating": 69.4,
+        "rating": 69.6,
         "price": 0.6
     },
     {
         "model": "minimax-m2",
         "company": "MiniMax",
         "release_date": "20251027",
-        "rating": 69.1,
+        "rating": 69.3,
         "price": 0.5249999999999999
+    },
+    {
+        "model": "opus 4 thinking",
+        "company": "Anthropic",
+        "release_date": "20250514",
+        "rating": 69.1,
+        "price": 30.0
+    },
+    {
+        "model": "gemini 2.5 0325",
+        "company": "Google",
+        "release_date": "20250325",
+        "rating": 69.1,
+        "price": 3.4375
     },
     {
         "model": "grok 4 fast",
@@ -140,129 +154,115 @@
         "price": 0.275
     },
     {
-        "model": "haiku 4.5 thinking",
-        "company": "Anthropic",
-        "release_date": "20251015",
-        "rating": 68.9,
-        "price": 2.0
-    },
-    {
-        "model": "opus 4 thinking",
-        "company": "Anthropic",
-        "release_date": "20250514",
-        "rating": 68.8,
-        "price": 30.0
-    },
-    {
-        "model": "gemini 2.5 0325",
-        "company": "Google",
-        "release_date": "20250325",
-        "rating": 68.8,
-        "price": 3.4375
-    },
-    {
         "model": "o4-mini (high)",
         "company": "OpenAI",
         "release_date": "20250416",
-        "rating": 68.6,
+        "rating": 68.9,
         "price": 1.9250000000000003
+    },
+    {
+        "model": "haiku 4.5 thinking",
+        "company": "Anthropic",
+        "release_date": "20251015",
+        "rating": 68.7,
+        "price": 2.0
     },
     {
         "model": "gpt 5 mini (high)",
         "company": "OpenAI",
         "release_date": "20250807",
-        "rating": 68.5,
+        "rating": 68.7,
         "price": 0.6875
     },
     {
         "model": "glm 4.5",
         "company": "ZAI",
         "release_date": "20250728",
-        "rating": 68.3,
+        "rating": 68.5,
         "price": 1.0
     },
     {
         "model": "gemini 2.5 0506",
         "company": "Google",
         "release_date": "20250506",
-        "rating": 68.0,
+        "rating": 68.4,
         "price": 3.4375
     },
     {
         "model": "sonnet 4 thinking",
         "company": "Anthropic",
         "release_date": "20250514",
-        "rating": 65.8,
+        "rating": 65.9,
         "price": 6.0
     },
     {
         "model": "o4-mini (medium)",
         "company": "OpenAI",
         "release_date": "20250416",
-        "rating": 65.7,
+        "rating": 65.4,
         "price": 1.9250000000000003
-    },
-    {
-        "model": "glm 4.5 air",
-        "company": "ZAI",
-        "release_date": "20250728",
-        "rating": 63.9,
-        "price": 0.42500000000000004
     },
     {
         "model": "kimi k2 instruct 0905",
         "company": "Moonshot AI",
         "release_date": "20250905",
-        "rating": 63.8,
+        "rating": 64.0,
         "price": 1.075
+    },
+    {
+        "model": "glm 4.5 air",
+        "company": "ZAI",
+        "release_date": "20250728",
+        "rating": 64.0,
+        "price": 0.42500000000000004
     },
     {
         "model": "deepseek r1 0528",
         "company": "DeepSeek AI",
         "release_date": "20250528",
-        "rating": 63.7,
+        "rating": 63.9,
         "price": 0.96
     },
     {
         "model": "o1 pro",
         "company": "OpenAI",
         "release_date": "20250319",
-        "rating": 63.6,
+        "rating": 63.7,
         "price": 262.5
     },
     {
         "model": "gemini 2.5 flash 0520",
         "company": "Google",
         "release_date": "20250520",
-        "rating": 63.4,
+        "rating": 63.6,
         "price": 0.85
     },
     {
         "model": "sonnet 3.7 thinking",
         "company": "Anthropic",
         "release_date": "20250219",
-        "rating": 62.8,
+        "rating": 62.9,
         "price": 6.0
     },
     {
         "model": "o1 (high)",
         "company": "OpenAI",
         "release_date": "20241217",
-        "rating": 62.3,
+        "rating": 62.0,
         "price": 26.25
     },
     {
         "model": "kimi k2 instruct",
         "company": "Moonshot AI",
         "release_date": "20250711",
-        "rating": 61.8,
+        "rating": 61.9,
         "price": 1.075
     },
     {
         "model": "o1 (medium)",
         "company": "OpenAI",
         "release_date": "20241217",
-        "rating": 61.8,
+        "rating": 61.9,
         "price": 26.25
     },
     {
@@ -276,22 +276,29 @@
         "model": "gpt-oss-120b",
         "company": "OpenAI",
         "release_date": "20250805",
-        "rating": 61.4,
+        "rating": 61.5,
         "price": 0.18
     },
     {
         "model": "gemini 2.5 flash 0417",
         "company": "Google",
         "release_date": "20250417",
-        "rating": 61.2,
+        "rating": 61.3,
         "price": 0.85
     },
     {
         "model": "o3-mini (high)",
         "company": "OpenAI",
         "release_date": "20250131",
-        "rating": 61.2,
+        "rating": 61.3,
         "price": 1.9250000000000003
+    },
+    {
+        "model": "grok 3 mini (medium)",
+        "company": "xAI",
+        "release_date": "20250217",
+        "rating": 60.5,
+        "price": 0.35
     },
     {
         "model": "opus 4 no thinking",
@@ -301,17 +308,10 @@
         "price": 30.0
     },
     {
-        "model": "grok 3 mini (medium)",
-        "company": "xAI",
-        "release_date": "20250217",
-        "rating": 60.4,
-        "price": 0.35
-    },
-    {
         "model": "grok 3 beta",
         "company": "xAI",
         "release_date": "20250224",
-        "rating": 59.7,
+        "rating": 59.8,
         "price": 6.0
     },
     {
@@ -325,15 +325,22 @@
         "model": "qwen 3 235B A22B",
         "company": "Alibaba",
         "release_date": "20250429",
-        "rating": 59.0,
+        "rating": 59.1,
         "price": 0.385
     },
     {
         "model": "gemini 2.5 flash 0520 no thinking",
         "company": "Google",
         "release_date": "20250520",
-        "rating": 58.7,
+        "rating": 58.8,
         "price": 0.85
+    },
+    {
+        "model": "gpt 4.5 preview",
+        "company": "OpenAI",
+        "release_date": "20250227",
+        "rating": 58.4,
+        "price": 93.75
     },
     {
         "model": "o3-mini (medium)",
@@ -341,13 +348,6 @@
         "release_date": "20250131",
         "rating": 58.4,
         "price": 1.9250000000000003
-    },
-    {
-        "model": "gpt 4.5 preview",
-        "company": "OpenAI",
-        "release_date": "20250227",
-        "rating": 58.3,
-        "price": 93.75
     },
     {
         "model": "gpt 5 nano (high)",
@@ -360,42 +360,42 @@
         "model": "deepseek r1 0120",
         "company": "DeepSeek AI",
         "release_date": "20250120",
-        "rating": 58.1,
+        "rating": 58.2,
         "price": 0.96
     },
     {
         "model": "gpt 4.1",
         "company": "OpenAI",
         "release_date": "20250414",
-        "rating": 58.0,
+        "rating": 58.1,
         "price": 3.5
     },
     {
         "model": "sonnet 3.7 no thinking",
         "company": "Anthropic",
         "release_date": "20250219",
-        "rating": 57.5,
+        "rating": 57.4,
         "price": 6.0
     },
     {
         "model": "o1 preview",
         "company": "OpenAI",
         "release_date": "20240912",
-        "rating": 57.2,
+        "rating": 57.3,
         "price": 26.25
     },
     {
         "model": "deepseek v3 0324 (v3.1)",
         "company": "DeepSeek AI",
         "release_date": "20250324",
-        "rating": 56.6,
+        "rating": 56.7,
         "price": 0.47750000000000004
     },
     {
         "model": "chatgpt 4o 20250326",
         "company": "OpenAI",
         "release_date": "20250326",
-        "rating": 55.6,
+        "rating": 55.7,
         "price": ""
     },
     {
@@ -409,21 +409,21 @@
         "model": "gemini 2.0 flash 0121",
         "company": "Google",
         "release_date": "20250121",
-        "rating": 54.1,
+        "rating": 54.2,
         "price": 0.17500000000000002
     },
     {
         "model": "gemini 2.0 pro",
         "company": "Google",
         "release_date": "20250205",
-        "rating": 53.7,
+        "rating": 53.9,
         "price": ""
     },
     {
         "model": "sonnet 3.5 20241022",
         "company": "Anthropic",
         "release_date": "20241022",
-        "rating": 53.1,
+        "rating": 53.0,
         "price": 6.0
     },
     {
@@ -437,15 +437,22 @@
         "model": "gpt 4.1 mini",
         "company": "OpenAI",
         "release_date": "20250414",
-        "rating": 52.2,
+        "rating": 52.0,
         "price": 0.7000000000000001
     },
     {
         "model": "gemini 2.0 flash (aka 001)",
         "company": "Google",
         "release_date": "20250205",
-        "rating": 51.6,
+        "rating": 51.7,
         "price": 0.17500000000000002
+    },
+    {
+        "model": "llama 4 maverick",
+        "company": "Meta",
+        "release_date": "20250405",
+        "rating": 51.4,
+        "price": 0.26249999999999996
     },
     {
         "model": "o1-mini (medium)",
@@ -455,24 +462,17 @@
         "price": 1.9250000000000003
     },
     {
-        "model": "llama 4 maverick",
-        "company": "Meta",
-        "release_date": "20250405",
-        "rating": 51.2,
-        "price": 0.26249999999999996
-    },
-    {
         "model": "mistral medium 3",
         "company": "Mistral",
         "release_date": "20250416",
-        "rating": 50.8,
+        "rating": 50.9,
         "price": 0.8
     },
     {
         "model": "sonnet 3.5 20240620",
         "company": "Anthropic",
         "release_date": "20240620",
-        "rating": 50.0,
+        "rating": 50.2,
         "price": 6.0
     },
     {
@@ -507,42 +507,42 @@
         "model": "gpt 4o 20240806",
         "company": "OpenAI",
         "release_date": "20240806",
-        "rating": 45.9,
+        "rating": 46.1,
         "price": 4.375
     },
     {
         "model": "gemini 2.0 flash lite",
         "company": "Google",
         "release_date": "20250205",
-        "rating": 45.5,
+        "rating": 45.6,
         "price": 0.13124999999999998
-    },
-    {
-        "model": "opus 3",
-        "company": "Anthropic",
-        "release_date": "20240304",
-        "rating": 43.7,
-        "price": 30.0
     },
     {
         "model": "gemini pro 1.5 002",
         "company": "Google",
         "release_date": "20240924",
-        "rating": 43.4,
+        "rating": 43.5,
         "price": 2.1875
+    },
+    {
+        "model": "opus 3",
+        "company": "Anthropic",
+        "release_date": "20240304",
+        "rating": 43.5,
+        "price": 30.0
     },
     {
         "model": "llama 3.1 405b",
         "company": "Meta",
         "release_date": "20240723",
-        "rating": 42.7,
+        "rating": 42.8,
         "price": ""
     },
     {
         "model": "gpt 4 turbo 0409",
         "company": "OpenAI",
         "release_date": "20240409",
-        "rating": 42.6,
+        "rating": 42.7,
         "price": 15.0
     },
     {
@@ -563,7 +563,7 @@
         "model": "gemini pro 1.5 001",
         "company": "Google",
         "release_date": "20240523",
-        "rating": 37.6,
+        "rating": 37.7,
         "price": 2.1875
     },
     {
@@ -626,7 +626,7 @@
         "model": "gpt 4 0613",
         "company": "OpenAI",
         "release_date": "20230613",
-        "rating": 22.6,
+        "rating": 23.0,
         "price": 37.5
     },
     {
@@ -640,22 +640,29 @@
         "model": "claude 2",
         "company": "Anthropic",
         "release_date": "20230711",
-        "rating": 21.4,
+        "rating": 21.5,
         "price": 12.0
     },
     {
         "model": "gemini pro 1.0",
         "company": "Google",
         "release_date": "20231213",
-        "rating": 8.8,
+        "rating": 8.7,
         "price": 0.1875
     },
     {
         "model": "gpt 3.5 turbo 1106",
         "company": "OpenAI",
         "release_date": "20231106",
-        "rating": 1.4,
+        "rating": 1.6,
         "price": 1.25
+    },
+    {
+        "model": "gpt 3.5 turbo 0125",
+        "company": "OpenAI",
+        "release_date": "20240125",
+        "rating": 0.4,
+        "price": 0.75
     },
     {
         "model": "gpt 3.5",
@@ -665,17 +672,10 @@
         "price": 1.625
     },
     {
-        "model": "gpt 3.5 turbo 0125",
-        "company": "OpenAI",
-        "release_date": "20240125",
-        "rating": -0.6,
-        "price": 0.75
-    },
-    {
         "model": "llama-2-70b-chat-hf",
         "company": "Meta",
         "release_date": "20230718",
-        "rating": -1.5,
+        "rating": -1.4,
         "price": ""
     },
     {
@@ -689,14 +689,14 @@
         "model": "gpt 2",
         "company": "OpenAI",
         "release_date": "20191105",
-        "rating": -27.3,
+        "rating": -27.4,
         "price": ""
     },
     {
         "model": "gpt 3",
         "company": "OpenAI",
         "release_date": "20200611",
-        "rating": -39.2,
+        "rating": -39.3,
         "price": 20.0
     }
 ]
