@@ -1,3 +1,5 @@
+set -x
+
 #news
 cd news
 python3 generate_news.py
@@ -13,6 +15,8 @@ cd ..
 cd sports_elos
 python3 populate_data.py
 cd ..
+
+set +x
 
 #cd ../../web-app
 #npm run build
