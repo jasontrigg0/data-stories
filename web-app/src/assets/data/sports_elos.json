@@ -6527,211 +6527,211 @@
                 "rank": 1,
                 "category": "f1",
                 "name": "Lando Norris",
-                "date": "20251122",
-                "score": "559.9",
-                "player": "309.5",
-                "chassis": "215.6",
-                "engine": "34.8"
+                "date": "20251130",
+                "score": "567.0",
+                "player": "295.0",
+                "chassis": "216.6",
+                "engine": "55.5"
             },
             {
                 "rank": 2,
                 "category": "f1",
                 "name": "Max Verstappen",
-                "date": "20251122",
-                "score": "466.0",
-                "player": "366.3",
-                "chassis": "144.0",
-                "engine": "-44.3"
+                "date": "20251130",
+                "score": "517.7",
+                "player": "391.2",
+                "chassis": "160.0",
+                "engine": "-33.5"
             },
             {
                 "rank": 3,
                 "category": "f1",
                 "name": "Oscar Piastri",
-                "date": "20251122",
-                "score": "442.5",
-                "player": "192.1",
-                "chassis": "215.6",
-                "engine": "34.8"
+                "date": "20251130",
+                "score": "480.9",
+                "player": "208.9",
+                "chassis": "216.6",
+                "engine": "55.5"
             },
             {
                 "rank": 4,
                 "category": "f1",
                 "name": "George Russell",
-                "date": "20251122",
-                "score": "380.1",
-                "player": "122.4",
-                "chassis": "222.8",
-                "engine": "34.8"
+                "date": "20251130",
+                "score": "381.3",
+                "player": "104.1",
+                "chassis": "221.7",
+                "engine": "55.5"
             },
             {
                 "rank": 5,
                 "category": "f1",
                 "name": "Charles Leclerc",
-                "date": "20251122",
-                "score": "332.7",
-                "player": "117.7",
-                "chassis": "193.2",
-                "engine": "21.7"
+                "date": "20251130",
+                "score": "231.2",
+                "player": "84.1",
+                "chassis": "158.5",
+                "engine": "-11.4"
             },
             {
                 "rank": 6,
                 "category": "f1",
                 "name": "Kimi Antonelli",
-                "date": "20251122",
-                "score": "183.1",
-                "player": "-74.5",
-                "chassis": "222.8",
-                "engine": "34.8"
+                "date": "20251130",
+                "score": "218.9",
+                "player": "-58.3",
+                "chassis": "221.7",
+                "engine": "55.5"
             },
             {
                 "rank": 7,
                 "category": "f1",
-                "name": "Lewis Hamilton",
-                "date": "20251122",
-                "score": "155.8",
-                "player": "-59.2",
-                "chassis": "193.2",
-                "engine": "21.7"
+                "name": "Carlos Sainz",
+                "date": "20251130",
+                "score": "44.3",
+                "player": "166.3",
+                "chassis": "-177.4",
+                "engine": "55.5"
             },
             {
                 "rank": 8,
                 "category": "f1",
-                "name": "Oliver Bearman",
-                "date": "20251122",
-                "score": "30.7",
-                "player": "57.0",
-                "chassis": "-48.0",
-                "engine": "21.7"
+                "name": "Lewis Hamilton",
+                "date": "20251130",
+                "score": "34.7",
+                "player": "-112.3",
+                "chassis": "158.5",
+                "engine": "-11.4"
             },
             {
                 "rank": 9,
                 "category": "f1",
-                "name": "Carlos Sainz",
-                "date": "20251122",
-                "score": "-70.4",
-                "player": "97.7",
-                "chassis": "-202.9",
-                "engine": "34.8"
+                "name": "Oliver Bearman",
+                "date": "20251130",
+                "score": "-18.5",
+                "player": "57.0",
+                "chassis": "-64.0",
+                "engine": "-11.4"
             },
             {
                 "rank": 10,
                 "category": "f1",
-                "name": "Isack Hadjar",
-                "date": "20251122",
-                "score": "-98.8",
-                "player": "24.4",
-                "chassis": "-78.9",
-                "engine": "-44.3"
+                "name": "Fernando Alonso",
+                "date": "20251130",
+                "score": "-70.8",
+                "player": "-45.7",
+                "chassis": "-80.6",
+                "engine": "55.5"
             },
             {
                 "rank": 11,
                 "category": "f1",
-                "name": "Nico Hulkenberg",
-                "date": "20251122",
-                "score": "-108.6",
-                "player": "47.1",
-                "chassis": "-177.4",
-                "engine": "21.7"
+                "name": "Isack Hadjar",
+                "date": "20251130",
+                "score": "-81.3",
+                "player": "24.3",
+                "chassis": "-72.2",
+                "engine": "-33.5"
             },
             {
                 "rank": 12,
                 "category": "f1",
                 "name": "Alexander Albon",
-                "date": "20251122",
-                "score": "-133.3",
-                "player": "34.9",
-                "chassis": "-202.9",
-                "engine": "34.8"
+                "date": "20251130",
+                "score": "-92.1",
+                "player": "29.9",
+                "chassis": "-177.4",
+                "engine": "55.5"
             },
             {
                 "rank": 13,
                 "category": "f1",
                 "name": "Liam Lawson",
-                "date": "20251122",
-                "score": "-135.8",
-                "player": "-12.6",
-                "chassis": "-78.9",
-                "engine": "-44.3"
+                "date": "20251130",
+                "score": "-100.9",
+                "player": "4.8",
+                "chassis": "-72.2",
+                "engine": "-33.5"
             },
             {
                 "rank": 14,
                 "category": "f1",
-                "name": "Fernando Alonso",
-                "date": "20251122",
-                "score": "-145.4",
-                "player": "-84.0",
-                "chassis": "-96.1",
-                "engine": "34.8"
+                "name": "Nico Hulkenberg",
+                "date": "20251130",
+                "score": "-149.0",
+                "player": "47.0",
+                "chassis": "-184.6",
+                "engine": "-11.4"
             },
             {
                 "rank": 15,
                 "category": "f1",
-                "name": "Esteban Ocon",
-                "date": "20251122",
-                "score": "-183.5",
-                "player": "-157.2",
-                "chassis": "-48.0",
-                "engine": "21.7"
+                "name": "Yuki Tsunoda",
+                "date": "20251130",
+                "score": "-158.7",
+                "player": "-285.2",
+                "chassis": "160.0",
+                "engine": "-33.5"
             },
             {
                 "rank": 16,
                 "category": "f1",
                 "name": "Gabriel Bortoleto",
-                "date": "20251122",
-                "score": "-191.4",
-                "player": "-35.6",
-                "chassis": "-177.4",
-                "engine": "21.7"
+                "date": "20251130",
+                "score": "-250.7",
+                "player": "-54.6",
+                "chassis": "-184.6",
+                "engine": "-11.4"
             },
             {
                 "rank": 17,
                 "category": "f1",
-                "name": "Yuki Tsunoda",
-                "date": "20251122",
-                "score": "-200.4",
-                "player": "-300.1",
-                "chassis": "144.0",
-                "engine": "-44.3"
+                "name": "Esteban Ocon",
+                "date": "20251130",
+                "score": "-272.2",
+                "player": "-196.8",
+                "chassis": "-64.0",
+                "engine": "-11.4"
             },
             {
                 "rank": 18,
                 "category": "f1",
                 "name": "Lance Stroll",
-                "date": "20251122",
-                "score": "-341.6",
+                "date": "20251130",
+                "score": "-305.5",
                 "player": "-280.3",
-                "chassis": "-96.1",
-                "engine": "34.8"
+                "chassis": "-80.6",
+                "engine": "55.5"
             },
             {
                 "rank": 19,
                 "category": "f1",
                 "name": "Pierre Gasly",
-                "date": "20251122",
-                "score": "-425.6",
-                "player": "-137.7",
-                "chassis": "-172.2",
-                "engine": "-115.7"
+                "date": "20251130",
+                "score": "-457.3",
+                "player": "-158.9",
+                "chassis": "-177.9",
+                "engine": "-120.5"
             },
             {
                 "rank": 20,
                 "category": "f1",
                 "name": "Franco Colapinto",
-                "date": "20251122",
-                "score": "-516.0",
-                "player": "-228.1",
-                "chassis": "-172.2",
-                "engine": "-115.7"
+                "date": "20251130",
+                "score": "-518.9",
+                "player": "-220.5",
+                "chassis": "-177.9",
+                "engine": "-120.5"
             },
             {
                 "rank": 21,
                 "category": "f1",
                 "name": "Jack Doohan",
-                "date": "20251122",
-                "score": "-537.9",
+                "date": "20251130",
+                "score": "-548.4",
                 "player": "-250.0",
-                "chassis": "-172.2",
-                "engine": "-115.7"
+                "chassis": "-177.9",
+                "engine": "-120.5"
             }
         ],
         "alltime": [
@@ -7628,22 +7628,22 @@
             {
                 "rank": 90,
                 "category": "f1",
-                "name": "Mike Hawthorn",
-                "date": "19581019",
-                "score": "136.4",
-                "player": "101.5",
-                "chassis": "28.7",
-                "engine": "6.2"
-            },
-            {
-                "rank": 91,
-                "category": "f1",
                 "name": "Nico Hulkenberg",
                 "date": "20161127",
                 "score": "136.4",
                 "player": "71.0",
                 "chassis": "-32.2",
                 "engine": "97.6"
+            },
+            {
+                "rank": 91,
+                "category": "f1",
+                "name": "Mike Hawthorn",
+                "date": "19581019",
+                "score": "136.4",
+                "player": "101.5",
+                "chassis": "28.7",
+                "engine": "6.2"
             },
             {
                 "rank": 92,
@@ -32491,6 +32491,17 @@
             },
             {
                 "rank": 5,
+                "category": "f1",
+                "name": "Lando Norris",
+                "date": "20251130",
+                "score": "49.7",
+                "player": "",
+                "chassis": "",
+                "engine": "",
+                "sport": "f1"
+            },
+            {
+                "rank": 6,
                 "category": "nhl",
                 "name": "COL",
                 "date": "20251126",
@@ -32498,18 +32509,18 @@
                 "sport": "nhl"
             },
             {
-                "rank": 6,
+                "rank": 7,
                 "category": "f1",
-                "name": "Lando Norris",
-                "date": "20251122",
-                "score": "47.8",
+                "name": "Max Verstappen",
+                "date": "20251130",
+                "score": "36.7",
                 "player": "",
                 "chassis": "",
                 "engine": "",
                 "sport": "f1"
             },
             {
-                "rank": 7,
+                "rank": 8,
                 "category": "cfb",
                 "name": "Ohio State",
                 "date": "20251129",
@@ -32517,34 +32528,23 @@
                 "sport": "cfb"
             },
             {
-                "rank": 8,
+                "rank": 9,
                 "category": "f1",
-                "name": "Max Verstappen",
-                "date": "20251122",
-                "score": "24.6",
+                "name": "Oscar Piastri",
+                "date": "20251130",
+                "score": "27.8",
                 "player": "",
                 "chassis": "",
                 "engine": "",
                 "sport": "f1"
             },
             {
-                "rank": 9,
+                "rank": 10,
                 "category": "cbb",
                 "name": "Michigan",
                 "date": "20251129",
                 "score": "21.8",
                 "sport": "cbb"
-            },
-            {
-                "rank": 10,
-                "category": "f1",
-                "name": "Oscar Piastri",
-                "date": "20251122",
-                "score": "19.8",
-                "player": "",
-                "chassis": "",
-                "engine": "",
-                "sport": "f1"
             },
             {
                 "rank": 11,
@@ -32584,8 +32584,8 @@
                 "rank": 15,
                 "category": "f1",
                 "name": "George Russell",
-                "date": "20251122",
-                "score": "10.2",
+                "date": "20251130",
+                "score": "10.4",
                 "player": "",
                 "chassis": "",
                 "engine": "",
@@ -32657,17 +32657,6 @@
             },
             {
                 "rank": 24,
-                "category": "f1",
-                "name": "Charles Leclerc",
-                "date": "20251122",
-                "score": "5.6",
-                "player": "",
-                "chassis": "",
-                "engine": "",
-                "sport": "f1"
-            },
-            {
-                "rank": 25,
                 "category": "nba",
                 "name": "DEN",
                 "date": "20251126",
@@ -32675,7 +32664,7 @@
                 "sport": "nba"
             },
             {
-                "rank": 26,
+                "rank": 25,
                 "category": "nba",
                 "name": "HOU",
                 "date": "20251126",
@@ -32683,7 +32672,7 @@
                 "sport": "nba"
             },
             {
-                "rank": 27,
+                "rank": 26,
                 "category": "cfb",
                 "name": "Notre Dame",
                 "date": "20251129",
@@ -32691,7 +32680,7 @@
                 "sport": "cfb"
             },
             {
-                "rank": 28,
+                "rank": 27,
                 "category": "nhl",
                 "name": "WPG",
                 "date": "20251126",
@@ -32699,7 +32688,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 29,
+                "rank": 28,
                 "category": "golf",
                 "name": "Rory McIlroy",
                 "date": "20251123",
@@ -32707,7 +32696,7 @@
                 "sport": "golf"
             },
             {
-                "rank": 30,
+                "rank": 29,
                 "category": "golf",
                 "name": "Bryson DeChambeau",
                 "date": "20251123",
@@ -32715,7 +32704,7 @@
                 "sport": "golf"
             },
             {
-                "rank": 31,
+                "rank": 30,
                 "category": "cfb",
                 "name": "Texas Tech",
                 "date": "20251129",
@@ -32723,7 +32712,7 @@
                 "sport": "cfb"
             },
             {
-                "rank": 32,
+                "rank": 31,
                 "category": "ufc",
                 "name": "Merab Dvalishvili",
                 "date": "20251122",
@@ -32733,7 +32722,7 @@
                 "sport": "ufc"
             },
             {
-                "rank": 33,
+                "rank": 32,
                 "category": "nhl",
                 "name": "CAR",
                 "date": "20251126",
@@ -32741,7 +32730,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 34,
+                "rank": 33,
                 "category": "nhl",
                 "name": "WSH",
                 "date": "20251126",
@@ -32749,7 +32738,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 35,
+                "rank": 34,
                 "category": "mlb",
                 "name": "MIL",
                 "date": "20251101",
@@ -32757,7 +32746,7 @@
                 "sport": "mlb"
             },
             {
-                "rank": 36,
+                "rank": 35,
                 "category": "cfb",
                 "name": "Oregon",
                 "date": "20251129",
@@ -32765,7 +32754,7 @@
                 "sport": "cfb"
             },
             {
-                "rank": 37,
+                "rank": 36,
                 "category": "golf",
                 "name": "Xander Schauffele",
                 "date": "20251123",
@@ -32773,7 +32762,7 @@
                 "sport": "golf"
             },
             {
-                "rank": 38,
+                "rank": 37,
                 "category": "golf",
                 "name": "Ben Griffin",
                 "date": "20251123",
@@ -32781,7 +32770,7 @@
                 "sport": "golf"
             },
             {
-                "rank": 39,
+                "rank": 38,
                 "category": "nhl",
                 "name": "LAK",
                 "date": "20251126",
@@ -32789,7 +32778,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 40,
+                "rank": 39,
                 "category": "cbb",
                 "name": "Houston",
                 "date": "20251129",
@@ -32797,7 +32786,7 @@
                 "sport": "cbb"
             },
             {
-                "rank": 41,
+                "rank": 40,
                 "category": "cbb",
                 "name": "Arizona",
                 "date": "20251129",
@@ -32805,7 +32794,7 @@
                 "sport": "cbb"
             },
             {
-                "rank": 42,
+                "rank": 41,
                 "category": "cbb",
                 "name": "Purdue",
                 "date": "20251129",
@@ -32813,12 +32802,23 @@
                 "sport": "cbb"
             },
             {
-                "rank": 43,
+                "rank": 42,
                 "category": "nhl",
                 "name": "VEG",
                 "date": "20251126",
                 "score": "1.4",
                 "sport": "nhl"
+            },
+            {
+                "rank": 43,
+                "category": "f1",
+                "name": "Charles Leclerc",
+                "date": "20251130",
+                "score": "1.2",
+                "player": "",
+                "chassis": "",
+                "engine": "",
+                "sport": "f1"
             },
             {
                 "rank": 44,
@@ -32838,6 +32838,17 @@
             },
             {
                 "rank": 46,
+                "category": "f1",
+                "name": "Kimi Antonelli",
+                "date": "20251130",
+                "score": "0.9",
+                "player": "",
+                "chassis": "",
+                "engine": "",
+                "sport": "f1"
+            },
+            {
+                "rank": 47,
                 "category": "nhl",
                 "name": "NYR",
                 "date": "20251126",
@@ -32845,7 +32856,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 47,
+                "rank": 48,
                 "category": "nhl",
                 "name": "EDM",
                 "date": "20251126",
@@ -32853,7 +32864,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 48,
+                "rank": 49,
                 "category": "mlb",
                 "name": "NYY",
                 "date": "20251101",
@@ -32861,7 +32872,7 @@
                 "sport": "mlb"
             },
             {
-                "rank": 49,
+                "rank": 50,
                 "category": "cbb",
                 "name": "St. John's (NY)",
                 "date": "20251129",
@@ -32869,7 +32880,7 @@
                 "sport": "cbb"
             },
             {
-                "rank": 50,
+                "rank": 51,
                 "category": "cbb",
                 "name": "Auburn",
                 "date": "20251129",
@@ -32877,7 +32888,7 @@
                 "sport": "cbb"
             },
             {
-                "rank": 51,
+                "rank": 52,
                 "category": "mlb",
                 "name": "PHI",
                 "date": "20251101",
@@ -32885,7 +32896,7 @@
                 "sport": "mlb"
             },
             {
-                "rank": 52,
+                "rank": 53,
                 "category": "cbb",
                 "name": "Florida",
                 "date": "20251129",
@@ -32893,7 +32904,7 @@
                 "sport": "cbb"
             },
             {
-                "rank": 53,
+                "rank": 54,
                 "category": "cbb",
                 "name": "Michigan State",
                 "date": "20251129",
@@ -32901,7 +32912,7 @@
                 "sport": "cbb"
             },
             {
-                "rank": 54,
+                "rank": 55,
                 "category": "nba",
                 "name": "MIN",
                 "date": "20251126",
@@ -32909,7 +32920,7 @@
                 "sport": "nba"
             },
             {
-                "rank": 55,
+                "rank": 56,
                 "category": "golf",
                 "name": "Joaquin Niemann",
                 "date": "20251123",
@@ -32917,23 +32928,12 @@
                 "sport": "golf"
             },
             {
-                "rank": 56,
+                "rank": 57,
                 "category": "nhl",
                 "name": "OTT",
                 "date": "20251126",
                 "score": "0.5",
                 "sport": "nhl"
-            },
-            {
-                "rank": 57,
-                "category": "f1",
-                "name": "Kimi Antonelli",
-                "date": "20251122",
-                "score": "0.5",
-                "player": "",
-                "chassis": "",
-                "engine": "",
-                "sport": "f1"
             },
             {
                 "rank": 58,
@@ -33001,17 +33001,6 @@
             },
             {
                 "rank": 66,
-                "category": "f1",
-                "name": "Lewis Hamilton",
-                "date": "20251122",
-                "score": "0.3",
-                "player": "",
-                "chassis": "",
-                "engine": "",
-                "sport": "f1"
-            },
-            {
-                "rank": 67,
                 "category": "nhl",
                 "name": "NJD",
                 "date": "20251126",
@@ -33019,7 +33008,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 68,
+                "rank": 67,
                 "category": "nhl",
                 "name": "UTA",
                 "date": "20251126",
@@ -33027,7 +33016,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 69,
+                "rank": 68,
                 "category": "golf",
                 "name": "Patrick Cantlay",
                 "date": "20251123",
@@ -33035,7 +33024,7 @@
                 "sport": "golf"
             },
             {
-                "rank": 70,
+                "rank": 69,
                 "category": "golf",
                 "name": "Sam Burns",
                 "date": "20251123",
@@ -33043,7 +33032,7 @@
                 "sport": "golf"
             },
             {
-                "rank": 71,
+                "rank": 70,
                 "category": "golf",
                 "name": "Viktor Hovland",
                 "date": "20251123",
@@ -33051,7 +33040,7 @@
                 "sport": "golf"
             },
             {
-                "rank": 72,
+                "rank": 71,
                 "category": "nhl",
                 "name": "STL",
                 "date": "20251126",
@@ -33059,7 +33048,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 73,
+                "rank": 72,
                 "category": "nfl",
                 "name": "KAN",
                 "date": "20251128",
@@ -33067,7 +33056,7 @@
                 "sport": "nfl"
             },
             {
-                "rank": 74,
+                "rank": 73,
                 "category": "nba",
                 "name": "NYK",
                 "date": "20251126",
@@ -33075,7 +33064,7 @@
                 "sport": "nba"
             },
             {
-                "rank": 75,
+                "rank": 74,
                 "category": "nhl",
                 "name": "CBJ",
                 "date": "20251126",
@@ -33083,7 +33072,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 76,
+                "rank": 75,
                 "category": "nba",
                 "name": "DET",
                 "date": "20251126",
@@ -33091,7 +33080,7 @@
                 "sport": "nba"
             },
             {
-                "rank": 77,
+                "rank": 76,
                 "category": "nfl",
                 "name": "GNB",
                 "date": "20251128",
@@ -33099,7 +33088,7 @@
                 "sport": "nfl"
             },
             {
-                "rank": 78,
+                "rank": 77,
                 "category": "nhl",
                 "name": "PIT",
                 "date": "20251126",
@@ -33107,7 +33096,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 79,
+                "rank": 78,
                 "category": "nhl",
                 "name": "SEA",
                 "date": "20251126",
@@ -33115,7 +33104,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 80,
+                "rank": 79,
                 "category": "cbb",
                 "name": "Kentucky",
                 "date": "20251129",
@@ -33123,7 +33112,7 @@
                 "sport": "cbb"
             },
             {
-                "rank": 81,
+                "rank": 80,
                 "category": "nhl",
                 "name": "BUF",
                 "date": "20251126",
@@ -33131,7 +33120,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 82,
+                "rank": 81,
                 "category": "nhl",
                 "name": "ANA",
                 "date": "20251126",
@@ -33139,7 +33128,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 83,
+                "rank": 82,
                 "category": "golf",
                 "name": "Tyrrell Hatton",
                 "date": "20251123",
@@ -33147,7 +33136,7 @@
                 "sport": "golf"
             },
             {
-                "rank": 84,
+                "rank": 83,
                 "category": "golf",
                 "name": "Keegan Bradley",
                 "date": "20251123",
@@ -33155,7 +33144,7 @@
                 "sport": "golf"
             },
             {
-                "rank": 85,
+                "rank": 84,
                 "category": "golf",
                 "name": "Matt Fitzpatrick",
                 "date": "20251123",
@@ -33163,7 +33152,7 @@
                 "sport": "golf"
             },
             {
-                "rank": 86,
+                "rank": 85,
                 "category": "golf",
                 "name": "Corey Conners",
                 "date": "20251123",
@@ -33171,7 +33160,7 @@
                 "sport": "golf"
             },
             {
-                "rank": 87,
+                "rank": 86,
                 "category": "golf",
                 "name": "J.J. Spaun",
                 "date": "20251123",
@@ -33179,7 +33168,7 @@
                 "sport": "golf"
             },
             {
-                "rank": 88,
+                "rank": 87,
                 "category": "golf",
                 "name": "Cameron Young",
                 "date": "20251123",
@@ -33187,7 +33176,7 @@
                 "sport": "golf"
             },
             {
-                "rank": 89,
+                "rank": 88,
                 "category": "golf",
                 "name": "Harry Hall",
                 "date": "20251123",
@@ -33195,7 +33184,7 @@
                 "sport": "golf"
             },
             {
-                "rank": 90,
+                "rank": 89,
                 "category": "golf",
                 "name": "Ludvig \u00c5berg",
                 "date": "20251123",
@@ -33203,7 +33192,7 @@
                 "sport": "golf"
             },
             {
-                "rank": 91,
+                "rank": 90,
                 "category": "cbb",
                 "name": "Brigham Young",
                 "date": "20251129",
@@ -33211,7 +33200,7 @@
                 "sport": "cbb"
             },
             {
-                "rank": 92,
+                "rank": 91,
                 "category": "nhl",
                 "name": "NYI",
                 "date": "20251126",
@@ -33219,7 +33208,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 93,
+                "rank": 92,
                 "category": "cbb",
                 "name": "Connecticut",
                 "date": "20251129",
@@ -33227,7 +33216,7 @@
                 "sport": "cbb"
             },
             {
-                "rank": 94,
+                "rank": 93,
                 "category": "nhl",
                 "name": "BOS",
                 "date": "20251126",
@@ -33235,7 +33224,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 95,
+                "rank": 94,
                 "category": "nhl",
                 "name": "MTL",
                 "date": "20251126",
@@ -33243,7 +33232,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 96,
+                "rank": 95,
                 "category": "nhl",
                 "name": "DET",
                 "date": "20251126",
@@ -33251,7 +33240,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 97,
+                "rank": 96,
                 "category": "mlb",
                 "name": "BOS",
                 "date": "20251101",
@@ -33259,7 +33248,7 @@
                 "sport": "mlb"
             },
             {
-                "rank": 98,
+                "rank": 97,
                 "category": "mlb",
                 "name": "CHC",
                 "date": "20251101",
@@ -33267,7 +33256,7 @@
                 "sport": "mlb"
             },
             {
-                "rank": 99,
+                "rank": 98,
                 "category": "nhl",
                 "name": "CGY",
                 "date": "20251126",
@@ -33275,12 +33264,20 @@
                 "sport": "nhl"
             },
             {
-                "rank": 100,
+                "rank": 99,
                 "category": "cfb",
                 "name": "Miami (FL)",
                 "date": "20251129",
                 "score": "0.0",
                 "sport": "cfb"
+            },
+            {
+                "rank": 100,
+                "category": "nba",
+                "name": "LAL",
+                "date": "20251126",
+                "score": "0.0",
+                "sport": "nba"
             }
         ],
         "alltime": [
