@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import { ToggleGroup } from './ToggleGroup';
+import { StandardTable } from './StandardTable';
+import { Dropdown } from './Dropdown';
 import draftData from './assets/data/ff_draft_stats.json';
 
 const FantasyFootball = () => {
@@ -50,59 +52,6 @@ const FantasyFootball = () => {
   )
 }
 
-const Dropdown = ({options, callback, defaultOption}) => {
-  const [selectedNumber, setSelectedNumber] = useState(defaultOption);
-
-  const handleChange = (e) => {
-    console.log(e.target.value);
-    setSelectedNumber(e.target.value);
-    if (e.target.value != "") {
-	callback(e.target.value);
-    }
-  };
-
-  return (
-     <div className="p-6 max-w-md mx-auto">
-      <select
-        id="number-select"
-        value={selectedNumber}
-        onChange={handleChange}
-        className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-      >
-        <option value="">Choose a Draft Position...</option>
-        {options.map((num) => (
-          <option key={num} value={num}>
-            {num}
-          </option>
-        ))}
-      </select>
-    </div>
-  )
-}
-
-const StandardTable = ({headers, data}) => {
-  return (<div>
-    <table className="min-w-full divide-y divide-gray-200">
-      <thead className="bg-gray-50">
-	<tr>
-	  {headers.map((column, j) => (
-	    <th key={j} scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-24">{column.label}</th>
-	  ))}
-	</tr>
-      </thead>
-      <tbody className="bg-white divide-y divide-gray-200">
-	{data.map((row, i) => (
-	  <tr key={i} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
-	    {headers.map((column, j) => (
-	       <td key={j} className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-500">{row[column.key]}</td>
-	    ))}
-	  </tr>
-	))}
-      </tbody>
-    </table>
-  </div>);
-}
-
 const DraftOrderTable = ({data}) => {
   const headers = [
     { key:"pick_num", label: "Rank"},
@@ -140,7 +89,7 @@ const StrategyList = ({data}) => {
   return (
     <>
       <p>Sample draft for each draft position, assuming a 1 QB, 2 RB, 2 WR, 1 TE, 1 Flex roster.</p>
-      <Dropdown options={Object.keys(data)} callback={(option) => { setDraftPosition(option); }}/>
+      <Dropdown options={Object.keys(data)} callback={(option) => { setDraftPosition(option); }} placeholder="Choose a Draft Position..." center={true}/>
       <div className="px-6 max-w-md mx-auto">
 	<div className="mb-4 p-3 bg-blue-50 border border-blue-200 rounded-md">
 	  <p className="text-blue-800">Total points drafted: {data[draftPosition]["total_value"]}</p>

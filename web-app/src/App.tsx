@@ -1,13 +1,14 @@
-import { useState } from 'react'
-import './App.css'
-import { Menu, X, ChevronRight, Home, User, Settings, Mail, HelpCircle, Newspaper, ChartArea, Sparkles, Shirt, Icon } from 'lucide-react';
+import { useState } from 'react';
+import './App.css';
+import { Menu, X, ChevronRight, Home, User, Settings, Mail, HelpCircle, Newspaper, ChartArea, Sparkles, Shirt, Icon, Vote } from 'lucide-react';
 import { football } from '@lucide/lab';
-import NewsFeed from './News.tsx'
-import ApprovalRatings from './Approval.tsx'
-import AILeaderboard from './AILeaderboard.tsx'
-import SportsElos from './SportsElos.tsx'
-import FantasyFootball from './FantasyFootball.tsx'
-import { useSearchParams } from "react-router-dom";
+import NewsFeed from './News.tsx';
+import ApprovalRatings from './Approval.tsx';
+import AILeaderboard from './AILeaderboard.tsx';
+import SportsElos from './SportsElos.tsx';
+import FantasyFootball from './FantasyFootball.tsx';
+import CongressRankings from './CongressRankings.tsx';
+import { useSearchParams } from 'react-router-dom';
 
 // Content components for each section
 const contentComponents = {
@@ -25,7 +26,10 @@ const contentComponents = {
   ),
   "Fantasy Football": () => (
     <FantasyFootball/>
-  )
+  ),
+  "Congress Rankings": () => (
+    <CongressRankings/>
+  ),
 };
 
 const Football = () => {
@@ -85,6 +89,13 @@ const Sidebar = ({open, activeSection, setActiveSection, toggleSidebar}) => {
           expanded={open} 
           active={activeSection === 'Sports'} 
           onClick={() => setActiveSection('Sports')}
+        />
+        <SidebarItem
+          icon={Vote} 
+          label="Congress Rankings" 
+          expanded={open} 
+          active={activeSection === 'Congress Rankings'} 
+          onClick={() => setActiveSection('Congress Rankings')}
         />
         <SidebarItem
           icon={Football} 
