@@ -203,6 +203,7 @@ def leaders_over_time(model_rows):
 def write_evals(model_to_info, eval_to_offset, eval_to_scale, is_eval_percent, ratio):
     output_rows = []
     for eval_ in eval_to_offset:
+        print(eval_, eval_to_offset[eval_], eval_to_scale[eval_])
         diff = -1 * ratio * eval_to_offset[eval_] / eval_to_scale[eval_]
         
         num_evals = [model for model in model_to_info if model_to_info[model][eval_] != ""]

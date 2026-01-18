@@ -5,14 +5,30 @@ import json
 
 def process_row(row):
     output = {}
-    output["sample_size"] = row["Sample"].split("@@")[1]
-    output["sample_type"] = row["Sample"].split("@@")[0].split()[1]
+    output["sample_size"] = row["Sample"].split()[-1].split("@@")[1]
+    output["sample_type"] = row["Sample"].split()[-1].split("@@")[0]
+
     date_range_string = row["Dates"].split("@@")[0] #'2/7 - 2/13, 2025@@23785'
-    year = date_range_string.split(",")[1].strip()
-    start_date = date_range_string.split(",")[0].split("-")[0].strip()
-    end_date = date_range_string.split(",")[0].split("-")[1].strip()
-    start = datetime.datetime(year=int(year), month=int(start_date.split("/")[0]), day=int(start_date.split("/")[1]))
-    end = datetime.datetime(year=int(year), month=int(end_date.split("/")[0]), day=int(end_date.split("/")[1]))
+
+    print(date_range_string)
+    #two formats
+    #2/7 - 2/13, 2025
+    #12/29, 2025 - 1/4, 2026
+    date1, date2 = [x.strip() for x in date_range_string.split("-")]
+
+    mmdd2 = date2.split(",")[0].strip()
+    year2 = date2.split(",")[1].strip()
+    if "," in date1:
+        mmdd1 = date1.split(",")[0].strip()
+        year1 = date1.split(",")[1].strip()
+    else:
+        mmdd1 = date1.strip()
+        year1 = year2
+
+    start = datetime.datetime(year=int(year1), month=int(mmdd1.split("/")[0]), day=int(mmdd1.split("/")[1]))
+    end = datetime.datetime(year=int(year2), month=int(mmdd2.split("/")[0]), day=int(mmdd2.split("/")[1]))
+
+    print(date_range_string, start, end)
     output["start"] = start.strftime("%Y%m%d")
     output["end"] = end.strftime("%Y%m%d")
     output["Pollster"] = re.findall(">(.*?)<",row["Pollster"])[0]
@@ -216,7 +232,7 @@ class PollingCalculator:
             self.daily_cnt[dt] = self.daily_cnt.get(dt,0) + 1
         
         adj_k = self.k * (1 + self.k_mult / self.cnt)
-        poll_variance = 1 + self.sample_var_wt/(int(output["sample_size"])**0.5) + self.pollster_var_wt*self.pollster_vars[pollster]
+        poll_variance = 1 + self.sample_var_wt/((int(output["sample_size"]) + 1)**0.5) + self.pollster_var_wt*self.pollster_vars[pollster]
         weight = 1 / poll_variance
 
         if pollster == "Rasmussen Reports":

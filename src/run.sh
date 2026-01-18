@@ -7,7 +7,7 @@ cd ..
 
 #approval ratings
 cd approval_ratings
-curl https://static.dwcdn.net/data/vknzT.csv?v=0 | sed 's/7\/31 - 7\/6/7\/31 - 8\/6/g' > polls.csv
+curl https://static.dwcdn.net/data/vknzT.csv?v=0 | sed 's/7\/31 - 7\/6/7\/31 - 8\/6/g' | sed 's/12\/13 - 12\/13/12\/15 - 12\/15/g' | sed 's/12\/20 - 12\/21/12\/22 - 12\/23/g' > polls.csv
 python3 approval_polling.py
 cd ..
 
