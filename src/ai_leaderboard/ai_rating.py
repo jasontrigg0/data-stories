@@ -31,7 +31,7 @@ def load_benchmarks():
 def normalize_scores(scores, all_evals, is_eval_percent):
     #doesn't have a big impact on results:
     for x in scores:
-        if is_eval_percent[x["eval"]]:
+        if is_eval_percent[x["eval"]] and x["eval"] not in ["METR 1.1 50%"]:
             x["score"] = max(0.01,min(0.99, x["score"]/100)) #trim between 0.01 and 0.99
             x["score"] = math.log(x["score"] / (1-x["score"]))
             
