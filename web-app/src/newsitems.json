@@ -1,112 +1,79 @@
 [
     {
-        "title": "Democrats eye legal action, GOP seeks answers on Trump admin \"spying\" on Congress",
-        "excerpt": "\"This is very serious, and we're not going to let it go,\" said one House Democrat.",
+        "title": "U.S.-Iran talks expected Thursday to discuss nuclear proposal",
+        "excerpt": "Trump's advisers are urging him to give the talks a chance before ordering a strike.",
         "category": "Politics",
         "source": "Axios",
-        "date": "February 12, 2026",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdG5Bbnhmb0VxdEpLU0FVcFQ3WUZTbmJ1WU5WeTBJblZyVnpfZFdtZkhXMEdsei1WZk4yQ2QtNEZGcGwtRGxfandyMUJfN0drUVRtbEhyZWMwMkk0WEtpX1p1ZEZYNzdGQVNjdDFOaUFKOWNfQlYwNGFwNXdjaDd5czZn?oc=5",
-        "imageUrl": "https://images.axios.com/5PPqKm6RJgKJZJFHd8Y0qGwQzCc=/0x0:6000x3375/1366x768/2026/02/12/1770914735227.jpeg",
-        "polymarketTicker": "will-gavin-newsom-win-the-2028-democratic-presidential-nomination-568",
-        "volume": 5869074.3578
+        "date": "February 22, 2026",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5IUWxHVFJLY3FYTVh0STU1ZmlnT0gyTzMwLU1KQTYtRHZzc0Y0YU56OGd0S1pnay10bmM3ZTFlaGNvZlBtcWkyM1hLZ291RGFRZU9rdTZncDhETTNpWDN3WnpwUzY3VXY0RXA1Sl9qTU04dHk3?oc=5",
+        "imageUrl": "https://images.axios.com/sEQBvQJuY9OQXRboj-UImzUminM=/0x62:6819x3898/1366x768/2026/02/22/1771768030601.jpeg",
+        "polymarketTicker": "us-strikes-iran-by-december-31-2026-966-364-754-215-994-869",
+        "volume": 16940843.7482
     },
     {
-        "title": "What is the SAVE America Act?",
-        "excerpt": "Democrats say the legislation disenfranchises voters, while Republicans say it is necessary to stop voter fraud. ",
-        "category": "Politics",
-        "source": "BBC",
-        "date": "February 12, 2026",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5XalhoSGFGaTJrWU9qRFFBaHRkS1l2eVFlaEFHOVdPcGIwalBtazdOQTBwV3JfMUNyRTFWalFvSXppZ1dtcFB1RWFiZEFVZmg3enhGRWljeW5LZw?oc=5",
-        "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/08c0/live/4b6910b0-0862-11f1-9711-6bb3c7faafe7.jpg",
-        "polymarketTicker": "will-jd-vance-win-the-2028-republican-presidential-nomination",
-        "volume": 4413370.2756
-    },
-    {
-        "title": "2026 Olympics, Day 6 recap: Kim outdone, Ukrainian skeleton athlete files appeal",
-        "excerpt": "Catch up on the biggest moments from Day 6 of the 2026 Winter Olympic Games. ",
+        "title": "Winter Olympics live updates: The closing ceremony gets underway",
+        "excerpt": "The 2026 Winter Games closing ceremony is underway. It's expected to celebrate Italian music and dance, both classic and contemporary, headlining internationally acclaimed ballet dancer Roberto Bolle along with popular Italian singer Achille Lauro and DJ Gaby Ponte.",
         "category": "Sports",
+        "source": "AP News",
+        "date": "February 22, 2026",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNN0U1c21wNUJWOVI5UC1oa3IwY1BaVllEX1VON1NtMGNpVDZCUWNranBJZHZQelBSdzBDVFRvenpsV2gySmxMSTMzd3dHRmt2MmJTc2RFUTFPNUNFZFRZNnRXVGVKdUMxTm5ZUzhtMGtNVWtHZ1hUMkNMbWg3RWJiTDVyVzVCcnVuVnQ1X2Z3?oc=5",
+        "imageUrl": "https://dims.apnews.com/dims4/default/ebfc843/2147483647/strip/true/crop/8640x5757+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fb8%2Fa6%2Fddaf4a144938af3bb56bd6d7bcd7%2Fap26053677362465.jpg",
+        "polymarketTicker": "will-united-states-win-the-mens-ice-hockey-gold-medal-at-the-2026-winter-olympics",
+        "volume": 1161114.8573
+    },
+    {
+        "title": "Live updates: NYC, Boston, Philly brace for historic blizzard 'bomb,' 2+ feet of snow expected",
+        "excerpt": "A powerful \"bomb cyclone\" is on target to blast the Northeast, bringing life-threatening blizzard conditions, 60 mph wind gusts, and the potential for over two feet of snow to the I-95 corridor. New York City, Boston, and Philadelphia are under Blizzard Warnings as heavy snow rates of 1 to 3 inches per hour create total whiteouts and power outages.",
+        "category": "Weather",
+        "source": "FOX Weather",
+        "date": "February 22, 2026",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZFljS1dDUDdwc0lDb3VjZ1RYVmR3SFVpTTVCa0tQMXFtTVNjZVhIencxZlZfengxQzVobzZ3NlA5dHlYOU9mQ3RKLTJhRVNtQ1ZGLWhaUUZKNkMtd090Y196azJQTWJkY0dBc2czYmFCaEpFRWhudzctc2J6STA0V1V0OEpVbXlzTlhJY2dNWTJQbEhCSXdxYklCTnFRbHBtTWlVLUZUZDBhRDl4b21Nd3JaVUJkZjU5Ty1wbFhhSUtBd9IBxwFBVV95cUxORWp2RTBUVDB4cHlMZXRpQlhRblNzQWtuejRualRfbmswZDI5Wnl6RzVISk5XMTQ2VlpwUGJibzdjRFFLUzRGcVZXOWI1YklLSGdBUzAyUHJzazRrWGJrWG1VTnh1aGxoRW9sSHU4SW54NVYwVGhFVzg1RHltVzlzazREVGpZenJaU2RtSUNYa2twOTZVT05Pa2x3LW5IYzNMcmNtdWJKaVUyNUVqTG1ZeVplMHJ2NTQ5R194TDRRVXJuMEpYYXRN?oc=5",
+        "imageUrl": "https://static.foxnews.com/static/orion/styles/img/fox-weather/og/og-fox-weather.png",
+        "polymarketTicker": "will-there-be-1618-inches-of-snow-in-nyc-this-weekend",
+        "volume": 121605.1631
+    },
+    {
+        "title": "Tehran students take to the streets again amid US military build-up in region ",
+        "excerpt": "",
+        "category": "World News",
+        "source": "Yahoo News Singapore",
+        "date": "February 22, 2026",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZTVEb0hiVnZkX2R5ZmFPY2dRbml4eDFLUnNrb1ZNeWtKRkVvdThJWnRkTGhqdnBJbnd6bzlnNEQ0eGRxWDA5QzE4UjlXN2RiUkJDUmd1NEZ1UEQtVkgtZjVzYjAwRUtzREw5RldINGwtNG9aQnk5elZMdEhPbERycGxLQ2FZOEVhcGc?oc=5",
+        "imageUrl": "",
+        "polymarketTicker": "khamenei-out-as-supreme-leader-of-iran-by-march-31",
+        "volume": 429438.3974
+    },
+    {
+        "title": "They Did Deals With Trump to Get Lower Tariffs. Now They Are Stuck. ",
+        "excerpt": "",
+        "category": "Business",
         "source": "The New York Times",
-        "date": "February 13, 2026",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNXzFvYTVNeGpQLVprcmY1VG1aZWRVN2ltdGd6SjFCeEZ0MzRxSFhqY1RsQ1dxcF9jU2xucHRVVzZmQy1LemlvQ3RtTVcwUkxhdW96LWIyR1hVLVpHd3dkam9ZbnY5S3hiM1BOUmE3aU43QU43Vm82dlBwSVFoX2hibTZmMGd2TjBPTFZoWnQ0ZWlmZkZzSDctWlF3WXI?oc=5",
-        "imageUrl": "https://static01.nyt.com/athletic/uploads/wp/2026/02/12201626/GettyImages-2261307781-scaled.jpg?width=1200&height=630&fit=cover",
-        "polymarketTicker": "will-norway-win-the-most-gold-medals-in-the-2026-winter-olympics",
-        "volume": 1086969.4941
+        "date": "February 22, 2026",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOOVgtblBaVHUwNURaeEdPcXNXMV94MXJ2YzFhQ0YyM0lOOHJQZzVFUTRHNklpTFl6SVhxYmZIRzJKTUtjRTZ4TGZZekxfb3Zyb1QzUF9GNHVWSlV2THUzOFQwSWxCalZuT3FEdUpUVkJ0NHk5aUZKaTFERWQtQk9QOHVEU2I?oc=5",
+        "imageUrl": "",
+        "polymarketTicker": "will-the-court-force-trump-to-refund-tariffs-2026-06-30",
+        "volume": 41455.6224
     },
     {
-        "title": "The scandals clouding \u2018sinister\u2019 French ice dancers who beat Chock and Bates for gold",
-        "excerpt": "Fournier Beaudry and Cizeron\u2019s Olympic competition is set against backdrop of assault and abuse allegations involving their former partners",
-        "category": "Sports",
-        "source": "The Guardian",
-        "date": "February 12, 2026",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQ1RFUllYMnllbk1PZ21QV0VnSDlndEhUSmh1TWdTcWxHRkliLURyUGRGaWdqZGR4NmdKdGQyQ0VodFNtVjlBc2ZoanFKQndWZkNtYm52YldJaTdqUVlvVUhWc2I3M0l3NjlvNWZQNk1IYVU3LUdiR1dleE15aHJETTV3?oc=5",
-        "imageUrl": "https://i.guim.co.uk/img/media/d47d0c4537876bf23d7e4dc5c02e4873f43cca19/451_0_4490_3592/master/4490.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=37ad75c95d5f60c2c1afb52dc7c2f8a8",
-        "polymarketTicker": "will-norway-win-the-most-gold-medals-in-the-2026-winter-olympics",
-        "volume": 1086969.4941
-    },
-    {
-        "title": "Anthropic to cover costs of electricity price increases from its data centers",
-        "excerpt": "Leading AI company Anthropic said it would upgrade power grid infrastructure, generate new power and cover consumer price increases to minimize the effects of its data centers.",
-        "category": "Technology",
-        "source": "NBC News",
-        "date": "February 11, 2026",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcFZiN3F5M3FTbERVZXlOYUFhem5URXhsUkN6ODZsM1ZxS1hneFludlBjV1ppQ3g2OTRZd3ROTDNvWDM4MWh4NTlpczBXczdPTVRBR3RtQUl4cmc4UF9hSjlaZ3ZRVVlBa1hxM0x6M24tQ0VuNmZGS0RvZ3VDdjNlVWxBRnVFLVM5ZEFjemh6NXJtdldrc1pFRWFrXzRtR0F6WXF5OXBYQkZ3MGZKb1RsLXNB?oc=5",
-        "imageUrl": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2025-08/250826-Anthropic-ch-1533-2ea8e0.jpg",
-        "polymarketTicker": "will-anthropic-have-the-best-ai-model-at-the-end-of-february-2026",
-        "volume": 759182.5557
-    },
-    {
-        "title": "Top AI Stocks For A Potential Short Squeeze",
-        "excerpt": "The AI fear trade has fueled short interest for many stocks despite strong investment fundamentals. Discover the best AI stocks for a potential short squeeze.",
+        "title": "Oil Traders Rush to Hedge Iran Risk After Wild Start to Year ",
+        "excerpt": "",
         "category": "Finance",
-        "source": "Seeking Alpha",
-        "date": "February 12, 2026",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMGZyQS01NjZZRVJWX0dVUTMyVkRXbTI0LXNvajRhNkVTZWZ2M192UDVnS1dlc21YSmktR0I4Ni1kMXlxTFJGWjhqRTg1bzhLZUhXVTV6bkVQQzNncXdUMVd1eGtNNEVKbGx1elc4VEhzb3VmQ1o1RGc4VlQ5bU90ZTJTSWxuRW50NnNn?oc=5",
-        "imageUrl": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2248272196/image_2248272196.jpg?io=getty-c-w1536",
-        "polymarketTicker": "will-anthropic-have-the-best-ai-model-at-the-end-of-february-2026",
-        "volume": 759182.5557
+        "source": "Bloomberg",
+        "date": "February 21, 2026",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWEY2aEhJUUVHMVFSUWhNVXJDcE1yelU5Z2thR1ZJZEFGZDJLanhiTlFkSnZNSkhCd1ZFYWNjdkFCSHN6QkdmZ0Y0V1pFU0FBc3VQRGVlZjk0ekNtek9RMUpQODNleVphQ2Q1UFJMYUVCdHIyZmdhcDZ4VzFneHpqN1RDT1BLNkhjeWE3U0ZOeGJ3em5ab1JtWU5faWVpM0stMnZFUnhpaFc3RWJSUkRxXw?oc=5",
+        "imageUrl": "",
+        "polymarketTicker": "us-strikes-iran-by-december-31-2026-966-364-754-215-994-869",
+        "volume": 16940843.7482
     },
     {
-        "title": "How the Phillies\u2019 $100 million marriage with Nick Castellanos ended in divorce",
-        "excerpt": "When the Phillies ate $20 million on Thursday and released Castellanos, it was an admission that the relationship was irrevocably broken.",
-        "category": "Sports",
-        "source": "The New York Times",
-        "date": "February 12, 2026",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONm5Dd2pfb2djSmd6c2ExUUtpSGtyYU1UMnFyNFZPWVA3RGhHWlEzbVhTVjgzY3AzZXk5TlU3VUduQUx3ckpPRFRvbXNyWGV4cEUxZEszTDVVWGRJbVk2bGNDd1BneUhrakM3MzBhTktwVkJVVmhNR1luX0hkbDZQRXBTelVKRHB2eVk3VEUyTQ?oc=5",
-        "imageUrl": "https://static01.nyt.com/athletic/uploads/wp/2026/02/12150523/GettyImages-2231493829-scaled.jpg?width=1200&height=630&fit=cover",
-        "polymarketTicker": "will-the-los-angeles-dodgers-win-the-2026-world-series",
-        "volume": 184170.9706
-    },
-    {
-        "title": "Global shares retreat from record ahead of US inflation data, tech worries simmer",
-        "excerpt": "Global shares retreated from record highs on Friday ahead of key U.S. inflation data, while worries about shrinking margins for major tech companies and AI disruption fears simmered beneath the surface after a week of selling.",
-        "category": "Finance",
-        "source": "Reuters",
-        "date": "February 12, 2026",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5zdTlrSUYzYm1mNl96NlhQQkFkSUNmbExZdmdDQjQ5cjFJMlFoNTNiQmtaaFh6LVp4REZqa0pZeU5QN19lYXRDOW04SUN2UFNMT0MtaVZiS282TFM1azA3alBfTWU0c2JKSlFFQmx1RFc0WFJV?oc=5",
-        "imageUrl": "https://www.reuters.com/resizer/v2/OI32M3IOIJIMXFN2VM4GFHOATM.jpg?auth=5b8b599d5998f9c3da72e1a0ebde71187cc2e43a22d288e47f0e79f1aad7ea3e&height=1005&width=1920&quality=80&smart=true",
-        "polymarketTicker": "spx-opens-up-or-down-on-february-13-2026",
-        "volume": 116637.9612
-    },
-    {
-        "title": "Apple fixes zero-day flaw used in 'extremely sophisticated' attacks ",
+        "title": "Galaxy AI Expands Multi-Agent Ecosystem To Give Users More Choice and Flexibility ",
         "excerpt": "",
         "category": "Technology",
-        "source": "BleepingComputer",
-        "date": "February 11, 2026",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZFd5YUI3Q2V4Tk8yMHNKQmVKd3U1NmI3X2M2dERrVnF6dEVvQWExWWFJSmZDMzZZVXp0X0QwYmowU0k2SWQxdFlXTzBhUm1GaDZSVzVPZTU5akJLMk05bzFCVmZBV09HTTF5cTc3QXNYSHJKTnVJUlgyeVNsbFhiT2Zqd2h6OFE0cVhnWG1sSjUzLUpOZ3hFckxvQ0p2VWRnbm50MUZZYnNjWUw1XzNBaUlGRQ?oc=5",
+        "source": "samsung.com",
+        "date": "February 21, 2026",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVmY0Z1I5aDNIRXVPLWc2YVZDem1DUlBpY3RtTEc4U1drQUdITGd0MDczMmotS1lPaVhIcDBIZE9yLWdZaG9PZWxyeXB6dFpxcVZsTU85VzZzSDd0clBQaUNtc0lUZi1yRi05cndqX241RWx1SEo0a0dyNFRWUXZSSGtVbHFWa0lxUEx2ZExsblppSGhKX0YzZWpEUUkzanNmTFFYbXpYZV9KbUduS3VsNFRQRQ?oc=5",
         "imageUrl": "",
-        "polymarketTicker": "spx-opens-up-or-down-on-february-13-2026",
-        "volume": 116637.9612
-    },
-    {
-        "title": "Ocasio-Cortez, Rubio to offer dueling visions of world order in Munich ",
-        "excerpt": "",
-        "category": "Politics",
-        "source": "The Washington Post",
-        "date": "February 13, 2026",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRUJhZWFXQVpfSmZuRWtKekdMQ0VkYW5jdEQxNUN6a3FrTWprOURISzh2TktMV1hBWXJXREFWX1hqV0ljM01DVl9lWXBLNEtGaVJma2d2ZjBvYjBINlBRM3c2YWJqNk5mTEF4d0V1TUtmU1lXcl9lYThfcXFyS2JlNjJybw?oc=5",
-        "imageUrl": "",
-        "polymarketTicker": "will-gavin-newsom-win-the-2028-democratic-presidential-nomination-568",
-        "volume": 5869074.3578
+        "polymarketTicker": "will-anthropic-have-the-best-ai-model-at-the-end-of-february-2026",
+        "volume": 822588.7162
     }
 ]
