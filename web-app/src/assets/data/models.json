@@ -21,13 +21,6 @@
         "price": 10.0
     },
     {
-        "model": "gemini 2.5 deep think (aug 25)",
-        "company": "Google",
-        "release_date": "20250801",
-        "rating": 81.5,
-        "price": ""
-    },
-    {
         "model": "gemini 3 pro",
         "company": "Google",
         "release_date": "20251118",
