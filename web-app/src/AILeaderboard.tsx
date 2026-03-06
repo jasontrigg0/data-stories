@@ -135,10 +135,10 @@ const PricePerformanceChart = () => {
       <YAxis
         type="number"
         dataKey="rating"
-	domain={[0, 87.5]}
+	domain={[0, 100]}
 	tick={{ fontSize: 12 }}
 	allowDataOverflow={true}
-	ticks={[0,20,40,60,80]}
+	ticks={[0,20,40,60,80,100]}
       >
         <Label value="Score" offset={-15} position="insideLeft" />
       </YAxis>
