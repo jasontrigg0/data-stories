@@ -124,6 +124,10 @@ def write_models(model_to_rating, model_to_info, ratio):
         model_info = model_to_info[model]
         num_evals = [col for col in model_info if col not in NON_EVAL_COLUMNS and model_info[col] != ""]
         if len(num_evals) < 3: continue
+
+        PRO_MODELS = ["o3-pro (high)", "gpt 5 pro", "gemini 3 deep think (feb 26)", "gemini 3 deep think (nov 25)", "gpt 5.4 pro"]
+        if model in PRO_MODELS and len(num_evals) <= 10: continue
+
         price = ""
         if model_to_info[model]["input price"] and model_to_info[model]["output price"]:
             input_price = float(model_to_info[model]["input price"])

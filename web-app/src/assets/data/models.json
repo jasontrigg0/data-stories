@@ -1,31 +1,10 @@
 [
     {
-        "model": "gpt 5.4 pro",
-        "company": "OpenAI",
-        "release_date": "20260305",
-        "rating": 90.1,
-        "price": 67.5
-    },
-    {
-        "model": "gemini 3 deep think (feb 26)",
-        "company": "Google",
-        "release_date": "20260226",
-        "rating": 90.1,
-        "price": ""
-    },
-    {
         "model": "gemini 3.1",
         "company": "Google",
         "release_date": "20260219",
         "rating": 86.1,
         "price": 4.5
-    },
-    {
-        "model": "gemini 3 deep think (nov 25)",
-        "company": "Google",
-        "release_date": "20251118",
-        "rating": 85.1,
-        "price": ""
     },
     {
         "model": "gpt 5.4",
@@ -138,13 +117,6 @@
         "release_date": "20251222",
         "rating": 72.0,
         "price": 1.0
-    },
-    {
-        "model": "o3-pro (high)",
-        "company": "OpenAI",
-        "release_date": "20250610",
-        "rating": 71.2,
-        "price": 35.0
     },
     {
         "model": "qwen 3 max instruct",
