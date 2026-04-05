@@ -13800,226 +13800,226 @@
             {
                 "rank": 1,
                 "category": "nfl",
-                "name": "RAV",
-                "date": "20250209",
-                "score": "232.4"
+                "name": "SEA",
+                "date": "20260208",
+                "score": "256.3"
             },
             {
                 "rank": 2,
                 "category": "nfl",
-                "name": "PHI",
-                "date": "20250209",
-                "score": "221.7"
+                "name": "RAM",
+                "date": "20260208",
+                "score": "168.4"
             },
             {
                 "rank": 3,
                 "category": "nfl",
-                "name": "DET",
-                "date": "20250209",
-                "score": "186.8"
+                "name": "NWE",
+                "date": "20260208",
+                "score": "144.4"
             },
             {
                 "rank": 4,
                 "category": "nfl",
                 "name": "BUF",
-                "date": "20250209",
-                "score": "184.2"
+                "date": "20260208",
+                "score": "135.3"
             },
             {
                 "rank": 5,
                 "category": "nfl",
-                "name": "GNB",
-                "date": "20250209",
-                "score": "127.0"
+                "name": "HTX",
+                "date": "20260208",
+                "score": "126.3"
             },
             {
                 "rank": 6,
                 "category": "nfl",
-                "name": "TAM",
-                "date": "20250209",
-                "score": "92.9"
+                "name": "JAX",
+                "date": "20260208",
+                "score": "123.3"
             },
             {
                 "rank": 7,
                 "category": "nfl",
-                "name": "KAN",
-                "date": "20250209",
-                "score": "92.1"
+                "name": "DEN",
+                "date": "20260208",
+                "score": "105.4"
             },
             {
                 "rank": 8,
                 "category": "nfl",
-                "name": "DEN",
-                "date": "20250209",
-                "score": "83.0"
+                "name": "DET",
+                "date": "20260208",
+                "score": "94.6"
             },
             {
                 "rank": 9,
                 "category": "nfl",
-                "name": "CIN",
-                "date": "20250209",
-                "score": "63.8"
+                "name": "RAV",
+                "date": "20260208",
+                "score": "86.9"
             },
             {
                 "rank": 10,
                 "category": "nfl",
-                "name": "SDG",
-                "date": "20250209",
-                "score": "54.2"
+                "name": "PHI",
+                "date": "20260208",
+                "score": "79.0"
             },
             {
                 "rank": 11,
                 "category": "nfl",
-                "name": "WAS",
-                "date": "20250209",
-                "score": "52.7"
+                "name": "SFO",
+                "date": "20260208",
+                "score": "53.2"
             },
             {
                 "rank": 12,
                 "category": "nfl",
                 "name": "MIN",
-                "date": "20250209",
-                "score": "51.5"
+                "date": "20260208",
+                "score": "52.5"
             },
             {
                 "rank": 13,
                 "category": "nfl",
-                "name": "RAM",
-                "date": "20250209",
-                "score": "50.2"
+                "name": "CHI",
+                "date": "20260208",
+                "score": "46.4"
             },
             {
                 "rank": 14,
                 "category": "nfl",
-                "name": "HTX",
-                "date": "20250209",
-                "score": "25.6"
+                "name": "GNB",
+                "date": "20260208",
+                "score": "36.6"
             },
             {
                 "rank": 15,
                 "category": "nfl",
-                "name": "SEA",
-                "date": "20250209",
-                "score": "18.5"
+                "name": "SDG",
+                "date": "20260208",
+                "score": "22.2"
             },
             {
                 "rank": 16,
                 "category": "nfl",
-                "name": "PIT",
-                "date": "20250209",
-                "score": "9.0"
+                "name": "KAN",
+                "date": "20260208",
+                "score": "6.6"
             },
             {
                 "rank": 17,
                 "category": "nfl",
-                "name": "MIA",
-                "date": "20250209",
-                "score": "1.7"
+                "name": "CLT",
+                "date": "20260208",
+                "score": "-8.9"
             },
             {
                 "rank": 18,
                 "category": "nfl",
-                "name": "CRD",
-                "date": "20250209",
-                "score": "-4.5"
+                "name": "PIT",
+                "date": "20260208",
+                "score": "-14.2"
             },
             {
                 "rank": 19,
                 "category": "nfl",
-                "name": "SFO",
-                "date": "20250209",
-                "score": "-29.4"
+                "name": "CIN",
+                "date": "20260208",
+                "score": "-30.7"
             },
             {
                 "rank": 20,
                 "category": "nfl",
-                "name": "DAL",
-                "date": "20250209",
-                "score": "-61.1"
+                "name": "TAM",
+                "date": "20260208",
+                "score": "-41.7"
             },
             {
                 "rank": 21,
                 "category": "nfl",
-                "name": "CHI",
-                "date": "20250209",
-                "score": "-69.8"
+                "name": "ATL",
+                "date": "20260208",
+                "score": "-47.5"
             },
             {
                 "rank": 22,
                 "category": "nfl",
-                "name": "ATL",
-                "date": "20250209",
-                "score": "-75.5"
+                "name": "NYG",
+                "date": "20260208",
+                "score": "-65.5"
             },
             {
                 "rank": 23,
                 "category": "nfl",
-                "name": "NYJ",
-                "date": "20250209",
-                "score": "-78.6"
+                "name": "DAL",
+                "date": "20260208",
+                "score": "-67.8"
             },
             {
                 "rank": 24,
                 "category": "nfl",
-                "name": "CLT",
-                "date": "20250209",
-                "score": "-93.9"
+                "name": "WAS",
+                "date": "20260208",
+                "score": "-73.2"
             },
             {
                 "rank": 25,
                 "category": "nfl",
                 "name": "NOR",
-                "date": "20250209",
-                "score": "-99.9"
+                "date": "20260208",
+                "score": "-81.8"
             },
             {
                 "rank": 26,
                 "category": "nfl",
-                "name": "JAX",
-                "date": "20250209",
-                "score": "-106.5"
+                "name": "CAR",
+                "date": "20260208",
+                "score": "-92.7"
             },
             {
                 "rank": 27,
                 "category": "nfl",
-                "name": "RAI",
-                "date": "20250209",
-                "score": "-113.5"
+                "name": "MIA",
+                "date": "20260208",
+                "score": "-97.2"
             },
             {
                 "rank": 28,
                 "category": "nfl",
-                "name": "NWE",
-                "date": "20250209",
-                "score": "-130.4"
+                "name": "CLE",
+                "date": "20260208",
+                "score": "-115.2"
             },
             {
                 "rank": 29,
                 "category": "nfl",
-                "name": "NYG",
-                "date": "20250209",
-                "score": "-160.3"
+                "name": "CRD",
+                "date": "20260208",
+                "score": "-151.4"
             },
             {
                 "rank": 30,
                 "category": "nfl",
-                "name": "CLE",
-                "date": "20250209",
-                "score": "-168.8"
+                "name": "OTI",
+                "date": "20260208",
+                "score": "-201.0"
             },
             {
                 "rank": 31,
                 "category": "nfl",
-                "name": "OTI",
-                "date": "20250209",
-                "score": "-175.4"
+                "name": "RAI",
+                "date": "20260208",
+                "score": "-207.4"
             },
             {
                 "rank": 32,
                 "category": "nfl",
-                "name": "CAR",
-                "date": "20250209",
-                "score": "-179.5"
+                "name": "NYJ",
+                "date": "20260208",
+                "score": "-241.4"
             }
         ],
         "alltime": [
@@ -14292,44 +14292,44 @@
             {
                 "rank": 39,
                 "category": "nfl",
+                "name": "RAV",
+                "date": "20250119",
+                "score": "232.4"
+            },
+            {
+                "rank": 40,
+                "category": "nfl",
                 "name": "GNB",
                 "date": "19680114",
                 "score": "229.2"
             },
             {
-                "rank": 40,
+                "rank": 41,
                 "category": "nfl",
                 "name": "TAM",
                 "date": "20210207",
                 "score": "226.7"
             },
             {
-                "rank": 41,
+                "rank": 42,
                 "category": "nfl",
                 "name": "NOR",
                 "date": "20120114",
                 "score": "226.0"
             },
             {
-                "rank": 42,
+                "rank": 43,
                 "category": "nfl",
                 "name": "RAI",
                 "date": "19840122",
                 "score": "224.8"
             },
             {
-                "rank": 43,
+                "rank": 44,
                 "category": "nfl",
                 "name": "DEN",
                 "date": "19980125",
                 "score": "223.7"
-            },
-            {
-                "rank": 44,
-                "category": "nfl",
-                "name": "DAL",
-                "date": "19960128",
-                "score": "223.6"
             },
             {
                 "rank": 45,
@@ -14341,9 +14341,9 @@
             {
                 "rank": 46,
                 "category": "nfl",
-                "name": "NWE",
-                "date": "20120205",
-                "score": "222.9"
+                "name": "DAL",
+                "date": "19960128",
+                "score": "223.6"
             },
             {
                 "rank": 47,
@@ -14355,373 +14355,373 @@
             {
                 "rank": 48,
                 "category": "nfl",
+                "name": "NWE",
+                "date": "20120205",
+                "score": "222.9"
+            },
+            {
+                "rank": 49,
+                "category": "nfl",
+                "name": "PHI",
+                "date": "20250209",
+                "score": "221.7"
+            },
+            {
+                "rank": 50,
+                "category": "nfl",
                 "name": "RAM",
                 "date": "19671223",
                 "score": "219.8"
             },
             {
-                "rank": 49,
+                "rank": 51,
                 "category": "nfl",
                 "name": "DAL",
                 "date": "19950115",
                 "score": "219.8"
             },
             {
-                "rank": 50,
+                "rank": 52,
                 "category": "nfl",
                 "name": "RAV",
                 "date": "20200111",
                 "score": "219.1"
             },
             {
-                "rank": 51,
+                "rank": 53,
                 "category": "nfl",
                 "name": "SFO",
                 "date": "19880109",
                 "score": "217.6"
             },
             {
-                "rank": 52,
+                "rank": 54,
                 "category": "nfl",
                 "name": "NWE",
                 "date": "20180204",
                 "score": "216.4"
             },
             {
-                "rank": 53,
+                "rank": 55,
                 "category": "nfl",
                 "name": "NWE",
                 "date": "20130120",
                 "score": "216.3"
             },
             {
-                "rank": 54,
+                "rank": 56,
                 "category": "nfl",
                 "name": "SFO",
                 "date": "19911223",
                 "score": "213.1"
             },
             {
-                "rank": 55,
+                "rank": 57,
                 "category": "nfl",
                 "name": "BUF",
                 "date": "19910127",
                 "score": "212.7"
             },
             {
-                "rank": 56,
+                "rank": 58,
                 "category": "nfl",
                 "name": "BUF",
                 "date": "20220123",
                 "score": "212.1"
             },
             {
-                "rank": 57,
+                "rank": 59,
                 "category": "nfl",
                 "name": "RAV",
                 "date": "20240128",
                 "score": "211.7"
             },
             {
-                "rank": 58,
+                "rank": 60,
                 "category": "nfl",
                 "name": "SFO",
                 "date": "19940123",
                 "score": "211.4"
             },
             {
-                "rank": 59,
+                "rank": 61,
                 "category": "nfl",
                 "name": "CLT",
                 "date": "19671217",
                 "score": "208.7"
             },
             {
-                "rank": 60,
+                "rank": 62,
                 "category": "nfl",
                 "name": "DET",
                 "date": "19701226",
                 "score": "208.5"
             },
             {
-                "rank": 61,
+                "rank": 63,
                 "category": "nfl",
                 "name": "RAM",
                 "date": "20000130",
                 "score": "207.6"
             },
             {
-                "rank": 62,
+                "rank": 64,
                 "category": "nfl",
                 "name": "SEA",
                 "date": "20160117",
                 "score": "207.4"
             },
             {
-                "rank": 63,
+                "rank": 65,
                 "category": "nfl",
                 "name": "DAL",
                 "date": "19731230",
                 "score": "205.0"
             },
             {
-                "rank": 64,
+                "rank": 66,
                 "category": "nfl",
                 "name": "PIT",
                 "date": "19750112",
                 "score": "204.6"
             },
             {
-                "rank": 65,
+                "rank": 67,
                 "category": "nfl",
                 "name": "SFO",
                 "date": "19930117",
                 "score": "204.5"
             },
             {
-                "rank": 66,
+                "rank": 68,
                 "category": "nfl",
                 "name": "SFO",
                 "date": "20140119",
                 "score": "203.7"
             },
             {
-                "rank": 67,
+                "rank": 69,
                 "category": "nfl",
                 "name": "RAM",
                 "date": "19731223",
                 "score": "203.4"
             },
             {
-                "rank": 68,
+                "rank": 70,
                 "category": "nfl",
                 "name": "MIN",
                 "date": "19740113",
                 "score": "202.6"
             },
             {
-                "rank": 69,
+                "rank": 71,
                 "category": "nfl",
                 "name": "PHI",
                 "date": "20180204",
                 "score": "201.5"
             },
             {
-                "rank": 70,
-                "category": "nfl",
-                "name": "MIN",
-                "date": "19700111",
-                "score": "200.5"
-            },
-            {
-                "rank": 71,
+                "rank": 72,
                 "category": "nfl",
                 "name": "RAI",
                 "date": "20030126",
                 "score": "200.5"
             },
             {
-                "rank": 72,
+                "rank": 73,
+                "category": "nfl",
+                "name": "MIN",
+                "date": "19700111",
+                "score": "200.5"
+            },
+            {
+                "rank": 74,
                 "category": "nfl",
                 "name": "MIA",
                 "date": "19850120",
                 "score": "200.2"
             },
             {
-                "rank": 73,
+                "rank": 75,
                 "category": "nfl",
                 "name": "CAR",
                 "date": "20160207",
                 "score": "199.1"
             },
             {
-                "rank": 74,
+                "rank": 76,
                 "category": "nfl",
                 "name": "RAI",
                 "date": "20010114",
                 "score": "198.8"
             },
             {
-                "rank": 75,
+                "rank": 77,
                 "category": "nfl",
                 "name": "DAL",
                 "date": "19681221",
                 "score": "198.6"
             },
             {
-                "rank": 76,
+                "rank": 78,
                 "category": "nfl",
                 "name": "ATL",
                 "date": "20170205",
                 "score": "197.4"
             },
             {
-                "rank": 77,
+                "rank": 79,
                 "category": "nfl",
                 "name": "CLT",
                 "date": "20080113",
                 "score": "196.7"
             },
             {
-                "rank": 78,
+                "rank": 80,
                 "category": "nfl",
                 "name": "SFO",
                 "date": "19890122",
                 "score": "195.6"
             },
             {
-                "rank": 79,
+                "rank": 81,
                 "category": "nfl",
                 "name": "NWE",
                 "date": "20070121",
                 "score": "194.5"
             },
             {
-                "rank": 80,
+                "rank": 82,
                 "category": "nfl",
                 "name": "SDG",
                 "date": "20080120",
                 "score": "189.8"
             },
             {
-                "rank": 81,
+                "rank": 83,
                 "category": "nfl",
                 "name": "PIT",
                 "date": "20090201",
                 "score": "189.3"
             },
             {
-                "rank": 82,
+                "rank": 84,
                 "category": "nfl",
                 "name": "CLT",
                 "date": "20050116",
                 "score": "189.1"
             },
             {
-                "rank": 83,
+                "rank": 85,
                 "category": "nfl",
                 "name": "SFO",
                 "date": "20240211",
                 "score": "188.1"
             },
             {
-                "rank": 84,
+                "rank": 86,
                 "category": "nfl",
                 "name": "SFO",
                 "date": "19851229",
                 "score": "187.7"
             },
             {
-                "rank": 85,
+                "rank": 87,
                 "category": "nfl",
                 "name": "NOR",
                 "date": "20100207",
                 "score": "187.1"
             },
             {
-                "rank": 86,
+                "rank": 88,
+                "category": "nfl",
+                "name": "DET",
+                "date": "20250118",
+                "score": "186.8"
+            },
+            {
+                "rank": 89,
                 "category": "nfl",
                 "name": "CLT",
                 "date": "20060115",
                 "score": "186.1"
             },
             {
-                "rank": 87,
+                "rank": 90,
                 "category": "nfl",
                 "name": "NWE",
                 "date": "20190203",
                 "score": "185.8"
             },
             {
-                "rank": 88,
-                "category": "nfl",
-                "name": "MIN",
-                "date": "19751228",
-                "score": "185.4"
-            },
-            {
-                "rank": 89,
+                "rank": 91,
                 "category": "nfl",
                 "name": "MIN",
                 "date": "19770109",
                 "score": "185.4"
             },
             {
-                "rank": 90,
+                "rank": 92,
+                "category": "nfl",
+                "name": "MIN",
+                "date": "19751228",
+                "score": "185.4"
+            },
+            {
+                "rank": 93,
+                "category": "nfl",
+                "name": "BUF",
+                "date": "20250126",
+                "score": "184.2"
+            },
+            {
+                "rank": 94,
                 "category": "nfl",
                 "name": "RAI",
                 "date": "19810125",
                 "score": "182.9"
             },
             {
-                "rank": 91,
+                "rank": 95,
                 "category": "nfl",
                 "name": "SEA",
                 "date": "20130113",
                 "score": "182.5"
             },
             {
-                "rank": 92,
+                "rank": 96,
                 "category": "nfl",
                 "name": "RAV",
                 "date": "20090118",
                 "score": "182.4"
             },
             {
-                "rank": 93,
+                "rank": 97,
                 "category": "nfl",
                 "name": "SFO",
                 "date": "20230129",
                 "score": "182.1"
             },
             {
-                "rank": 94,
+                "rank": 98,
                 "category": "nfl",
                 "name": "DAL",
                 "date": "19760118",
                 "score": "181.5"
             },
             {
-                "rank": 95,
+                "rank": 99,
                 "category": "nfl",
                 "name": "SFO",
                 "date": "19910120",
                 "score": "181.2"
             },
             {
-                "rank": 96,
+                "rank": 100,
                 "category": "nfl",
                 "name": "RAI",
                 "date": "19780101",
                 "score": "180.1"
-            },
-            {
-                "rank": 97,
-                "category": "nfl",
-                "name": "SDG",
-                "date": "20070114",
-                "score": "180.0"
-            },
-            {
-                "rank": 98,
-                "category": "nfl",
-                "name": "DEN",
-                "date": "20140202",
-                "score": "178.2"
-            },
-            {
-                "rank": 99,
-                "category": "nfl",
-                "name": "PHI",
-                "date": "20020127",
-                "score": "178.2"
-            },
-            {
-                "rank": 100,
-                "category": "nfl",
-                "name": "SDG",
-                "date": "19791229",
-                "score": "177.7"
             }
         ]
     },
@@ -32525,6 +32525,14 @@
             },
             {
                 "rank": 7,
+                "category": "nfl",
+                "name": "SEA",
+                "date": "20260208",
+                "score": "63.0",
+                "sport": "nfl"
+            },
+            {
+                "rank": 8,
                 "category": "ufc",
                 "name": "Islam Makhachev",
                 "date": "20260404",
@@ -32532,14 +32540,6 @@
                 "player": "",
                 "league": "",
                 "sport": "ufc"
-            },
-            {
-                "rank": 8,
-                "category": "nfl",
-                "name": "RAV",
-                "date": "20250209",
-                "score": "41.8",
-                "sport": "nfl"
             },
             {
                 "rank": 9,
@@ -32559,14 +32559,6 @@
             },
             {
                 "rank": 11,
-                "category": "nfl",
-                "name": "PHI",
-                "date": "20250209",
-                "score": "32.0",
-                "sport": "nfl"
-            },
-            {
-                "rank": 12,
                 "category": "nhl",
                 "name": "COL",
                 "date": "20260403",
@@ -32574,7 +32566,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 13,
+                "rank": 12,
                 "category": "cbb",
                 "name": "Florida",
                 "date": "20260402",
@@ -32582,7 +32574,7 @@
                 "sport": "cbb"
             },
             {
-                "rank": 14,
+                "rank": 13,
                 "category": "cbb",
                 "name": "Duke",
                 "date": "20260402",
@@ -32590,7 +32582,7 @@
                 "sport": "cbb"
             },
             {
-                "rank": 15,
+                "rank": 14,
                 "category": "nhl",
                 "name": "TBL",
                 "date": "20260403",
@@ -32598,7 +32590,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 16,
+                "rank": 15,
                 "category": "cbb",
                 "name": "Illinois",
                 "date": "20260402",
@@ -32606,7 +32598,7 @@
                 "sport": "cbb"
             },
             {
-                "rank": 17,
+                "rank": 16,
                 "category": "nba",
                 "name": "DET",
                 "date": "20260403",
@@ -32614,7 +32606,7 @@
                 "sport": "nba"
             },
             {
-                "rank": 18,
+                "rank": 17,
                 "category": "cbb",
                 "name": "Houston",
                 "date": "20260402",
@@ -32622,7 +32614,7 @@
                 "sport": "cbb"
             },
             {
-                "rank": 19,
+                "rank": 18,
                 "category": "f1",
                 "name": "Oscar Piastri",
                 "date": "20260329",
@@ -32633,7 +32625,7 @@
                 "sport": "f1"
             },
             {
-                "rank": 20,
+                "rank": 19,
                 "category": "f1",
                 "name": "Lando Norris",
                 "date": "20260329",
@@ -32644,7 +32636,7 @@
                 "sport": "f1"
             },
             {
-                "rank": 21,
+                "rank": 20,
                 "category": "ufc",
                 "name": "Ilia Topuria",
                 "date": "20260404",
@@ -32654,7 +32646,7 @@
                 "sport": "ufc"
             },
             {
-                "rank": 22,
+                "rank": 21,
                 "category": "cbb",
                 "name": "Iowa State",
                 "date": "20260402",
@@ -32662,7 +32654,7 @@
                 "sport": "cbb"
             },
             {
-                "rank": 23,
+                "rank": 22,
                 "category": "golf",
                 "name": "Tommy Fleetwood",
                 "date": "20260405",
@@ -32670,7 +32662,7 @@
                 "sport": "golf"
             },
             {
-                "rank": 24,
+                "rank": 23,
                 "category": "f1",
                 "name": "George Russell",
                 "date": "20260329",
@@ -32681,7 +32673,7 @@
                 "sport": "f1"
             },
             {
-                "rank": 25,
+                "rank": 24,
                 "category": "nhl",
                 "name": "CAR",
                 "date": "20260403",
@@ -32689,7 +32681,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 26,
+                "rank": 25,
                 "category": "cfb",
                 "name": "Notre Dame",
                 "date": "20250120",
@@ -32697,23 +32689,7 @@
                 "sport": "cfb"
             },
             {
-                "rank": 27,
-                "category": "nfl",
-                "name": "DET",
-                "date": "20250209",
-                "score": "9.4",
-                "sport": "nfl"
-            },
-            {
-                "rank": 28,
-                "category": "nfl",
-                "name": "BUF",
-                "date": "20250209",
-                "score": "8.4",
-                "sport": "nfl"
-            },
-            {
-                "rank": 29,
+                "rank": 26,
                 "category": "golf",
                 "name": "Rory McIlroy",
                 "date": "20260405",
@@ -32721,7 +32697,7 @@
                 "sport": "golf"
             },
             {
-                "rank": 30,
+                "rank": 27,
                 "category": "nhl",
                 "name": "BUF",
                 "date": "20260403",
@@ -32729,7 +32705,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 31,
+                "rank": 28,
                 "category": "nhl",
                 "name": "MTL",
                 "date": "20260403",
@@ -32737,7 +32713,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 32,
+                "rank": 29,
                 "category": "nhl",
                 "name": "DAL",
                 "date": "20260403",
@@ -32745,7 +32721,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 33,
+                "rank": 30,
                 "category": "golf",
                 "name": "Bryson DeChambeau",
                 "date": "20260405",
@@ -32753,7 +32729,7 @@
                 "sport": "golf"
             },
             {
-                "rank": 34,
+                "rank": 31,
                 "category": "nba",
                 "name": "CHO",
                 "date": "20260403",
@@ -32761,7 +32737,7 @@
                 "sport": "nba"
             },
             {
-                "rank": 35,
+                "rank": 32,
                 "category": "cfb",
                 "name": "Penn State",
                 "date": "20250120",
@@ -32769,7 +32745,7 @@
                 "sport": "cfb"
             },
             {
-                "rank": 36,
+                "rank": 33,
                 "category": "f1",
                 "name": "Kimi Antonelli",
                 "date": "20260329",
@@ -32780,7 +32756,15 @@
                 "sport": "f1"
             },
             {
-                "rank": 37,
+                "rank": 34,
+                "category": "nfl",
+                "name": "RAM",
+                "date": "20260208",
+                "score": "3.4",
+                "sport": "nfl"
+            },
+            {
+                "rank": 35,
                 "category": "f1",
                 "name": "Charles Leclerc",
                 "date": "20260329",
@@ -32791,7 +32775,7 @@
                 "sport": "f1"
             },
             {
-                "rank": 38,
+                "rank": 36,
                 "category": "nba",
                 "name": "NYK",
                 "date": "20260403",
@@ -32799,7 +32783,7 @@
                 "sport": "nba"
             },
             {
-                "rank": 39,
+                "rank": 37,
                 "category": "f1",
                 "name": "Max Verstappen",
                 "date": "20260329",
@@ -32810,7 +32794,7 @@
                 "sport": "f1"
             },
             {
-                "rank": 40,
+                "rank": 38,
                 "category": "nhl",
                 "name": "OTT",
                 "date": "20260403",
@@ -32818,7 +32802,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 41,
+                "rank": 39,
                 "category": "golf",
                 "name": "Xander Schauffele",
                 "date": "20260405",
@@ -32826,7 +32810,7 @@
                 "sport": "golf"
             },
             {
-                "rank": 42,
+                "rank": 40,
                 "category": "cbb",
                 "name": "Purdue",
                 "date": "20260402",
@@ -32834,7 +32818,7 @@
                 "sport": "cbb"
             },
             {
-                "rank": 43,
+                "rank": 41,
                 "category": "nhl",
                 "name": "UTA",
                 "date": "20260403",
@@ -32842,7 +32826,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 44,
+                "rank": 42,
                 "category": "mlb",
                 "name": "MIL",
                 "date": "20260403",
@@ -32850,7 +32834,7 @@
                 "sport": "mlb"
             },
             {
-                "rank": 45,
+                "rank": 43,
                 "category": "cbb",
                 "name": "St. John's (NY)",
                 "date": "20260402",
@@ -32858,7 +32842,7 @@
                 "sport": "cbb"
             },
             {
-                "rank": 46,
+                "rank": 44,
                 "category": "nhl",
                 "name": "MIN",
                 "date": "20260403",
@@ -32866,7 +32850,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 47,
+                "rank": 45,
                 "category": "nhl",
                 "name": "EDM",
                 "date": "20260403",
@@ -32874,7 +32858,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 48,
+                "rank": 46,
                 "category": "nhl",
                 "name": "BOS",
                 "date": "20260403",
@@ -32882,7 +32866,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 49,
+                "rank": 47,
                 "category": "mlb",
                 "name": "LAD",
                 "date": "20260403",
@@ -32890,7 +32874,7 @@
                 "sport": "mlb"
             },
             {
-                "rank": 50,
+                "rank": 48,
                 "category": "golf",
                 "name": "Russell Henley",
                 "date": "20260405",
@@ -32898,7 +32882,7 @@
                 "sport": "golf"
             },
             {
-                "rank": 51,
+                "rank": 49,
                 "category": "golf",
                 "name": "Matt Fitzpatrick",
                 "date": "20260405",
@@ -32906,7 +32890,7 @@
                 "sport": "golf"
             },
             {
-                "rank": 52,
+                "rank": 50,
                 "category": "golf",
                 "name": "Cameron Young",
                 "date": "20260405",
@@ -32914,7 +32898,7 @@
                 "sport": "golf"
             },
             {
-                "rank": 53,
+                "rank": 51,
                 "category": "mlb",
                 "name": "NYY",
                 "date": "20260403",
@@ -32922,7 +32906,7 @@
                 "sport": "mlb"
             },
             {
-                "rank": 54,
+                "rank": 52,
                 "category": "nhl",
                 "name": "PIT",
                 "date": "20260403",
@@ -32930,7 +32914,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 55,
+                "rank": 53,
                 "category": "nba",
                 "name": "DEN",
                 "date": "20260403",
@@ -32938,7 +32922,15 @@
                 "sport": "nba"
             },
             {
-                "rank": 56,
+                "rank": 54,
+                "category": "nfl",
+                "name": "NWE",
+                "date": "20260208",
+                "score": "0.8",
+                "sport": "nfl"
+            },
+            {
+                "rank": 55,
                 "category": "nba",
                 "name": "CLE",
                 "date": "20260403",
@@ -32946,7 +32938,7 @@
                 "sport": "nba"
             },
             {
-                "rank": 57,
+                "rank": 56,
                 "category": "nba",
                 "name": "ATL",
                 "date": "20260403",
@@ -32954,7 +32946,7 @@
                 "sport": "nba"
             },
             {
-                "rank": 58,
+                "rank": 57,
                 "category": "cbb",
                 "name": "Alabama",
                 "date": "20260402",
@@ -32962,7 +32954,7 @@
                 "sport": "cbb"
             },
             {
-                "rank": 59,
+                "rank": 58,
                 "category": "nhl",
                 "name": "CBJ",
                 "date": "20260403",
@@ -32970,7 +32962,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 60,
+                "rank": 59,
                 "category": "cfb",
                 "name": "Oregon",
                 "date": "20250120",
@@ -32978,7 +32970,7 @@
                 "sport": "cfb"
             },
             {
-                "rank": 61,
+                "rank": 60,
                 "category": "golf",
                 "name": "Robert MacIntyre",
                 "date": "20260405",
@@ -32986,7 +32978,7 @@
                 "sport": "golf"
             },
             {
-                "rank": 62,
+                "rank": 61,
                 "category": "golf",
                 "name": "Ludvig \u00c5berg",
                 "date": "20260405",
@@ -32994,7 +32986,7 @@
                 "sport": "golf"
             },
             {
-                "rank": 63,
+                "rank": 62,
                 "category": "cbb",
                 "name": "Michigan State",
                 "date": "20260402",
@@ -33002,12 +32994,20 @@
                 "sport": "cbb"
             },
             {
-                "rank": 64,
+                "rank": 63,
                 "category": "nhl",
                 "name": "WSH",
                 "date": "20260403",
                 "score": "0.4",
                 "sport": "nhl"
+            },
+            {
+                "rank": 64,
+                "category": "nfl",
+                "name": "BUF",
+                "date": "20260208",
+                "score": "0.4",
+                "sport": "nfl"
             },
             {
                 "rank": 65,
@@ -33046,14 +33046,6 @@
             },
             {
                 "rank": 69,
-                "category": "nfl",
-                "name": "GNB",
-                "date": "20250209",
-                "score": "0.3",
-                "sport": "nfl"
-            },
-            {
-                "rank": 70,
                 "category": "nhl",
                 "name": "STL",
                 "date": "20260403",
@@ -33061,7 +33053,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 71,
+                "rank": 70,
                 "category": "nhl",
                 "name": "VEG",
                 "date": "20260403",
@@ -33069,7 +33061,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 72,
+                "rank": 71,
                 "category": "cfb",
                 "name": "Texas",
                 "date": "20250120",
@@ -33077,7 +33069,7 @@
                 "sport": "cfb"
             },
             {
-                "rank": 73,
+                "rank": 72,
                 "category": "golf",
                 "name": "Hideki Matsuyama",
                 "date": "20260405",
@@ -33085,7 +33077,7 @@
                 "sport": "golf"
             },
             {
-                "rank": 74,
+                "rank": 73,
                 "category": "golf",
                 "name": "Patrick Cantlay",
                 "date": "20260405",
@@ -33093,7 +33085,7 @@
                 "sport": "golf"
             },
             {
-                "rank": 75,
+                "rank": 74,
                 "category": "golf",
                 "name": "Collin Morikawa",
                 "date": "20260405",
@@ -33101,7 +33093,7 @@
                 "sport": "golf"
             },
             {
-                "rank": 76,
+                "rank": 75,
                 "category": "golf",
                 "name": "Joaquin Niemann",
                 "date": "20260405",
@@ -33109,7 +33101,23 @@
                 "sport": "golf"
             },
             {
+                "rank": 76,
+                "category": "nfl",
+                "name": "HTX",
+                "date": "20260208",
+                "score": "0.2",
+                "sport": "nfl"
+            },
+            {
                 "rank": 77,
+                "category": "nfl",
+                "name": "JAX",
+                "date": "20260208",
+                "score": "0.2",
+                "sport": "nfl"
+            },
+            {
+                "rank": 78,
                 "category": "nba",
                 "name": "HOU",
                 "date": "20260403",
@@ -33117,7 +33125,7 @@
                 "sport": "nba"
             },
             {
-                "rank": 78,
+                "rank": 79,
                 "category": "nhl",
                 "name": "FLA",
                 "date": "20260403",
@@ -33125,7 +33133,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 79,
+                "rank": 80,
                 "category": "nhl",
                 "name": "PHI",
                 "date": "20260403",
@@ -33133,7 +33141,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 80,
+                "rank": 81,
                 "category": "nba",
                 "name": "MIN",
                 "date": "20260403",
@@ -33141,7 +33149,7 @@
                 "sport": "nba"
             },
             {
-                "rank": 81,
+                "rank": 82,
                 "category": "cbb",
                 "name": "Tennessee",
                 "date": "20260402",
@@ -33149,7 +33157,7 @@
                 "sport": "cbb"
             },
             {
-                "rank": 82,
+                "rank": 83,
                 "category": "cbb",
                 "name": "Vanderbilt",
                 "date": "20260402",
@@ -33157,7 +33165,7 @@
                 "sport": "cbb"
             },
             {
-                "rank": 83,
+                "rank": 84,
                 "category": "nhl",
                 "name": "WPG",
                 "date": "20260403",
@@ -33165,7 +33173,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 84,
+                "rank": 85,
                 "category": "golf",
                 "name": "Viktor Hovland",
                 "date": "20260405",
@@ -33173,7 +33181,7 @@
                 "sport": "golf"
             },
             {
-                "rank": 85,
+                "rank": 86,
                 "category": "golf",
                 "name": "Akshay Bhatia",
                 "date": "20260405",
@@ -33181,7 +33189,7 @@
                 "sport": "golf"
             },
             {
-                "rank": 86,
+                "rank": 87,
                 "category": "nba",
                 "name": "LAL",
                 "date": "20260403",
@@ -33189,7 +33197,7 @@
                 "sport": "nba"
             },
             {
-                "rank": 87,
+                "rank": 88,
                 "category": "cbb",
                 "name": "Arkansas",
                 "date": "20260402",
@@ -33197,7 +33205,7 @@
                 "sport": "cbb"
             },
             {
-                "rank": 88,
+                "rank": 89,
                 "category": "nhl",
                 "name": "NJD",
                 "date": "20260403",
@@ -33205,7 +33213,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 89,
+                "rank": 90,
                 "category": "nhl",
                 "name": "NYI",
                 "date": "20260403",
@@ -33213,7 +33221,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 90,
+                "rank": 91,
                 "category": "cbb",
                 "name": "Wisconsin",
                 "date": "20260402",
@@ -33221,7 +33229,7 @@
                 "sport": "cbb"
             },
             {
-                "rank": 91,
+                "rank": 92,
                 "category": "nhl",
                 "name": "NYR",
                 "date": "20260403",
@@ -33229,7 +33237,7 @@
                 "sport": "nhl"
             },
             {
-                "rank": 92,
+                "rank": 93,
                 "category": "nhl",
                 "name": "NSH",
                 "date": "20260403",
@@ -33237,7 +33245,15 @@
                 "sport": "nhl"
             },
             {
-                "rank": 93,
+                "rank": 94,
+                "category": "nfl",
+                "name": "DEN",
+                "date": "20260208",
+                "score": "0.0",
+                "sport": "nfl"
+            },
+            {
+                "rank": 95,
                 "category": "golf",
                 "name": "Si Woo Kim",
                 "date": "20260405",
@@ -33245,7 +33261,7 @@
                 "sport": "golf"
             },
             {
-                "rank": 94,
+                "rank": 96,
                 "category": "golf",
                 "name": "Maverick McNealy",
                 "date": "20260405",
@@ -33253,7 +33269,7 @@
                 "sport": "golf"
             },
             {
-                "rank": 95,
+                "rank": 97,
                 "category": "golf",
                 "name": "Jake Knapp",
                 "date": "20260405",
@@ -33261,7 +33277,7 @@
                 "sport": "golf"
             },
             {
-                "rank": 96,
+                "rank": 98,
                 "category": "golf",
                 "name": "Sam Burns",
                 "date": "20260405",
@@ -33269,7 +33285,7 @@
                 "sport": "golf"
             },
             {
-                "rank": 97,
+                "rank": 99,
                 "category": "golf",
                 "name": "Sepp Straka",
                 "date": "20260405",
@@ -33277,25 +33293,9 @@
                 "sport": "golf"
             },
             {
-                "rank": 98,
-                "category": "golf",
-                "name": "Ben Griffin",
-                "date": "20260405",
-                "score": "0.0",
-                "sport": "golf"
-            },
-            {
-                "rank": 99,
-                "category": "golf",
-                "name": "Harry Hall",
-                "date": "20260405",
-                "score": "0.0",
-                "sport": "golf"
-            },
-            {
                 "rank": 100,
                 "category": "golf",
-                "name": "Jacob Bridgeman",
+                "name": "Ben Griffin",
                 "date": "20260405",
                 "score": "0.0",
                 "sport": "golf"
@@ -33395,24 +33395,24 @@
                 "category": "nfl",
                 "name": "SFO",
                 "date": "19900128",
-                "score": "98.1",
+                "score": "98.2",
                 "sport": "nfl"
             },
             {
                 "rank": 13,
+                "category": "nfl",
+                "name": "CHI",
+                "date": "19860126",
+                "score": "98.1",
+                "sport": "nfl"
+            },
+            {
+                "rank": 14,
                 "category": "nba",
                 "name": "GSW",
                 "date": "20170612",
                 "score": "98.0",
                 "sport": "nba"
-            },
-            {
-                "rank": 14,
-                "category": "nfl",
-                "name": "CHI",
-                "date": "19860126",
-                "score": "97.9",
-                "sport": "nfl"
             },
             {
                 "rank": 15,
@@ -33467,24 +33467,24 @@
                 "category": "nfl",
                 "name": "GNB",
                 "date": "19970126",
-                "score": "96.8",
+                "score": "97.0",
                 "sport": "nfl"
             },
             {
                 "rank": 22,
+                "category": "nfl",
+                "name": "MIA",
+                "date": "19740113",
+                "score": "96.5",
+                "sport": "nfl"
+            },
+            {
+                "rank": 23,
                 "category": "cfb",
                 "name": "Nebraska",
                 "date": "19960102",
                 "score": "96.3",
                 "sport": "cfb"
-            },
-            {
-                "rank": 23,
-                "category": "nfl",
-                "name": "MIA",
-                "date": "19740113",
-                "score": "96.3",
-                "sport": "nfl"
             },
             {
                 "rank": 24,
@@ -33520,6 +33520,14 @@
             },
             {
                 "rank": 28,
+                "category": "nfl",
+                "name": "CLT",
+                "date": "19690112",
+                "score": "94.2",
+                "sport": "nfl"
+            },
+            {
+                "rank": 29,
                 "category": "nba",
                 "name": "LAL",
                 "date": "19720507",
@@ -33527,7 +33535,7 @@
                 "sport": "nba"
             },
             {
-                "rank": 29,
+                "rank": 30,
                 "category": "golf",
                 "name": "Scottie Scheffler",
                 "date": "20251207",
@@ -33535,28 +33543,20 @@
                 "sport": "golf"
             },
             {
-                "rank": 30,
+                "rank": 31,
                 "category": "nfl",
-                "name": "CLT",
-                "date": "19690112",
-                "score": "93.9",
+                "name": "SFO",
+                "date": "19950129",
+                "score": "93.6",
                 "sport": "nfl"
             },
             {
-                "rank": 31,
+                "rank": 32,
                 "category": "mlb",
                 "name": "CIN",
                 "date": "19751022",
                 "score": "93.3",
                 "sport": "mlb"
-            },
-            {
-                "rank": 32,
-                "category": "nfl",
-                "name": "SFO",
-                "date": "19950129",
-                "score": "93.3",
-                "sport": "nfl"
             },
             {
                 "rank": 33,
@@ -33636,19 +33636,19 @@
             },
             {
                 "rank": 42,
+                "category": "nfl",
+                "name": "SFO",
+                "date": "19850120",
+                "score": "91.0",
+                "sport": "nfl"
+            },
+            {
+                "rank": 43,
                 "category": "cbb",
                 "name": "UCLA",
                 "date": "19730326",
                 "score": "90.8",
                 "sport": "cbb"
-            },
-            {
-                "rank": 43,
-                "category": "nfl",
-                "name": "SFO",
-                "date": "19850120",
-                "score": "90.5",
-                "sport": "nfl"
             },
             {
                 "rank": 44,
@@ -33703,7 +33703,7 @@
                 "category": "nfl",
                 "name": "NWE",
                 "date": "20080203",
-                "score": "88.5",
+                "score": "89.0",
                 "sport": "nfl"
             },
             {
@@ -33716,6 +33716,14 @@
             },
             {
                 "rank": 52,
+                "category": "nfl",
+                "name": "WAS",
+                "date": "19920126",
+                "score": "87.9",
+                "sport": "nfl"
+            },
+            {
+                "rank": 53,
                 "category": "f1",
                 "name": "Michael Schumacher",
                 "date": "20021013",
@@ -33726,7 +33734,7 @@
                 "sport": "f1"
             },
             {
-                "rank": 53,
+                "rank": 54,
                 "category": "mlb",
                 "name": "CLE",
                 "date": "20171011",
@@ -33734,7 +33742,7 @@
                 "sport": "mlb"
             },
             {
-                "rank": 54,
+                "rank": 55,
                 "category": "nba",
                 "name": "CHI",
                 "date": "19910612",
@@ -33742,20 +33750,12 @@
                 "sport": "nba"
             },
             {
-                "rank": 55,
+                "rank": 56,
                 "category": "cbb",
                 "name": "UCLA",
                 "date": "19690322",
                 "score": "87.5",
                 "sport": "cbb"
-            },
-            {
-                "rank": 56,
-                "category": "nfl",
-                "name": "WAS",
-                "date": "19920126",
-                "score": "87.4",
-                "sport": "nfl"
             },
             {
                 "rank": 57,
@@ -33804,24 +33804,24 @@
                 "category": "nfl",
                 "name": "PIT",
                 "date": "19761226",
-                "score": "84.8",
+                "score": "85.4",
                 "sport": "nfl"
             },
             {
                 "rank": 63,
+                "category": "nfl",
+                "name": "DAL",
+                "date": "19930131",
+                "score": "84.7",
+                "sport": "nfl"
+            },
+            {
+                "rank": 64,
                 "category": "cbb",
                 "name": "Duke",
                 "date": "20010402",
                 "score": "84.7",
                 "sport": "cbb"
-            },
-            {
-                "rank": 64,
-                "category": "nfl",
-                "name": "DAL",
-                "date": "19930131",
-                "score": "84.1",
-                "sport": "nfl"
             },
             {
                 "rank": 65,
@@ -33871,6 +33871,14 @@
             },
             {
                 "rank": 70,
+                "category": "nfl",
+                "name": "DAL",
+                "date": "19940130",
+                "score": "83.1",
+                "sport": "nfl"
+            },
+            {
+                "rank": 71,
                 "category": "mlb",
                 "name": "NYY",
                 "date": "19611009",
@@ -33878,20 +33886,12 @@
                 "sport": "mlb"
             },
             {
-                "rank": 71,
+                "rank": 72,
                 "category": "cbb",
                 "name": "Indiana",
                 "date": "19400330",
                 "score": "82.8",
                 "sport": "cbb"
-            },
-            {
-                "rank": 72,
-                "category": "nfl",
-                "name": "DAL",
-                "date": "19940130",
-                "score": "82.5",
-                "sport": "nfl"
             },
             {
                 "rank": 73,
@@ -34013,6 +34013,30 @@
             },
             {
                 "rank": 87,
+                "category": "nfl",
+                "name": "NYG",
+                "date": "19870125",
+                "score": "80.3",
+                "sport": "nfl"
+            },
+            {
+                "rank": 88,
+                "category": "nfl",
+                "name": "DAL",
+                "date": "19790121",
+                "score": "80.2",
+                "sport": "nfl"
+            },
+            {
+                "rank": 89,
+                "category": "nfl",
+                "name": "DAL",
+                "date": "19720116",
+                "score": "80.1",
+                "sport": "nfl"
+            },
+            {
+                "rank": 90,
                 "category": "mlb",
                 "name": "NYY",
                 "date": "20091104",
@@ -34020,31 +34044,15 @@
                 "sport": "mlb"
             },
             {
-                "rank": 88,
-                "category": "nfl",
-                "name": "NYG",
-                "date": "19870125",
-                "score": "79.6",
-                "sport": "nfl"
-            },
-            {
-                "rank": 89,
-                "category": "nfl",
-                "name": "DAL",
-                "date": "19790121",
-                "score": "79.6",
-                "sport": "nfl"
-            },
-            {
-                "rank": 90,
-                "category": "nfl",
-                "name": "DAL",
-                "date": "19720116",
-                "score": "79.4",
-                "sport": "nfl"
-            },
-            {
                 "rank": 91,
+                "category": "nfl",
+                "name": "RAV",
+                "date": "20010128",
+                "score": "78.8",
+                "sport": "nfl"
+            },
+            {
+                "rank": 92,
                 "category": "mlb",
                 "name": "BOS",
                 "date": "20181028",
@@ -34052,7 +34060,7 @@
                 "sport": "mlb"
             },
             {
-                "rank": 92,
+                "rank": 93,
                 "category": "mlb",
                 "name": "ATL",
                 "date": "19931013",
@@ -34060,7 +34068,7 @@
                 "sport": "mlb"
             },
             {
-                "rank": 93,
+                "rank": 94,
                 "category": "cfb",
                 "name": "Nebraska",
                 "date": "19730101",
@@ -34068,20 +34076,12 @@
                 "sport": "cfb"
             },
             {
-                "rank": 94,
+                "rank": 95,
                 "category": "nhl",
                 "name": "EDM",
                 "date": "19840519",
                 "score": "78.1",
                 "sport": "nhl"
-            },
-            {
-                "rank": 95,
-                "category": "nfl",
-                "name": "RAV",
-                "date": "20010128",
-                "score": "78.1",
-                "sport": "nfl"
             },
             {
                 "rank": 96,
