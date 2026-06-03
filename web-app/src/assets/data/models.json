@@ -13,7 +13,7 @@
         "release_date": "20260528",
         "rating": 86.8,
         "price": 10.0,
-        "aa_cost": "4686"
+        "aa_cost": 4686.0
     },
     {
         "model": "gpt 5.5",
@@ -21,7 +21,7 @@
         "release_date": "20260423",
         "rating": 83.1,
         "price": 11.25,
-        "aa_cost": "3357"
+        "aa_cost": 3357.0
     },
     {
         "model": "gemini 3.5 flash",
@@ -29,7 +29,7 @@
         "release_date": "20260519",
         "rating": 82.7,
         "price": 3.375,
-        "aa_cost": "1552"
+        "aa_cost": 1552.0
     },
     {
         "model": "opus 4.7",
@@ -37,7 +37,7 @@
         "release_date": "20260416",
         "rating": 81.5,
         "price": 10.0,
-        "aa_cost": "5117"
+        "aa_cost": 5117.0
     },
     {
         "model": "qwen 3.7 max",
@@ -45,7 +45,7 @@
         "release_date": "20260519",
         "rating": 80.5,
         "price": 3.75,
-        "aa_cost": "1202"
+        "aa_cost": 1202.0
     },
     {
         "model": "gpt 5.4",
@@ -53,7 +53,7 @@
         "release_date": "20260305",
         "rating": 80.3,
         "price": 5.625,
-        "aa_cost": "2851"
+        "aa_cost": 2851.0
     },
     {
         "model": "gemini 3.1",
@@ -61,7 +61,7 @@
         "release_date": "20260219",
         "rating": 79.9,
         "price": 4.5,
-        "aa_cost": "892"
+        "aa_cost": 892.0
     },
     {
         "model": "opus 4.6",
@@ -69,7 +69,7 @@
         "release_date": "20260205",
         "rating": 78.9,
         "price": 10.0,
-        "aa_cost": "5231"
+        "aa_cost": 5231.0
     },
     {
         "model": "sonnet 4.6",
@@ -77,7 +77,7 @@
         "release_date": "20260218",
         "rating": 78.7,
         "price": 6.0,
-        "aa_cost": "4206"
+        "aa_cost": 4206.0
     },
     {
         "model": "deepseek v4 pro max",
@@ -85,7 +85,7 @@
         "release_date": "20260423",
         "rating": 78.3,
         "price": 2.175,
-        "aa_cost": "268"
+        "aa_cost": 268.0
     },
     {
         "model": "mimo v2.5 pro",
@@ -93,7 +93,7 @@
         "release_date": "20260427",
         "rating": 78.0,
         "price": 1.5,
-        "aa_cost": "161"
+        "aa_cost": 161.0
     },
     {
         "model": "kimi k2.6",
@@ -101,7 +101,7 @@
         "release_date": "20260420",
         "rating": 78.0,
         "price": 1.7125,
-        "aa_cost": "948"
+        "aa_cost": 948.0
     },
     {
         "model": "muse spark",
@@ -141,7 +141,7 @@
         "release_date": "20260417",
         "rating": 76.7,
         "price": 2.925,
-        "aa_cost": "861"
+        "aa_cost": 861.0
     },
     {
         "model": "opus 4.5",
@@ -149,7 +149,7 @@
         "release_date": "20251124",
         "rating": 75.3,
         "price": 10.0,
-        "aa_cost": "2969"
+        "aa_cost": 2969.0
     },
     {
         "model": "gpt 5.2 (xhigh)",
@@ -157,7 +157,7 @@
         "release_date": "20251211",
         "rating": 75.2,
         "price": 4.8125,
-        "aa_cost": "2304"
+        "aa_cost": 2304.0
     },
     {
         "model": "qwen 3.6 plus",
@@ -165,7 +165,7 @@
         "release_date": "20260401",
         "rating": 74.9,
         "price": 1.125,
-        "aa_cost": "483"
+        "aa_cost": 483.0
     },
     {
         "model": "mimo v2 pro",
@@ -173,7 +173,7 @@
         "release_date": "20260318",
         "rating": 74.8,
         "price": 1.5,
-        "aa_cost": "351"
+        "aa_cost": 351.0
     },
     {
         "model": "gemini 3 pro",
@@ -181,7 +181,7 @@
         "release_date": "20251118",
         "rating": 74.4,
         "price": 4.5,
-        "aa_cost": "820"
+        "aa_cost": 820.0
     },
     {
         "model": "gemini 3 flash",
@@ -189,7 +189,7 @@
         "release_date": "20251217",
         "rating": 74.0,
         "price": 1.125,
-        "aa_cost": "278"
+        "aa_cost": 278.0
     },
     {
         "model": "gpt 5 pro",
@@ -205,7 +205,7 @@
         "release_date": "20260211",
         "rating": 73.3,
         "price": 1.55,
-        "aa_cost": "547"
+        "aa_cost": 547.0
     },
     {
         "model": "qwen 3.5 397B-A17B",
@@ -213,7 +213,7 @@
         "release_date": "20260213",
         "rating": 73.2,
         "price": 0.387,
-        "aa_cost": "418"
+        "aa_cost": 418.0
     },
     {
         "model": "gpt 5.4 mini",
@@ -221,7 +221,7 @@
         "release_date": "20260317",
         "rating": 72.8,
         "price": 1.6875,
-        "aa_cost": "1354"
+        "aa_cost": 1354.0
     },
     {
         "model": "minimax-m2.7",
@@ -229,7 +229,7 @@
         "release_date": "20260318",
         "rating": 72.5,
         "price": 0.5249999999999999,
-        "aa_cost": "176"
+        "aa_cost": 176.0
     },
     {
         "model": "kimi k2.5",
@@ -237,7 +237,7 @@
         "release_date": "20260127",
         "rating": 72.0,
         "price": 1.2,
-        "aa_cost": "367"
+        "aa_cost": 367.0
     },
     {
         "model": "gpt 5.1 (high)",
@@ -245,7 +245,7 @@
         "release_date": "20251112",
         "rating": 71.4,
         "price": 3.4375,
-        "aa_cost": "779"
+        "aa_cost": 779.0
     },
     {
         "model": "grok 4.2",
@@ -253,7 +253,7 @@
         "release_date": "20260217",
         "rating": 70.8,
         "price": 3.0,
-        "aa_cost": "514"
+        "aa_cost": 514.0
     },
     {
         "model": "minimax-m2.5",
@@ -261,7 +261,7 @@
         "release_date": "20260212",
         "rating": 70.7,
         "price": 0.5249999999999999,
-        "aa_cost": "125"
+        "aa_cost": 125.0
     },
     {
         "model": "gpt 5 (high)",
@@ -269,7 +269,7 @@
         "release_date": "20250807",
         "rating": 69.7,
         "price": 3.4375,
-        "aa_cost": "913"
+        "aa_cost": 913.0
     },
     {
         "model": "gemma 4 31B",
@@ -285,7 +285,7 @@
         "release_date": "20251222",
         "rating": 69.3,
         "price": 1.0,
-        "aa_cost": "478"
+        "aa_cost": 478.0
     },
     {
         "model": "minimax-m2.1",
@@ -293,7 +293,7 @@
         "release_date": "20251223",
         "rating": 68.3,
         "price": 0.5249999999999999,
-        "aa_cost": "114"
+        "aa_cost": 114.0
     },
     {
         "model": "sonnet 4.5",
@@ -301,7 +301,7 @@
         "release_date": "20250930",
         "rating": 68.3,
         "price": 6.0,
-        "aa_cost": "1585"
+        "aa_cost": 1585.0
     },
     {
         "model": "qwen 3 max instruct",
@@ -309,7 +309,7 @@
         "release_date": "20250924",
         "rating": 68.2,
         "price": 2.4,
-        "aa_cost": "293"
+        "aa_cost": 293.0
     },
     {
         "model": "deepseek v3.2 thinking",
@@ -317,7 +317,7 @@
         "release_date": "20251201",
         "rating": 67.8,
         "price": 0.315,
-        "aa_cost": "76"
+        "aa_cost": 76.0
     },
     {
         "model": "o3 (medium)",
@@ -341,7 +341,7 @@
         "release_date": "20260224",
         "rating": 67.1,
         "price": 0.53625,
-        "aa_cost": "299"
+        "aa_cost": 299.0
     },
     {
         "model": "gpt 5.4 nano",
@@ -349,7 +349,7 @@
         "release_date": "20260317",
         "rating": 66.8,
         "price": 0.4625,
-        "aa_cost": "363"
+        "aa_cost": 363.0
     },
     {
         "model": "kimi k2 thinking",
@@ -357,7 +357,7 @@
         "release_date": "20251106",
         "rating": 66.8,
         "price": 1.075,
-        "aa_cost": "308"
+        "aa_cost": 308.0
     },
     {
         "model": "gemini 3.1 flash lite",
@@ -365,7 +365,7 @@
         "release_date": "20260303",
         "rating": 66.5,
         "price": 0.5625,
-        "aa_cost": "94"
+        "aa_cost": 94.0
     },
     {
         "model": "grok 4",
@@ -373,7 +373,7 @@
         "release_date": "20250709",
         "rating": 66.3,
         "price": 6.0,
-        "aa_cost": "2881"
+        "aa_cost": 2881.0
     },
     {
         "model": "o3 (high)",
@@ -381,7 +381,7 @@
         "release_date": "20250416",
         "rating": 64.9,
         "price": 3.5,
-        "aa_cost": "1025"
+        "aa_cost": 1025.0
     },
     {
         "model": "glm 4.6",
@@ -389,7 +389,7 @@
         "release_date": "20250930",
         "rating": 64.4,
         "price": 1.0,
-        "aa_cost": "192"
+        "aa_cost": 192.0
     },
     {
         "model": "gemini 2.5 0325",
@@ -405,7 +405,7 @@
         "release_date": "20250929",
         "rating": 63.8,
         "price": 0.315,
-        "aa_cost": "39"
+        "aa_cost": 39.0
     },
     {
         "model": "deepseek v3.1 thinking",
@@ -413,7 +413,7 @@
         "release_date": "20250821",
         "rating": 63.8,
         "price": 0.8400000000000001,
-        "aa_cost": "484"
+        "aa_cost": 484.0
     },
     {
         "model": "opus 4 thinking",
@@ -429,7 +429,7 @@
         "release_date": "20250807",
         "rating": 63.7,
         "price": 0.6875,
-        "aa_cost": "168"
+        "aa_cost": 168.0
     },
     {
         "model": "gemini 2.5 0605",
@@ -437,7 +437,7 @@
         "release_date": "20250605",
         "rating": 63.7,
         "price": 3.4375,
-        "aa_cost": "648"
+        "aa_cost": 648.0
     },
     {
         "model": "glm 4.5",
@@ -445,7 +445,7 @@
         "release_date": "20250728",
         "rating": 63.5,
         "price": 1.0,
-        "aa_cost": "408"
+        "aa_cost": 408.0
     },
     {
         "model": "gemini 2.5 0506",
@@ -461,7 +461,7 @@
         "release_date": "20250725",
         "rating": 63.0,
         "price": 0.2475,
-        "aa_cost": "158"
+        "aa_cost": 158.0
     },
     {
         "model": "o4-mini (high)",
@@ -469,7 +469,7 @@
         "release_date": "20250416",
         "rating": 63.0,
         "price": 1.9250000000000003,
-        "aa_cost": "461"
+        "aa_cost": 461.0
     },
     {
         "model": "grok 4 fast",
@@ -477,7 +477,7 @@
         "release_date": "20250919",
         "rating": 61.8,
         "price": 0.275,
-        "aa_cost": "36"
+        "aa_cost": 36.0
     },
     {
         "model": "minimax-m2",
@@ -485,7 +485,7 @@
         "release_date": "20251027",
         "rating": 61.6,
         "price": 0.5249999999999999,
-        "aa_cost": "116"
+        "aa_cost": 116.0
     },
     {
         "model": "haiku 4.5 thinking",
@@ -493,7 +493,7 @@
         "release_date": "20251015",
         "rating": 61.6,
         "price": 2.0,
-        "aa_cost": "620"
+        "aa_cost": 620.0
     },
     {
         "model": "qwen 3 coder",
@@ -509,7 +509,7 @@
         "release_date": "20250514",
         "rating": 61.2,
         "price": 6.0,
-        "aa_cost": "1349"
+        "aa_cost": 1349.0
     },
     {
         "model": "o1 pro",
@@ -533,7 +533,7 @@
         "release_date": "20250528",
         "rating": 59.4,
         "price": 0.96,
-        "aa_cost": "280"
+        "aa_cost": 280.0
     },
     {
         "model": "glm 4.5 air",
@@ -541,7 +541,7 @@
         "release_date": "20250728",
         "rating": 58.9,
         "price": 0.42500000000000004,
-        "aa_cost": "93"
+        "aa_cost": 93.0
     },
     {
         "model": "sonnet 3.7 thinking",
@@ -557,7 +557,7 @@
         "release_date": "20250905",
         "rating": 57.5,
         "price": 1.075,
-        "aa_cost": "127"
+        "aa_cost": 127.0
     },
     {
         "model": "gemini 2.5 flash 0520",
@@ -565,7 +565,7 @@
         "release_date": "20250520",
         "rating": 57.5,
         "price": 0.85,
-        "aa_cost": "172"
+        "aa_cost": 172.0
     },
     {
         "model": "o1 (medium)",
@@ -581,7 +581,7 @@
         "release_date": "20250711",
         "rating": 57.0,
         "price": 1.075,
-        "aa_cost": "181"
+        "aa_cost": 181.0
     },
     {
         "model": "o1 (high)",
@@ -589,7 +589,7 @@
         "release_date": "20241217",
         "rating": 56.9,
         "price": 26.25,
-        "aa_cost": "3270"
+        "aa_cost": 3270.0
     },
     {
         "model": "o3-mini (high)",
@@ -597,7 +597,7 @@
         "release_date": "20250131",
         "rating": 56.7,
         "price": 1.9250000000000003,
-        "aa_cost": "315"
+        "aa_cost": 315.0
     },
     {
         "model": "grok 3 mini (medium)",
@@ -613,7 +613,7 @@
         "release_date": "20250217",
         "rating": 56.2,
         "price": 0.35,
-        "aa_cost": "105"
+        "aa_cost": 105.0
     },
     {
         "model": "opus 4 no thinking",
@@ -637,7 +637,7 @@
         "release_date": "20250224",
         "rating": 55.6,
         "price": 6.0,
-        "aa_cost": "416"
+        "aa_cost": 416.0
     },
     {
         "model": "sonnet 4 no thinking",
@@ -645,7 +645,7 @@
         "release_date": "20250514",
         "rating": 54.8,
         "price": 6.0,
-        "aa_cost": "568"
+        "aa_cost": 568.0
     },
     {
         "model": "qwen 3 235B A22B",
@@ -677,7 +677,7 @@
         "release_date": "20250414",
         "rating": 53.7,
         "price": 3.5,
-        "aa_cost": "278"
+        "aa_cost": 278.0
     },
     {
         "model": "o3-mini (medium)",
@@ -693,7 +693,7 @@
         "release_date": "20250120",
         "rating": 53.6,
         "price": 0.96,
-        "aa_cost": "1609"
+        "aa_cost": 1609.0
     },
     {
         "model": "gpt-oss-120b",
@@ -701,7 +701,7 @@
         "release_date": "20250805",
         "rating": 53.3,
         "price": 0.18,
-        "aa_cost": "67"
+        "aa_cost": 67.0
     },
     {
         "model": "gemini 2.5 flash 0520 no thinking",
@@ -709,7 +709,7 @@
         "release_date": "20250520",
         "rating": 53.1,
         "price": 0.85,
-        "aa_cost": "84"
+        "aa_cost": 84.0
     },
     {
         "model": "sonnet 3.7 no thinking",
@@ -717,7 +717,7 @@
         "release_date": "20250219",
         "rating": 53.1,
         "price": 6.0,
-        "aa_cost": "525"
+        "aa_cost": 525.0
     },
     {
         "model": "deepseek v3 0324 (v3.1)",
@@ -725,7 +725,7 @@
         "release_date": "20250324",
         "rating": 52.8,
         "price": 0.47750000000000004,
-        "aa_cost": "59"
+        "aa_cost": 59.0
     },
     {
         "model": "gpt 5 nano (high)",
@@ -733,7 +733,7 @@
         "release_date": "20250807",
         "rating": 52.7,
         "price": 0.1375,
-        "aa_cost": "52"
+        "aa_cost": 52.0
     },
     {
         "model": "chatgpt 4o 20250326",
@@ -773,7 +773,7 @@
         "release_date": "20250414",
         "rating": 48.7,
         "price": 0.7000000000000001,
-        "aa_cost": "54"
+        "aa_cost": 54.0
     },
     {
         "model": "gemini 2.5 flash lite 0617",
@@ -781,7 +781,7 @@
         "release_date": "20250617",
         "rating": 47.8,
         "price": 0.17500000000000002,
-        "aa_cost": "78"
+        "aa_cost": 78.0
     },
     {
         "model": "o1-mini (medium)",
@@ -797,7 +797,7 @@
         "release_date": "20250205",
         "rating": 47.7,
         "price": 0.17500000000000002,
-        "aa_cost": "19"
+        "aa_cost": 19.0
     },
     {
         "model": "sonnet 3.5 20240620",
@@ -813,7 +813,7 @@
         "release_date": "20250416",
         "rating": 47.2,
         "price": 0.8,
-        "aa_cost": "40"
+        "aa_cost": 40.0
     },
     {
         "model": "llama 4 maverick",
@@ -821,7 +821,7 @@
         "release_date": "20250405",
         "rating": 46.7,
         "price": 0.26249999999999996,
-        "aa_cost": "62"
+        "aa_cost": 62.0
     },
     {
         "model": "gpt-oss-20b",
@@ -829,7 +829,7 @@
         "release_date": "20250805",
         "rating": 44.8,
         "price": "",
-        "aa_cost": "19"
+        "aa_cost": 19.0
     },
     {
         "model": "gemini 2.5 flash lite 0617 no thinking",
@@ -837,7 +837,7 @@
         "release_date": "20250617",
         "rating": 44.7,
         "price": 0.17500000000000002,
-        "aa_cost": "30"
+        "aa_cost": 30.0
     },
     {
         "model": "gpt 4o 20241120",
@@ -845,7 +845,7 @@
         "release_date": "20241120",
         "rating": 44.2,
         "price": 4.375,
-        "aa_cost": "197"
+        "aa_cost": 197.0
     },
     {
         "model": "gpt 4o 20240513",
@@ -869,7 +869,7 @@
         "release_date": "20241225",
         "rating": 42.6,
         "price": 0.47750000000000004,
-        "aa_cost": "27"
+        "aa_cost": 27.0
     },
     {
         "model": "gemini 2.0 flash lite",
@@ -893,7 +893,7 @@
         "release_date": "20240723",
         "rating": 40.2,
         "price": "",
-        "aa_cost": "838"
+        "aa_cost": 838.0
     },
     {
         "model": "opus 3",
@@ -917,7 +917,7 @@
         "release_date": "20250405",
         "rating": 36.9,
         "price": 0.135,
-        "aa_cost": "26"
+        "aa_cost": 26.0
     },
     {
         "model": "gpt 4.1 nano",
@@ -925,7 +925,7 @@
         "release_date": "20250414",
         "rating": 35.8,
         "price": 0.17500000000000002,
-        "aa_cost": "31"
+        "aa_cost": 31.0
     },
     {
         "model": "gpt 4 1106",

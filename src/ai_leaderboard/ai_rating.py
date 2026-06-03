@@ -133,13 +133,16 @@ def write_models(model_to_rating, model_to_info, ratio):
             input_price = float(model_to_info[model]["input price"])
             output_price = float(model_to_info[model]["output price"])
             price = 0.75 * input_price + 0.25 * output_price
+        aa_cost = ""
+        if model_to_info[model]["aa cost"]:
+            aa_cost = float(model_to_info[model]["aa cost"])
         output_rows.append({
             "model": model,
             "company": model_to_info[model]["company"],
             "release_date": model_to_info[model]["date"],
             "rating": round(ratio * model_to_rating[model],1),
             "price": price,
-            "aa_cost": model_to_info[model]["aa cost"],
+            "aa_cost": aa_cost,
         })
     output_rows.sort(key=lambda x: x["rating"], reverse=True)
     leaders_over_time(output_rows)

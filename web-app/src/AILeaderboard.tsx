@@ -44,22 +44,24 @@ const AILeaderboard = () => {
   );
 }
 
-const PricePerformanceChart = () => {
+const PerformanceChart = ({xAxisVar, xAxisTicks, xAxisDomain, xAxisLabel}) => {
   const [cutoffTime, setCutoffTime] = useState(null);
 
   let data = modelData;
   if (cutoffTime) {
     data = modelData.filter(x => x.release_date < cutoffTime);
   }
-  
+
+  data = data.filter(x => !!x[xAxisVar]);
+
   const best = [data[0]["model"]];
 
-  let currPrice = data[0]["price"];
+  let currPrice = data[0][xAxisVar];
   let currRating = data[0]["rating"];
   for (let m of data) {
-    if (m["price"] && m["price"] < currPrice) {
+    if (m[xAxisVar] && m[xAxisVar] < currPrice) {
       best.push(m["model"]);
-      currPrice = m["price"];
+      currPrice = m[xAxisVar];
       currRating = m["rating"];
     } 
   }
@@ -123,15 +125,15 @@ const PricePerformanceChart = () => {
     >
       <XAxis
         type="number"
-	dataKey="price"
-	domain={[0.05, 100]}
+	dataKey={xAxisVar}
+	domain={xAxisDomain}
 	tick={{ fontSize: 12 }}
 	scale="log"
 	reversed={true}
 	allowDataOverflow={true}
-	ticks={[100,30,10,3,1,0.3,0.1,0.05]}
+	ticks={xAxisTicks}
       >
-        <Label value="Price in $/1M Tokens (3:1 input to output ratio)" offset={-15} position="insideBottom" />	
+        <Label value={xAxisLabel} offset={-15} position="insideBottom" />	
       </XAxis>
       <YAxis
         type="number"
@@ -207,8 +209,12 @@ const tabs = [
     content: (<BestModelList/>)
   },
   {
-    title: "Price vs Performance",
-    content: (<PricePerformanceChart/>)
+    title: "Token Price vs Performance",
+    content: (<PerformanceChart xAxisVar="price" xAxisTicks={[100,30,10,3,1,0.3,0.1,0.05]} xAxisDomain={[0.05, 100]} xAxisLabel="Price in $/1M Tokens (3:1 input to output ratio)"/>)
+  },
+  {
+    title: "AA Cost vs Performance",
+    content: (<PerformanceChart xAxisVar="aa_cost" xAxisTicks={[10000,3000,1000,300,100,30,10]} xAxisDomain={[10, 10000]} xAxisLabel="Artificial Analysis Cost in dollars"/>)
   },
 ];
 
