@@ -88,15 +88,16 @@ def get_polymarkets():
             if e["closed"]:
                 print(e)
                 raise
-            if e["ticker"] not in [e["ticker"] for e in all_events]:
+            if e["slug"] not in [e["slug"] for e in all_events]:
                 #generally want to sort to the highest probability with some exceptions eg a UFC night could
                 #include unconnected fights and will want the main event
                 default_prices = [0,1]
                 markets = sorted([m for m in e["markets"]], key = lambda x: x.get("outcomePrices",default_prices)[0], reverse = True)
                 if len(markets) == 0: continue
-                ticker = markets[0]["slug"] 
+                ticker = markets[0]["slug"]
                 all_events.append({
                     "title": e["title"],
+                    "slug": e["slug"],
                     "ticker": ticker,
                     "volume": e.get("volume24hr",0)
                 })

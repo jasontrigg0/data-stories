@@ -4,7 +4,7 @@ import json
 import datetime
 import calendar
 
-NON_EVAL_COLUMNS = ["model","company","date","reasoning","notes","input price","output price"]
+NON_EVAL_COLUMNS = ["model","company","date","reasoning","notes","input price","output price","aa cost"]
 
 def is_field_percent(field, all_rows):
     for row in all_rows:
@@ -31,7 +31,7 @@ def load_benchmarks():
 def normalize_scores(scores, all_evals, is_eval_percent):
     #doesn't have a big impact on results:
     for x in scores:
-        if is_eval_percent[x["eval"]] and x["eval"] not in ["METR 1.1 50%"]:
+        if is_eval_percent[x["eval"]] and x["eval"] not in ["METR 1.1 50%","OmniDocBench 1.5"]:
             x["score"] = max(0.01,min(0.99, x["score"]/100)) #trim between 0.01 and 0.99
             x["score"] = math.log(x["score"] / (1-x["score"]))
             
@@ -125,7 +125,7 @@ def write_models(model_to_rating, model_to_info, ratio):
         num_evals = [col for col in model_info if col not in NON_EVAL_COLUMNS and model_info[col] != ""]
         if len(num_evals) < 3: continue
 
-        PRO_MODELS = ["o3-pro (high)", "gpt 5 pro", "gemini 2.5 deep think (aug 25)", "gemini 3 deep think (nov 25)", "gemini 3 deep think (feb 26)", "gpt 5.4 pro", "claude mythos"]
+        PRO_MODELS = ["o3-pro (high)", "gpt 5 pro", "gemini 2.5 deep think (aug 25)", "gemini 3 deep think (nov 25)", "gemini 3 deep think (feb 26)", "gpt 5.4 pro", "claude mythos", "gpt 5.5 pro"]
         if model in PRO_MODELS and len(num_evals) <= 10: continue
 
         price = ""
@@ -138,7 +138,8 @@ def write_models(model_to_rating, model_to_info, ratio):
             "company": model_to_info[model]["company"],
             "release_date": model_to_info[model]["date"],
             "rating": round(ratio * model_to_rating[model],1),
-            "price": price
+            "price": price,
+            "aa_cost": model_to_info[model]["aa cost"],
         })
     output_rows.sort(key=lambda x: x["rating"], reverse=True)
     leaders_over_time(output_rows)
